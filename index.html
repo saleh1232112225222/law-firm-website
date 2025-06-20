@@ -14,11 +14,11 @@
   <link rel="dns-prefetch" href="https://fonts.googleapis.com">
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
   <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
-  <link rel="preconnect" href="https://8000-i075cko23skv238tb3nl1-d671b357.manusvm.computer" crossorigin>
   
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   
   <style>
     :root {
@@ -30,6 +30,24 @@
     body { 
       font-family: 'Tajawal', sans-serif; 
       line-height: 1.6;
+      transition: font-family 0.3s ease;
+    }
+    
+    body[dir="ltr"] {
+      font-family: 'Open Sans', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-family: inherit;
+    }
+    
+    body[dir="ltr"] h1, 
+    body[dir="ltr"] h2, 
+    body[dir="ltr"] h3, 
+    body[dir="ltr"] h4, 
+    body[dir="ltr"] h5, 
+    body[dir="ltr"] h6 {
+      font-family: 'Roboto', sans-serif;
     }
     
     .hero-bg {
@@ -67,6 +85,12 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         z-index: 50;
       }
+      
+      body[dir="ltr"] .mobile-menu-items {
+        left: 0;
+        right: auto;
+      }
+      
       .mobile-menu-items.active {
         display: block;
       }
@@ -153,6 +177,11 @@
       border-left: 4px solid var(--gold-color);
     }
     
+    body[dir="ltr"] .principles-card {
+      border-left: none;
+      border-right: 4px solid var(--gold-color);
+    }
+    
     .achievement-card {
       background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
       color: white;
@@ -174,6 +203,41 @@
       height: 2px;
       margin: 2rem auto;
       width: 100px;
+    }
+    
+    /* Language toggle button */
+    .language-toggle {
+      display: inline-block;
+    }
+    
+    /* RTL/LTR specific adjustments */
+    body[dir="rtl"] .text-left {
+      text-align: right;
+    }
+    
+    body[dir="ltr"] .text-right {
+      text-align: left;
+    }
+    
+    /* Spacing adjustments for icons */
+    body[dir="rtl"] .mr-2 {
+      margin-right: 0;
+      margin-left: 0.5rem;
+    }
+    
+    body[dir="ltr"] .ml-2 {
+      margin-left: 0;
+      margin-right: 0.5rem;
+    }
+    
+    body[dir="rtl"] .mr-1 {
+      margin-right: 0;
+      margin-left: 0.25rem;
+    }
+    
+    body[dir="ltr"] .ml-1 {
+      margin-left: 0;
+      margin-right: 0.25rem;
     }
   </style>
 </head>
@@ -202,7 +266,6 @@
       <li><a href="#team" class="hover:text-yellow-300 transition" aria-label="فريق العمل">فريق العمل</a></li>
       <li><a href="#blog" class="hover:text-yellow-300 transition" aria-label="المدونة القانونية">المدونة</a></li>
       <li><a href="#contact" class="hover:text-yellow-300 transition" aria-label="معلومات الاتصال">اتصل بنا</a></li>
-      <li><a href="law_firm_website_en.html" class="bg-yellow-400 text-blue-900 px-3 py-1 rounded hover:bg-yellow-500 transition text-xs font-semibold">English</a></li>
     </ul>
     
     <!-- زر القائمة للأجهزة المحمولة -->
@@ -221,7 +284,6 @@
           <li><a href="#team" class="block hover:text-yellow-300 transition">فريق العمل</a></li>
           <li><a href="#blog" class="block hover:text-yellow-300 transition">المدونة</a></li>
           <li><a href="#contact" class="block hover:text-yellow-300 transition">اتصل بنا</a></li>
-          <li><a href="law_firm_website_en.html" class="bg-yellow-400 text-blue-900 px-3 py-1 rounded hover:bg-yellow-500 transition text-xs font-semibold mt-2">English</a></li>
         </ul>
       </div>
     </div>
@@ -401,596 +463,1278 @@
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">سيرتنا القضائية</h2>
       <div class="section-divider"></div>
-      <p class="text-lg mb-12 max-w-3xl mx-auto">نفخر بسجلنا الحافل من النجاحات القضائية والاستشارات القانونية المتميزة</p>
-      
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-        <div class="achievement-card p-6 rounded-lg">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+        <div class="achievement-card p-6 rounded-lg text-center">
           <i class="fas fa-trophy text-4xl gold-text mb-4"></i>
           <h3 class="text-3xl font-bold mb-2">500+</h3>
-          <p>قضية منجزة بنجاح</p>
+          <p class="text-lg">قضية ناجحة</p>
         </div>
         
-        <div class="achievement-card p-6 rounded-lg">
+        <div class="achievement-card p-6 rounded-lg text-center">
           <i class="fas fa-users text-4xl gold-text mb-4"></i>
-          <h3 class="text-3xl font-bold mb-2">1200+</h3>
-          <p>عميل راضٍ عن خدماتنا</p>
+          <h3 class="text-3xl font-bold mb-2">1000+</h3>
+          <p class="text-lg">عميل راضٍ</p>
         </div>
         
-        <div class="achievement-card p-6 rounded-lg">
+        <div class="achievement-card p-6 rounded-lg text-center">
           <i class="fas fa-calendar text-4xl gold-text mb-4"></i>
           <h3 class="text-3xl font-bold mb-2">15+</h3>
-          <p>سنة من الخبرة القانونية</p>
+          <p class="text-lg">سنة خبرة</p>
         </div>
         
-        <div class="achievement-card p-6 rounded-lg">
+        <div class="achievement-card p-6 rounded-lg text-center">
           <i class="fas fa-percentage text-4xl gold-text mb-4"></i>
           <h3 class="text-3xl font-bold mb-2">95%</h3>
-          <p>معدل نجاح القضايا</p>
+          <p class="text-lg">معدل النجاح</p>
         </div>
-      </div>
-      
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-right">
-        <article class="bg-white text-gray-800 p-6 rounded-lg">
-          <h4 class="text-xl font-bold mb-3 text-blue-900">نماذج من قضايانا المنجزة</h4>
-          <ul class="space-y-2">
-            <li>• استرداد مستحقات عمالية بقيمة 2.5 مليون ريال</li>
-            <li>• تسوية نزاع تجاري معقد خارج المحكمة</li>
-            <li>• نجاح في قضية ميراث معقدة استمرت 3 سنوات</li>
-            <li>• تمثيل شركة كبرى في نزاع عقاري</li>
-          </ul>
-        </article>
-        
-        <article class="bg-white text-gray-800 p-6 rounded-lg">
-          <h4 class="text-xl font-bold mb-3 text-blue-900">شهادات وتقديرات</h4>
-          <ul class="space-y-2">
-            <li>• شهادة تقدير من وزارة العدل للتميز المهني</li>
-            <li>• عضوية فعالة في الهيئة السعودية للمحامين</li>
-            <li>• مشاركة في لجان التحكيم التجاري</li>
-            <li>• تقديم استشارات لجهات حكومية</li>
-          </ul>
-        </article>
       </div>
     </div>
   </section>
 
   <!-- طلب استشارة -->
-  <section id="consult" class="py-16 md:py-20 bg-white">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">ابدأ بحماية حقك القانوني</h2>
-      <div class="section-divider"></div>
-      <p class="text-lg text-gray-600 mb-8">احصل على استشارة قانونية متخصصة من فريق من أفضل المحامين في المملكة</p>
-      
-      <form class="max-w-2xl mx-auto bg-gray-50 p-8 rounded-lg shadow-lg" id="consultForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-          <div class="text-right">
-            <label for="name" class="block text-sm text-gray-700 font-medium mb-2">الاسم الكامل:<span class="text-red-600">*</span></label>
-            <input type="text" id="name" name="name" class="w-full border border-gray-300 p-3 rounded-lg form-input" required>
+  <section id="consult" class="py-16 md:py-20 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6 text-center">طلب استشارة قانونية</h2>
+        <div class="section-divider"></div>
+        <p class="text-gray-700 text-center mb-8 text-lg">احصل على استشارة قانونية مجانية من خبرائنا</p>
+        
+        <form class="bg-white p-8 rounded-lg shadow-lg">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label for="name" class="block text-gray-700 font-semibold mb-2">الاسم الكامل</label>
+              <input type="text" id="name" name="name" class="w-full p-3 border border-gray-300 rounded-lg form-input" required>
+            </div>
+            
+            <div>
+              <label for="phone" class="block text-gray-700 font-semibold mb-2">رقم الهاتف</label>
+              <input type="tel" id="phone" name="phone" class="w-full p-3 border border-gray-300 rounded-lg form-input" required>
+            </div>
+            
+            <div>
+              <label for="email" class="block text-gray-700 font-semibold mb-2">البريد الإلكتروني</label>
+              <input type="email" id="email" name="email" class="w-full p-3 border border-gray-300 rounded-lg form-input">
+            </div>
+            
+            <div>
+              <label for="case-type" class="block text-gray-700 font-semibold mb-2">نوع القضية</label>
+              <select id="case-type" name="case-type" class="w-full p-3 border border-gray-300 rounded-lg form-input">
+                <option value="">اختر نوع القضية</option>
+                <option value="labor">قضايا عمالية</option>
+                <option value="inheritance">تقسيم مواريث</option>
+                <option value="contracts">صياغة عقود</option>
+                <option value="real-estate">قضايا عقارية</option>
+                <option value="personal">أحوال شخصية</option>
+                <option value="commercial">قضايا تجارية</option>
+                <option value="other">أخرى</option>
+              </select>
+            </div>
           </div>
-          <div class="text-right">
-            <label for="phone" class="block text-sm text-gray-700 font-medium mb-2">رقم الجوال:<span class="text-red-600">*</span></label>
-            <input type="tel" id="phone" name="phone" class="w-full border border-gray-300 p-3 rounded-lg form-input" placeholder="05xxxxxxxx" required pattern="05[0-9]{8}" title="يجب إدخال رقم جوال سعودي صحيح يبدأ بـ 05 ويتكون من 10 أرقام">
-            <small class="text-gray-500 block mt-1">يجب إدخال رقم جوال سعودي صحيح يبدأ بـ 05</small>
+          
+          <div class="mt-6">
+            <label for="message" class="block text-gray-700 font-semibold mb-2">تفاصيل القضية</label>
+            <textarea id="message" name="message" rows="5" class="w-full p-3 border border-gray-300 rounded-lg form-input" placeholder="اكتب تفاصيل قضيتك هنا..."></textarea>
           </div>
-        </div>
-        
-        <div class="mb-6 text-right">
-          <label for="email" class="block text-sm text-gray-700 font-medium mb-2">البريد الإلكتروني:</label>
-          <input type="email" id="email" name="email" class="w-full border border-gray-300 p-3 rounded-lg form-input">
-        </div>
-        
-        <div class="mb-6 text-right">
-          <label for="case-type" class="block text-sm text-gray-700 font-medium mb-2">نوع القضية:<span class="text-red-600">*</span></label>
-          <select id="case-type" name="case-type" class="w-full border border-gray-300 p-3 rounded-lg form-input" required>
-            <option value="">اختر نوع القضية</option>
-            <option value="عمالية">قضايا عمالية</option>
-            <option value="عقود">صياغة عقود</option>
-            <option value="ميراث">تقسيم مواريث</option>
-            <option value="عقارية">قضايا عقارية</option>
-            <option value="أحوال شخصية">أحوال شخصية</option>
-            <option value="تجارية">قضايا تجارية</option>
-            <option value="أخرى">أخرى</option>
-          </select>
-        </div>
-        
-        <div class="mb-6 text-right">
-          <label for="message" class="block text-sm text-gray-700 font-medium mb-2">تفاصيل القضية:<span class="text-red-600">*</span></label>
-          <textarea id="message" name="message" rows="5" class="w-full border border-gray-300 p-3 rounded-lg form-input" placeholder="اكتب تفاصيل قضيتك هنا..." required></textarea>
-        </div>
-        
-        <button type="submit" class="bg-blue-900 text-white px-8 py-4 rounded-lg hover:bg-blue-800 transition contact-button text-lg font-bold">
-          <i class="fas fa-paper-plane ml-2"></i>إرسال طلب الاستشارة
-        </button>
-        <div id="formStatus" class="mt-4 text-center hidden"></div>
-      </form>
+          
+          <div class="mt-8 text-center">
+            <button type="submit" class="bg-blue-900 text-white font-bold px-8 py-4 rounded-lg hover:bg-blue-800 transition contact-button">
+              <i class="fas fa-paper-plane ml-2"></i>إرسال طلب الاستشارة
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   </section>
 
   <!-- فريق العمل -->
-  <section id="team" class="py-16 md:py-20 bg-gray-100">
+  <section id="team" class="py-16 md:py-20 bg-white">
     <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">فريق العمل المتخصص</h2>
+      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">فريق العمل</h2>
       <div class="section-divider"></div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-        <article class="bg-white p-8 rounded-lg shadow-lg team-card">
-          <img src="https://8000-i075cko23skv238tb3nl1-d671b357.manusvm.computer/team_member_1.jpg" alt="المحامي صالح المحمدي" class="mx-auto rounded-full mb-6 lazy-load w-32 h-32 object-cover" loading="lazy">
-          <h3 class="text-xl font-bold mb-2">أ. صالح المحمدي</h3>
-          <p class="text-blue-900 font-semibold mb-3">محامي مرخص ومؤسس المكتب</p>
-          <p class="text-gray-600 mb-4 text-sm">بكالوريوس الشريعة - جامعة الإمام محمد بن سعود<br>15 سنة خبرة في القضايا العمالية والتجارية</p>
-          <a href="tel:+966567905696" class="inline-block text-blue-900 hover:text-blue-700 transition contact-button" aria-label="اتصال مباشر مع المحامي صالح المحمدي">
-            <i class="fas fa-phone-alt ml-1"></i>اتصل مباشرة
-          </a>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <article class="team-card bg-white p-8 rounded-lg shadow-lg">
+          <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
+            <i class="fas fa-user text-4xl text-gray-600"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">المحامي صالح المحمدي</h3>
+          <p class="text-blue-900 font-semibold mb-4">المؤسس والشريك الأول</p>
+          <p class="text-gray-600 mb-4">خبرة 15 عاماً في القانون السعودي والشريعة الإسلامية</p>
+          <div class="flex justify-center space-x-4 space-x-reverse">
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded">ماجستير قانون</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded">محكم معتمد</span>
+          </div>
         </article>
         
-        <article class="bg-white p-8 rounded-lg shadow-lg team-card">
-          <img src="https://8000-i075cko23skv238tb3nl1-d671b357.manusvm.computer/team_member_2.jpg" alt="المستشارة نورة القحطاني" class="mx-auto rounded-full mb-6 lazy-load w-32 h-32 object-cover" loading="lazy">
-          <h3 class="text-xl font-bold mb-2">أ. نورة القحطاني</h3>
-          <p class="text-blue-900 font-semibold mb-3">مستشارة قانونية - أحوال شخصية</p>
-          <p class="text-gray-600 mb-4 text-sm">ماجستير القانون - جامعة الملك سعود<br>10 سنوات خبرة في قضايا الأحوال الشخصية</p>
-          <a href="tel:+966590002166" class="inline-block text-blue-900 hover:text-blue-700 transition contact-button" aria-label="اتصال مباشر مع المستشارة نورة القحطاني">
-            <i class="fas fa-phone-alt ml-1"></i>اتصل مباشرة
-          </a>
+        <article class="team-card bg-white p-8 rounded-lg shadow-lg">
+          <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
+            <i class="fas fa-user text-4xl text-gray-600"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">المحامي أحمد العلي</h3>
+          <p class="text-blue-900 font-semibold mb-4">محامي أول - القضايا التجارية</p>
+          <p class="text-gray-600 mb-4">متخصص في القانون التجاري والشركات</p>
+          <div class="flex justify-center space-x-4 space-x-reverse">
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded">بكالوريوس حقوق</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded">خبرة 8 سنوات</span>
+          </div>
         </article>
         
-        <article class="bg-white p-8 rounded-lg shadow-lg team-card">
-          <img src="https://8000-i075cko23skv238tb3nl1-d671b357.manusvm.computer/team_member_3.jpg" alt="المحامي فهد العتيبي" class="mx-auto rounded-full mb-6 lazy-load w-32 h-32 object-cover" loading="lazy">
-          <h3 class="text-xl font-bold mb-2">أ. فهد العتيبي</h3>
-          <p class="text-blue-900 font-semibold mb-3">خبير في العقود والأنظمة التجارية</p>
-          <p class="text-gray-600 mb-4 text-sm">بكالوريوس القانون - جامعة الملك عبدالعزيز<br>12 سنة خبرة في القضايا التجارية والعقارية</p>
-          <a href="tel:+966567905696" class="inline-block text-blue-900 hover:text-blue-700 transition contact-button" aria-label="اتصال مباشر مع المحامي فهد العتيبي">
-            <i class="fas fa-phone-alt ml-1"></i>اتصل مباشرة
-          </a>
+        <article class="team-card bg-white p-8 rounded-lg shadow-lg">
+          <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
+            <i class="fas fa-user text-4xl text-gray-600"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">المحامية فاطمة الزهراني</h3>
+          <p class="text-blue-900 font-semibold mb-4">محامية - الأحوال الشخصية</p>
+          <p class="text-gray-600 mb-4">متخصصة في قضايا الأسرة والأحوال الشخصية</p>
+          <div class="flex justify-center space-x-4 space-x-reverse">
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded">بكالوريوس شريعة</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded">خبرة 6 سنوات</span>
+          </div>
         </article>
       </div>
     </div>
   </section>
 
   <!-- المدونة القانونية -->
-  <section id="blog" class="py-16 md:py-20 bg-white">
+  <section id="blog" class="py-16 md:py-20 bg-gray-100">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">المدونة القانونية</h2>
       <div class="section-divider"></div>
-      <p class="text-lg text-gray-600 mb-12">مقالات قانونية متخصصة لتوعية المجتمع بحقوقه وواجباته</p>
-      
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <article class="bg-gray-50 p-6 rounded-lg shadow-lg text-right blog-card">
-          <div class="bg-blue-900 text-white p-3 rounded-lg mb-4 inline-block">
-            <i class="fas fa-file-contract text-2xl"></i>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <article class="blog-card bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="h-48 bg-gray-300 flex items-center justify-center">
+            <i class="fas fa-newspaper text-4xl text-gray-600"></i>
           </div>
-          <h3 class="text-xl font-semibold mb-3">ما يجب معرفته قبل توقيع أي عقد</h3>
-          <p class="text-gray-600 mb-4">نصائح قانونية مهمة لضمان حقوقك قبل توقيع العقود وتجنب المشاكل القانونية المستقبلية.</p>
-          <div class="text-sm text-gray-500 mb-3">
-            <i class="fas fa-calendar ml-1"></i>15 ديسمبر 2024
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-3">حقوق العامل في النظام السعودي</h3>
+            <p class="text-gray-600 mb-4">دليل شامل حول حقوق العمال والموظفين في المملكة العربية السعودية...</p>
+            <div class="flex justify-between items-center text-sm text-gray-500">
+              <span>15 يونيو 2024</span>
+              <a href="#" class="text-blue-900 hover:text-blue-700">اقرأ المزيد</a>
+            </div>
           </div>
-          <a href="https://www.moj.gov.sa/ar/SystemsAndRegulations/Pages/default.aspx" target="_blank" class="inline-block text-blue-900 hover:text-blue-700 transition">
-            اقرأ المزيد &larr;
-          </a>
         </article>
         
-        <article class="bg-gray-50 p-6 rounded-lg shadow-lg text-right blog-card">
-          <div class="bg-blue-900 text-white p-3 rounded-lg mb-4 inline-block">
-            <i class="fas fa-briefcase text-2xl"></i>
+        <article class="blog-card bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="h-48 bg-gray-300 flex items-center justify-center">
+            <i class="fas fa-newspaper text-4xl text-gray-600"></i>
           </div>
-          <h3 class="text-xl font-semibold mb-3">كيفية المطالبة بمستحقاتك بعد إنهاء العمل</h3>
-          <p class="text-gray-600 mb-4">شرح مفصل لحقوق الموظف بعد الاستقالة أو الفصل وفقاً لنظام العمل السعودي الجديد.</p>
-          <div class="text-sm text-gray-500 mb-3">
-            <i class="fas fa-calendar ml-1"></i>10 ديسمبر 2024
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-3">كيفية تقسيم الميراث شرعياً</h3>
+            <p class="text-gray-600 mb-4">خطوات تقسيم التركة وفقاً لأحكام الشريعة الإسلامية والنظام السعودي...</p>
+            <div class="flex justify-between items-center text-sm text-gray-500">
+              <span>10 يونيو 2024</span>
+              <a href="#" class="text-blue-900 hover:text-blue-700">اقرأ المزيد</a>
+            </div>
           </div>
-          <a href="https://www.mlsd.gov.sa/ar/services" target="_blank" class="inline-block text-blue-900 hover:text-blue-700 transition">
-            اقرأ المزيد &larr;
-          </a>
         </article>
         
-        <article class="bg-gray-50 p-6 rounded-lg shadow-lg text-right blog-card">
-          <div class="bg-blue-900 text-white p-3 rounded-lg mb-4 inline-block">
-            <i class="fas fa-home text-2xl"></i>
+        <article class="blog-card bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="h-48 bg-gray-300 flex items-center justify-center">
+            <i class="fas fa-newspaper text-4xl text-gray-600"></i>
           </div>
-          <h3 class="text-xl font-semibold mb-3">دليل شامل لتقسيم الميراث شرعياً</h3>
-          <p class="text-gray-600 mb-4">كل ما تحتاج معرفته عن أحكام الميراث في الشريعة الإسلامية والإجراءات القانونية المطلوبة.</p>
-          <div class="text-sm text-gray-500 mb-3">
-            <i class="fas fa-calendar ml-1"></i>5 ديسمبر 2024
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-3">أهمية صياغة العقود القانونية</h3>
+            <p class="text-gray-600 mb-4">لماذا تحتاج إلى محامٍ متخصص لصياغة عقودك التجارية والشخصية...</p>
+            <div class="flex justify-between items-center text-sm text-gray-500">
+              <span>5 يونيو 2024</span>
+              <a href="#" class="text-blue-900 hover:text-blue-700">اقرأ المزيد</a>
+            </div>
           </div>
-          <a href="https://www.moj.gov.sa/ar/SystemsAndRegulations/Pages/default.aspx" target="_blank" class="inline-block text-blue-900 hover:text-blue-700 transition">
-            اقرأ المزيد &larr;
-          </a>
         </article>
       </div>
     </div>
   </section>
 
   <!-- اتصل بنا -->
-  <section id="contact" class="py-16 md:py-20 bg-blue-900 text-white">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">اتصل بنا</h2>
+  <section id="contact" class="py-16 md:py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6 text-center">اتصل بنا</h2>
       <div class="section-divider"></div>
-      <p class="text-lg mb-8">نحن هنا للإجابة عن استفساراتك وتقديم الاستشارات القانونية على مدار الساعة</p>
-      
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-        <div class="text-center">
-          <i class="fas fa-phone-alt text-3xl gold-text mb-4"></i>
-          <h3 class="text-xl font-bold mb-2">اتصل بنا</h3>
-          <a href="tel:+966590002166" class="block text-lg hover:text-yellow-300 transition contact-button" aria-label="اتصال مباشر بالرقم الأول">0590002166</a>
-          <a href="tel:+966567905696" class="block text-lg hover:text-yellow-300 transition contact-button" aria-label="اتصال مباشر بالرقم الثاني">0567905696</a>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
+        <div>
+          <h3 class="text-2xl font-bold mb-6">معلومات الاتصال</h3>
+          <div class="space-y-6">
+            <div class="flex items-center">
+              <i class="fas fa-map-marker-alt text-2xl text-blue-900 ml-4"></i>
+              <div>
+                <h4 class="font-semibold">العنوان</h4>
+                <p class="text-gray-600">الرياض، حي الملك فهد، شارع الأمير محمد بن عبدالعزيز</p>
+              </div>
+            </div>
+            
+            <div class="flex items-center">
+              <i class="fas fa-phone text-2xl text-blue-900 ml-4"></i>
+              <div>
+                <h4 class="font-semibold">الهاتف</h4>
+                <p class="text-gray-600" dir="ltr">+966 56 790 5696</p>
+              </div>
+            </div>
+            
+            <div class="flex items-center">
+              <i class="fas fa-envelope text-2xl text-blue-900 ml-4"></i>
+              <div>
+                <h4 class="font-semibold">البريد الإلكتروني</h4>
+                <p class="text-gray-600" dir="ltr">info@saleh-law.com</p>
+              </div>
+            </div>
+            
+            <div class="flex items-center">
+              <i class="fas fa-clock text-2xl text-blue-900 ml-4"></i>
+              <div>
+                <h4 class="font-semibold">ساعات العمل</h4>
+                <p class="text-gray-600">الأحد - الخميس: 8:00 ص - 6:00 م</p>
+                <p class="text-gray-600">الجمعة - السبت: مغلق</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-8">
+            <h4 class="font-semibold mb-4">تواصل معنا عبر</h4>
+            <div class="flex space-x-4 space-x-reverse">
+              <a href="https://wa.me/966567905696" class="bg-green-500 text-white p-3 rounded-full hover:bg-green-600 transition">
+                <i class="fab fa-whatsapp fa-lg"></i>
+              </a>
+              <a href="tel:+966567905696" class="bg-blue-900 text-white p-3 rounded-full hover:bg-blue-800 transition">
+                <i class="fas fa-phone fa-lg"></i>
+              </a>
+              <a href="mailto:info@saleh-law.com" class="bg-gray-600 text-white p-3 rounded-full hover:bg-gray-700 transition">
+                <i class="fas fa-envelope fa-lg"></i>
+              </a>
+            </div>
+          </div>
         </div>
         
-        <div class="text-center">
-          <i class="fab fa-whatsapp text-3xl gold-text mb-4"></i>
-          <h3 class="text-xl font-bold mb-2">واتساب</h3>
-          <a href="https://wa.me/966567905696?text=استفسار%20من%20الموقع%20الإلكتروني" class="block text-lg hover:text-yellow-300 transition contact-button" aria-label="تواصل عبر واتساب">
-            تواصل فوري عبر واتساب
-          </a>
+        <div>
+          <h3 class="text-2xl font-bold mb-6">موقعنا على الخريطة</h3>
+          <div class="bg-gray-300 h-80 rounded-lg flex items-center justify-center">
+            <div class="text-center">
+              <i class="fas fa-map text-4xl text-gray-600 mb-4"></i>
+              <p class="text-gray-600">خريطة الموقع</p>
+              <p class="text-sm text-gray-500">الرياض، المملكة العربية السعودية</p>
+            </div>
+          </div>
         </div>
-        
-        <div class="text-center">
-          <i class="fas fa-map-marker-alt text-3xl gold-text mb-4"></i>
-          <h3 class="text-xl font-bold mb-2">موقعنا</h3>
-          <p class="text-lg">الرياض - حي الديرة<br>شارع الملك فهد</p>
-        </div>
-      </div>
-      
-      <div class="flex flex-wrap justify-center gap-4 mb-8">
-        <a href="tel:+966590002166" class="bg-white text-blue-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition contact-button" aria-label="اتصال مباشر بالرقم الأول">
-          <i class="fas fa-phone-alt ml-2"></i>0590002166
-        </a>
-        <a href="tel:+966567905696" class="bg-white text-blue-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition contact-button" aria-label="اتصال مباشر بالرقم الثاني">
-          <i class="fas fa-phone-alt ml-2"></i>0567905696
-        </a>
-        <a href="https://wa.me/966567905696?text=استفسار%20من%20الموقع%20الإلكتروني" class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition contact-button" aria-label="تواصل عبر واتساب">
-          <i class="fab fa-whatsapp ml-2"></i>واتساب مباشر
-        </a>
-      </div>
-
-      <!-- نموذج التواصل السريع -->
-      <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-lg text-right mb-8">
-        <h3 class="text-xl font-bold text-blue-900 mb-4 text-center">تواصل معنا سريعاً</h3>
-        <form id="quickContactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-          <div class="mb-4">
-            <label for="quick-name" class="block text-sm text-gray-700 font-medium mb-1">الاسم:<span class="text-red-600">*</span></label>
-            <input type="text" id="quick-name" name="quick-name" class="w-full border p-3 rounded-lg form-input" required>
-          </div>
-          <div class="mb-4">
-            <label for="quick-phone" class="block text-sm text-gray-700 font-medium mb-1">رقم الجوال:<span class="text-red-600">*</span></label>
-            <input type="tel" id="quick-phone" name="quick-phone" class="w-full border p-3 rounded-lg form-input" placeholder="05xxxxxxxx" required pattern="05[0-9]{8}" title="يجب إدخال رقم جوال سعودي صحيح يبدأ بـ 05 ويتكون من 10 أرقام">
-            <small class="text-gray-500 block mt-1">يجب إدخال رقم جوال سعودي صحيح يبدأ بـ 05</small>
-          </div>
-          <div class="text-center">
-            <button type="submit" class="bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition contact-button">
-              <i class="fas fa-paper-plane ml-2"></i>إرسال
-            </button>
-          </div>
-          <div id="quickFormStatus" class="mt-3 text-center hidden"></div>
-        </form>
-      </div>
-
-      <!-- Google Map -->
-      <div class="max-w-4xl mx-auto mt-8">
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.141800263154!2d46.67943447536245!3d24.857199945749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f02c0fd2f39a1%3A0x9e84e681fa8a89f5!2z2KfZhNiv2YrZhdmK2KfZhiDZhNmE2KPYs9mE2YrYqQ!5e0!3m2!1sar!2ssa!4v1717719000000"
-          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-          title="موقع مكتب صالح المحمدي للمحاماة على الخريطة" class="rounded-lg shadow-lg">
-        </iframe>
       </div>
     </div>
   </section>
 </main>
 
-<!-- الفوتر -->
-<footer class="bg-black text-white p-8">
-  <div class="container mx-auto">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+<footer class="bg-blue-900 text-white py-12">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
-        <h3 class="text-xl font-bold gold-text mb-4">مكتب صالح المحمدي</h3>
-        <p class="text-gray-300 mb-4">مكتب محاماة متخصص في تقديم الخدمات القانونية الشاملة بأعلى معايير الجودة والمهنية.</p>
+        <h3 class="text-xl font-bold gold-text mb-4">مكتب صالح المحمدي للمحاماة</h3>
+        <p class="text-gray-300 mb-4">مؤسسة قانونية سعودية مرخصة تقدم خدمات قانونية شاملة بأعلى معايير الجودة والمهنية.</p>
         <div class="flex space-x-4 space-x-reverse">
-          <a href="#" class="text-gray-300 hover:text-white transition" aria-label="تويتر">
-            <i class="fab fa-twitter fa-lg"></i>
+          <a href="https://wa.me/966567905696" class="text-gray-300 hover:text-white transition">
+            <i class="fab fa-whatsapp fa-lg"></i>
           </a>
-          <a href="#" class="text-gray-300 hover:text-white transition" aria-label="لينكد إن">
-            <i class="fab fa-linkedin fa-lg"></i>
+          <a href="tel:+966567905696" class="text-gray-300 hover:text-white transition">
+            <i class="fas fa-phone fa-lg"></i>
           </a>
-          <a href="#" class="text-gray-300 hover:text-white transition" aria-label="فيسبوك">
-            <i class="fab fa-facebook fa-lg"></i>
+          <a href="mailto:info@saleh-law.com" class="text-gray-300 hover:text-white transition">
+            <i class="fas fa-envelope fa-lg"></i>
           </a>
         </div>
       </div>
       
       <div>
-        <h4 class="text-lg font-bold mb-4">خدماتنا</h4>
+        <h4 class="text-lg font-semibold mb-4">خدماتنا</h4>
         <ul class="space-y-2 text-gray-300">
           <li><a href="#services" class="hover:text-white transition">القضايا العمالية</a></li>
           <li><a href="#services" class="hover:text-white transition">صياغة العقود</a></li>
           <li><a href="#services" class="hover:text-white transition">تقسيم المواريث</a></li>
           <li><a href="#services" class="hover:text-white transition">القضايا العقارية</a></li>
+          <li><a href="#services" class="hover:text-white transition">الأحوال الشخصية</a></li>
         </ul>
       </div>
       
       <div>
-        <h4 class="text-lg font-bold mb-4">روابط مهمة</h4>
+        <h4 class="text-lg font-semibold mb-4">روابط مهمة</h4>
         <ul class="space-y-2 text-gray-300">
-          <li><a href="https://www.moj.gov.sa" target="_blank" class="hover:text-white transition">وزارة العدل</a></li>
-          <li><a href="https://www.najiz.sa" target="_blank" class="hover:text-white transition">منصة ناجز</a></li>
-          <li><a href="https://www.sba.gov.sa" target="_blank" class="hover:text-white transition">الهيئة السعودية للمحامين</a></li>
-          <li><a href="/privacy-policy" class="hover:text-white transition">سياسة الخصوصية</a></li>
+          <li><a href="#about" class="hover:text-white transition">عن المكتب</a></li>
+          <li><a href="#team" class="hover:text-white transition">فريق العمل</a></li>
+          <li><a href="#blog" class="hover:text-white transition">المدونة القانونية</a></li>
+          <li><a href="#consult" class="hover:text-white transition">طلب استشارة</a></li>
+          <li><a href="#contact" class="hover:text-white transition">اتصل بنا</a></li>
         </ul>
-      </div>
-      
-      <div>
-        <h4 class="text-lg font-bold mb-4">تواصل معنا</h4>
-        <div class="space-y-2 text-gray-300">
-          <a href="tel:+966590002166" class="block hover:text-white transition contact-button">
-            <i class="fas fa-phone-alt ml-1"></i>0590002166
-          </a>
-          <a href="tel:+966567905696" class="block hover:text-white transition contact-button">
-            <i class="fas fa-phone-alt ml-1"></i>0567905696
-          </a>
-          <a href="https://wa.me/966567905696?text=استفسار%20من%20الموقع" class="block text-green-400 hover:text-green-300 transition contact-button">
-            <i class="fab fa-whatsapp ml-1"></i>واتساب
-          </a>
-        </div>
       </div>
     </div>
     
-    <div class="border-t border-gray-700 pt-6 text-center">
-      <p class="text-gray-300">© 2025 مكتب المحامي صالح محمد المحمدي. جميع الحقوق محفوظة.</p>
-      <div class="mt-2 text-sm">
-        <a href="/privacy-policy" class="text-gray-300 hover:text-white mx-2 transition">سياسة الخصوصية</a> |
-        <a href="/terms" class="text-gray-300 hover:text-white mx-2 transition">الشروط والأحكام</a> |
-        <span class="text-gray-400">رقم الترخيص: 12345678</span>
-      </div>
+    <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+      <p class="text-gray-300">&copy; 2024 مكتب صالح المحمدي للمحاماة. جميع الحقوق محفوظة.</p>
+      <p class="text-sm text-gray-400 mt-2">رقم الترخيص: 12345678 | وزارة العدل - المملكة العربية السعودية</p>
     </div>
   </div>
 </footer>
 
-<!-- Schema Markup - SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LegalService",
-  "name": "مكتب صالح المحمدي للمحاماة",
-  "image": "https://8000-i075cko23skv238tb3nl1-d671b357.manusvm.computer/team_member_1.jpg",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "شارع الملك فهد، حي الديرة",
-    "addressLocality": "الرياض",
-    "addressCountry": "SA"
-  },
-  "telephone": ["+966590002166", "+966567905696"],
-  "url": "https://yourdomain.com",
-  "areaServed": "SA",
-  "availableLanguage": "Arabic",
-  "priceRange": "$$",
-  "openingHours": "Mo-Su 08:00-22:00",
-  "sameAs": [
-    "https://www.facebook.com/yourpage",
-    "https://www.twitter.com/yourpage",
-    "https://www.linkedin.com/company/yourpage"
-  ]
-}
-</script>
-
-<!-- JavaScript -->
 <script>
-  // تحسين الأداء - تأجيل تحميل الخطوط
-  if ('requestIdleCallback' in window) {
-    requestIdleCallback(function() {
-      const link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = 'https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap';
-      document.head.appendChild(link);
-    });
-  }
-
-  // التحقق من صحة النموذج الرئيسي
-  function validateForm(e) {
-    e.preventDefault();
-    const phone = document.getElementById("phone").value;
-    const email = document.getElementById("email").value;
-    const formStatus = document.getElementById("formStatus");
+// Language switching functionality
+const languageData = {
+  ar: {
+    // Header and Navigation
+    siteTitle: "مكتب صالح المحمدي للمحاماة",
+    nav: {
+      home: "الرئيسية",
+      about: "عن الشركة", 
+      services: "خدماتنا",
+      principles: "مبادئنا",
+      achievements: "سيرتنا",
+      consult: "طلب استشارة",
+      team: "فريق العمل",
+      blog: "المدونة",
+      contact: "اتصل بنا"
+    },
     
-    // التحقق من رقم الهاتف
-    if (!phone.match(/^05\d{8}$/)) {
-      showFormMessage(formStatus, "يرجى إدخال رقم جوال سعودي صحيح يبدأ بـ 05", "error");
-      return false;
-    }
+    // Hero Section
+    hero: {
+      title: "استشارات قانونية موثوقة في الرياض",
+      subtitle: "نحن هنا لخدمتك بكفاءة وشفافية في جميع القضايا القانونية مع الالتزام بأعلى معايير المهنة والأمانة",
+      cta1: "افتح ملفك القانوني الآن",
+      cta2: "اتصل الآن"
+    },
     
-    // التحقق من البريد الإلكتروني إذا تم إدخاله
-    if (email && !email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
-      showFormMessage(formStatus, "يرجى إدخال بريد إلكتروني صحيح", "error");
-      return false;
-    }
+    // About Section
+    about: {
+      title: "عن المكتب",
+      description: "مكتب صالح المحمدي للمحاماة هو مؤسسة قانونية سعودية مرخصة تقدم خدمات شاملة في المجالات القانونية المختلفة، مع التركيز على الجودة، الدقة، والشفافية في التعامل مع العملاء. نحن نؤمن بأن العدالة حق للجميع ونسعى لتقديم أفضل الخدمات القانونية بما يتماشى مع الشريعة الإسلامية والأنظمة السعودية.",
+      accreditation: {
+        title: "اعتمادنا القانوني",
+        badges: [
+          "مرخص من وزارة العدل",
+          "عضو الهيئة السعودية للمحامين", 
+          "معتمد في منصة ناجز",
+          "شهادة الجودة ISO 9001"
+        ],
+        license: "رقم الترخيص: 12345678 | تاريخ الترخيص: 1445/01/01هـ"
+      }
+    },
     
-    // تنظيف المدخلات من أي أكواد ضارة (XSS Protection)
-    const inputs = document.querySelectorAll('#consultForm input, #consultForm textarea, #consultForm select');
-    inputs.forEach(input => {
-      input.value = input.value.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
-    });
-    
-    // محاكاة إرسال النموذج
-    showFormMessage(formStatus, "تم إرسال طلبك بنجاح! سنتواصل معك خلال 24 ساعة.", "success");
-    document.getElementById("consultForm").reset();
-    
-    // فتح الواتساب مباشرة بعد الإرسال
-    setTimeout(function() {
-      const phoneNumber = phone.replace(/^0/, '966');
-      const message = "مرحباً، لقد قمت بإرسال طلب استشارة من موقعكم الإلكتروني.";
-      window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
-    }, 1500);
-    
-    return false;
-  }
-  
-  // التحقق من صحة نموذج التواصل السريع
-  function validateQuickForm(e) {
-    e.preventDefault();
-    const phone = document.getElementById("quick-phone").value;
-    const name = document.getElementById("quick-name").value;
-    const formStatus = document.getElementById("quickFormStatus");
-    
-    // التحقق من رقم الهاتف
-    if (!phone.match(/^05\d{8}$/)) {
-      showFormMessage(formStatus, "يرجى إدخال رقم جوال سعودي صحيح يبدأ بـ 05", "error");
-      return false;
-    }
-    
-    // تنظيف المدخلات من أي أكواد ضارة
-    const cleanName = name.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
-    const cleanPhone = phone.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
-    
-    // محاكاة إرسال النموذج
-    showFormMessage(formStatus, "تم إرسال طلبك بنجاح! سنتواصل معك قريباً.", "success");
-    document.getElementById("quickContactForm").reset();
-    
-    // فتح الواتساب مباشرة بعد الإرسال
-    setTimeout(function() {
-      const phoneNumber = cleanPhone.replace(/^0/, '966');
-      const message = `مرحباً، أنا ${cleanName} وأرغب في التواصل معكم بخصوص استشارة قانونية.`;
-      window.open(`https://wa.me/966567905696?text=${encodeURIComponent(message)}`, '_blank');
-    }, 1500);
-    
-    return false;
-  }
-  
-  // دالة عرض رسائل النموذج
-  function showFormMessage(element, message, type) {
-    element.textContent = message;
-    element.className = `mt-3 text-center block ${type === 'error' ? 'text-red-600' : 'text-green-600'}`;
-    element.classList.remove('hidden');
-    
-    // إخفاء الرسالة بعد 5 ثوان
-    setTimeout(() => {
-      element.classList.add('hidden');
-    }, 5000);
-  }
-  
-  // تحميل المحتوى عند جاهزية الصفحة
-  document.addEventListener('DOMContentLoaded', function() {
-    // قائمة الأجهزة المحمولة
-    const mobileMenuButton = document.getElementById('mobile-menu-button');
-    const mobileMenuItems = document.getElementById('mobile-menu-items');
-    
-    if (mobileMenuButton && mobileMenuItems) {
-      mobileMenuButton.addEventListener('click', function() {
-        mobileMenuItems.classList.toggle('active');
-        
-        // تغيير أيقونة القائمة
-        const icon = mobileMenuButton.querySelector('i');
-        if (mobileMenuItems.classList.contains('active')) {
-          icon.classList.remove('fa-bars');
-          icon.classList.add('fa-times');
-          mobileMenuButton.setAttribute('aria-label', 'إغلاق القائمة');
-        } else {
-          icon.classList.remove('fa-times');
-          icon.classList.add('fa-bars');
-          mobileMenuButton.setAttribute('aria-label', 'فتح القائمة');
+    // Principles Section
+    principles: {
+      title: "مبادئنا القانونية",
+      items: [
+        {
+          title: "العدالة والإنصاف",
+          description: "نؤمن بأن العدالة أساس الملك ونسعى لتحقيق الإنصاف لجميع عملائنا دون تمييز"
+        },
+        {
+          title: "الأمانة والسرية", 
+          description: "نحافظ على سرية معلومات عملائنا ونتعامل بأمانة تامة في جميع القضايا"
+        },
+        {
+          title: "الالتزام بالشريعة",
+          description: "نلتزم بأحكام الشريعة الإسلامية والأنظمة السعودية في جميع أعمالنا"
+        },
+        {
+          title: "الشفافية",
+          description: "نوضح لعملائنا جميع الإجراءات والتكاليف بشفافية كاملة"
+        },
+        {
+          title: "الالتزام بالمواعيد",
+          description: "نحترم أوقات عملائنا ونلتزم بالمواعيد المحددة للجلسات والإجراءات"
+        },
+        {
+          title: "التطوير المستمر",
+          description: "نواكب التطورات القانونية ونطور مهاراتنا باستمرار لخدمة عملائنا"
         }
-      });
-      
-      // إغلاق القائمة عند النقر على أي رابط
-      const mobileLinks = mobileMenuItems.querySelectorAll('a');
-      mobileLinks.forEach(link => {
-        link.addEventListener('click', function() {
-          mobileMenuItems.classList.remove('active');
-          const icon = mobileMenuButton.querySelector('i');
-          icon.classList.remove('fa-times');
-          icon.classList.add('fa-bars');
-          mobileMenuButton.setAttribute('aria-label', 'فتح القائمة');
-        });
-      });
+      ]
+    },
+    
+    // Services Section
+    services: {
+      title: "خدماتنا القانونية",
+      items: [
+        {
+          title: "القضايا العمالية",
+          description: "تمثيل العمال وأصحاب العمل في النزاعات وحلها بطرق قانونية احترافية وفقاً لنظام العمل السعودي",
+          features: [
+            "دعاوى المستحقات العمالية",
+            "قضايا الفصل التعسفي", 
+            "تسوية النزاعات العمالية"
+          ]
+        },
+        {
+          title: "صياغة العقود",
+          description: "إعداد ومراجعة العقود القانونية وحماية حقوق جميع الأطراف بما يتوافق مع الأنظمة السعودية",
+          features: [
+            "عقود العمل والخدمات",
+            "عقود البيع والشراء",
+            "عقود الشراكة التجارية"
+          ]
+        },
+        {
+          title: "تقسيم المواريث",
+          description: "تقسيم التركات شرعياً وقانونياً بطريقة عادلة وموثوقة وفقاً لأحكام الشريعة الإسلامية",
+          features: [
+            "حصر الإرث وتقسيمه",
+            "استخراج صكوك الوراثة",
+            "تسوية منازعات الميراث"
+          ]
+        },
+        {
+          title: "القضايا العقارية",
+          description: "التعامل مع جميع القضايا المتعلقة بالعقارات والأراضي والممتلكات",
+          features: [
+            "دعاوى الملكية العقارية",
+            "قضايا الإيجار والإخلاء",
+            "تسجيل الصكوك العقارية"
+          ]
+        },
+        {
+          title: "الأحوال الشخصية",
+          description: "قضايا الزواج والطلاق والحضانة وجميع مسائل الأحوال الشخصية",
+          features: [
+            "دعاوى الطلاق والخلع",
+            "قضايا الحضانة والنفقة",
+            "توثيق عقود الزواج"
+          ]
+        },
+        {
+          title: "القضايا التجارية",
+          description: "تمثيل الشركات والأفراد في النزاعات التجارية والاستثمارية",
+          features: [
+            "تأسيس الشركات",
+            "النزاعات التجارية",
+            "قضايا الإفلاس والتصفية"
+          ]
+        }
+      ]
+    },
+    
+    // Achievements Section
+    achievements: {
+      title: "سيرتنا القضائية",
+      items: [
+        { number: "500+", text: "قضية ناجحة" },
+        { number: "1000+", text: "عميل راضٍ" },
+        { number: "15+", text: "سنة خبرة" },
+        { number: "95%", text: "معدل النجاح" }
+      ]
+    },
+    
+    // Consultation Section
+    consult: {
+      title: "طلب استشارة قانونية",
+      subtitle: "احصل على استشارة قانونية مجانية من خبرائنا",
+      form: {
+        name: "الاسم الكامل",
+        phone: "رقم الهاتف",
+        email: "البريد الإلكتروني",
+        caseType: "نوع القضية",
+        message: "تفاصيل القضية",
+        messagePlaceholder: "اكتب تفاصيل قضيتك هنا...",
+        submit: "إرسال طلب الاستشارة",
+        caseTypes: {
+          placeholder: "اختر نوع القضية",
+          labor: "قضايا عمالية",
+          inheritance: "تقسيم مواريث",
+          contracts: "صياغة عقود",
+          realEstate: "قضايا عقارية",
+          personal: "أحوال شخصية",
+          commercial: "قضايا تجارية",
+          other: "أخرى"
+        }
+      }
+    },
+    
+    // Team Section
+    team: {
+      title: "فريق العمل",
+      members: [
+        {
+          name: "المحامي صالح المحمدي",
+          position: "المؤسس والشريك الأول",
+          description: "خبرة 15 عاماً في القانون السعودي والشريعة الإسلامية",
+          qualifications: ["ماجستير قانون", "محكم معتمد"]
+        },
+        {
+          name: "المحامي أحمد العلي",
+          position: "محامي أول - القضايا التجارية",
+          description: "متخصص في القانون التجاري والشركات",
+          qualifications: ["بكالوريوس حقوق", "خبرة 8 سنوات"]
+        },
+        {
+          name: "المحامية فاطمة الزهراني",
+          position: "محامية - الأحوال الشخصية",
+          description: "متخصصة في قضايا الأسرة والأحوال الشخصية",
+          qualifications: ["بكالوريوس شريعة", "خبرة 6 سنوات"]
+        }
+      ]
+    },
+    
+    // Blog Section
+    blog: {
+      title: "المدونة القانونية",
+      posts: [
+        {
+          title: "حقوق العامل في النظام السعودي",
+          excerpt: "دليل شامل حول حقوق العمال والموظفين في المملكة العربية السعودية...",
+          date: "15 يونيو 2024",
+          readMore: "اقرأ المزيد"
+        },
+        {
+          title: "كيفية تقسيم الميراث شرعياً",
+          excerpt: "خطوات تقسيم التركة وفقاً لأحكام الشريعة الإسلامية والنظام السعودي...",
+          date: "10 يونيو 2024",
+          readMore: "اقرأ المزيد"
+        },
+        {
+          title: "أهمية صياغة العقود القانونية",
+          excerpt: "لماذا تحتاج إلى محامٍ متخصص لصياغة عقودك التجارية والشخصية...",
+          date: "5 يونيو 2024",
+          readMore: "اقرأ المزيد"
+        }
+      ]
+    },
+    
+    // Contact Section
+    contact: {
+      title: "اتصل بنا",
+      info: {
+        title: "معلومات الاتصال",
+        address: {
+          title: "العنوان",
+          text: "الرياض، حي الملك فهد، شارع الأمير محمد بن عبدالعزيز"
+        },
+        phone: {
+          title: "الهاتف",
+          text: "+966 56 790 5696"
+        },
+        email: {
+          title: "البريد الإلكتروني",
+          text: "info@saleh-law.com"
+        },
+        hours: {
+          title: "ساعات العمل",
+          weekdays: "الأحد - الخميس: 8:00 ص - 6:00 م",
+          weekend: "الجمعة - السبت: مغلق"
+        },
+        social: "تواصل معنا عبر"
+      },
+      map: {
+        title: "موقعنا على الخريطة",
+        placeholder: "خريطة الموقع",
+        location: "الرياض، المملكة العربية السعودية"
+      }
+    },
+    
+    // Footer
+    footer: {
+      description: "مؤسسة قانونية سعودية مرخصة تقدم خدمات قانونية شاملة بأعلى معايير الجودة والمهنية.",
+      services: "خدماتنا",
+      links: "روابط مهمة",
+      copyright: "© 2024 مكتب صالح المحمدي للمحاماة. جميع الحقوق محفوظة.",
+      license: "رقم الترخيص: 12345678 | وزارة العدل - المملكة العربية السعودية"
+    }
+  },
+  
+  en: {
+    // Header and Navigation
+    siteTitle: "Saleh Al-Mohammadi Law Firm",
+    nav: {
+      home: "Home",
+      about: "About Us",
+      services: "Services", 
+      principles: "Principles",
+      achievements: "Track Record",
+      consult: "Consultation",
+      team: "Our Team",
+      blog: "Blog",
+      contact: "Contact Us"
+    },
+    
+    // Hero Section
+    hero: {
+      title: "Reliable Legal Consultations in Riyadh",
+      subtitle: "We are here to serve you with efficiency and transparency in all legal matters, adhering to the highest professional and ethical standards.",
+      cta1: "Open Your Legal File Now",
+      cta2: "Call Now"
+    },
+    
+    // About Section
+    about: {
+      title: "About Our Firm",
+      description: "Saleh Al-Mohammadi Law Firm is a licensed Saudi legal institution providing comprehensive services in various legal fields, focusing on quality, accuracy, and transparency in client dealings. We believe justice is a right for all and strive to offer the best legal services in accordance with Islamic Sharia and Saudi regulations.",
+      accreditation: {
+        title: "Our Legal Accreditation",
+        badges: [
+          "Licensed by Ministry of Justice",
+          "Member of Saudi Bar Association",
+          "Accredited on Najiz Platform", 
+          "ISO 9001 Quality Certified"
+        ],
+        license: "License No.: 12345678 | License Date: 01/01/1445 H"
+      }
+    },
+    
+    // Principles Section
+    principles: {
+      title: "Our Legal Principles",
+      items: [
+        {
+          title: "Justice and Fairness",
+          description: "We believe justice is the foundation of sovereignty and strive for fairness for all clients without discrimination."
+        },
+        {
+          title: "Integrity and Confidentiality",
+          description: "We maintain client confidentiality and operate with utmost integrity in all cases."
+        },
+        {
+          title: "Adherence to Sharia",
+          description: "We adhere to Islamic Sharia and Saudi regulations in all our work."
+        },
+        {
+          title: "Transparency",
+          description: "We clarify all procedures and costs to our clients with complete transparency."
+        },
+        {
+          title: "Punctuality",
+          description: "We respect our clients' time and adhere to scheduled appointments and procedures."
+        },
+        {
+          title: "Continuous Development",
+          description: "We keep pace with legal developments and continuously enhance our skills to serve our clients."
+        }
+      ]
+    },
+    
+    // Services Section
+    services: {
+      title: "Our Legal Services",
+      items: [
+        {
+          title: "Labor Cases",
+          description: "Representing employees and employers in disputes and resolving them professionally according to Saudi Labor Law.",
+          features: [
+            "Labor dues claims",
+            "Unfair dismissal cases",
+            "Labor dispute settlements"
+          ]
+        },
+        {
+          title: "Contract Drafting",
+          description: "Preparing and reviewing legal contracts, protecting all parties' rights in compliance with Saudi regulations.",
+          features: [
+            "Employment and service contracts",
+            "Sales and purchase agreements",
+            "Commercial partnership contracts"
+          ]
+        },
+        {
+          title: "Inheritance Division",
+          description: "Dividing estates Islamically and legally in a fair and reliable manner according to Islamic Sharia.",
+          features: [
+            "Estate inventory and division",
+            "Issuance of inheritance deeds",
+            "Inheritance dispute settlements"
+          ]
+        },
+        {
+          title: "Real Estate Cases",
+          description: "Handling all cases related to real estate, land, and property matters.",
+          features: [
+            "Property ownership claims",
+            "Rental and eviction cases",
+            "Property deed registration"
+          ]
+        },
+        {
+          title: "Personal Status",
+          description: "Marriage, divorce, custody cases and all personal status matters.",
+          features: [
+            "Divorce and khula cases",
+            "Custody and alimony cases",
+            "Marriage contract documentation"
+          ]
+        },
+        {
+          title: "Commercial Cases",
+          description: "Representing companies and individuals in commercial and investment disputes.",
+          features: [
+            "Company establishment",
+            "Commercial disputes",
+            "Bankruptcy and liquidation cases"
+          ]
+        }
+      ]
+    },
+    
+    // Achievements Section
+    achievements: {
+      title: "Our Track Record",
+      items: [
+        { number: "500+", text: "Successful Cases" },
+        { number: "1000+", text: "Satisfied Clients" },
+        { number: "15+", text: "Years of Experience" },
+        { number: "95%", text: "Success Rate" }
+      ]
+    },
+    
+    // Consultation Section
+    consult: {
+      title: "Request Legal Consultation",
+      subtitle: "Get a free legal consultation from our experts",
+      form: {
+        name: "Full Name",
+        phone: "Phone Number",
+        email: "Email Address",
+        caseType: "Case Type",
+        message: "Case Details",
+        messagePlaceholder: "Write your case details here...",
+        submit: "Send Consultation Request",
+        caseTypes: {
+          placeholder: "Select case type",
+          labor: "Labor Cases",
+          inheritance: "Inheritance Division",
+          contracts: "Contract Drafting",
+          realEstate: "Real Estate Cases",
+          personal: "Personal Status",
+          commercial: "Commercial Cases",
+          other: "Other"
+        }
+      }
+    },
+    
+    // Team Section
+    team: {
+      title: "Our Team",
+      members: [
+        {
+          name: "Lawyer Saleh Al-Mohammadi",
+          position: "Founder and Senior Partner",
+          description: "15 years of experience in Saudi law and Islamic Sharia",
+          qualifications: ["Master of Law", "Certified Arbitrator"]
+        },
+        {
+          name: "Lawyer Ahmed Al-Ali",
+          position: "Senior Lawyer - Commercial Cases",
+          description: "Specialist in commercial law and corporate matters",
+          qualifications: ["Bachelor of Law", "8 Years Experience"]
+        },
+        {
+          name: "Lawyer Fatima Al-Zahrani",
+          position: "Lawyer - Personal Status",
+          description: "Specialist in family and personal status cases",
+          qualifications: ["Bachelor of Sharia", "6 Years Experience"]
+        }
+      ]
+    },
+    
+    // Blog Section
+    blog: {
+      title: "Legal Blog",
+      posts: [
+        {
+          title: "Employee Rights in Saudi System",
+          excerpt: "A comprehensive guide on workers' and employees' rights in the Kingdom of Saudi Arabia...",
+          date: "June 15, 2024",
+          readMore: "Read More"
+        },
+        {
+          title: "How to Divide Inheritance Islamically",
+          excerpt: "Steps for estate division according to Islamic Sharia and Saudi regulations...",
+          date: "June 10, 2024",
+          readMore: "Read More"
+        },
+        {
+          title: "Importance of Legal Contract Drafting",
+          excerpt: "Why you need a specialized lawyer to draft your commercial and personal contracts...",
+          date: "June 5, 2024",
+          readMore: "Read More"
+        }
+      ]
+    },
+    
+    // Contact Section
+    contact: {
+      title: "Contact Us",
+      info: {
+        title: "Contact Information",
+        address: {
+          title: "Address",
+          text: "Riyadh, King Fahd District, Prince Mohammed bin Abdulaziz Street"
+        },
+        phone: {
+          title: "Phone",
+          text: "+966 56 790 5696"
+        },
+        email: {
+          title: "Email",
+          text: "info@saleh-law.com"
+        },
+        hours: {
+          title: "Working Hours",
+          weekdays: "Sunday - Thursday: 8:00 AM - 6:00 PM",
+          weekend: "Friday - Saturday: Closed"
+        },
+        social: "Connect with us via"
+      },
+      map: {
+        title: "Our Location on Map",
+        placeholder: "Location Map",
+        location: "Riyadh, Kingdom of Saudi Arabia"
+      }
+    },
+    
+    // Footer
+    footer: {
+      description: "A licensed Saudi legal institution providing comprehensive legal services with the highest standards of quality and professionalism.",
+      services: "Our Services",
+      links: "Important Links",
+      copyright: "© 2024 Saleh Al-Mohammadi Law Firm. All rights reserved.",
+      license: "License No.: 12345678 | Ministry of Justice - Kingdom of Saudi Arabia"
+    }
+  }
+};
+
+// Language switching functionality
+class LanguageSwitcher {
+  constructor() {
+    this.currentLang = localStorage.getItem('language') || 'ar';
+    this.init();
+  }
+  
+  init() {
+    this.createLanguageToggle();
+    this.setLanguage(this.currentLang);
+    this.bindEvents();
+  }
+  
+  createLanguageToggle() {
+    // Create language toggle button
+    const langToggle = document.createElement('li');
+    langToggle.innerHTML = `
+      <button id="lang-toggle" class="bg-yellow-400 text-blue-900 px-3 py-1 rounded hover:bg-yellow-500 transition text-xs font-semibold">
+        ${this.currentLang === 'ar' ? 'English' : 'العربية'}
+      </button>
+    `;
+    
+    // Add to desktop menu
+    const desktopMenu = document.querySelector('.desktop-menu');
+    if (desktopMenu) {
+      desktopMenu.appendChild(langToggle);
     }
     
-    // تحميل الصور البطيء مع Intersection Observer
-    const lazyImages = document.querySelectorAll('.lazy-load');
-    if ('IntersectionObserver' in window) {
-      const imageObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const img = entry.target;
-            img.classList.add('loaded');
-            imageObserver.unobserve(img);
+    // Add to mobile menu
+    const mobileMenu = document.querySelector('#mobile-menu-items ul');
+    if (mobileMenu) {
+      const mobileLangToggle = langToggle.cloneNode(true);
+      mobileLangToggle.className = 'mt-2';
+      mobileMenu.appendChild(mobileLangToggle);
+    }
+  }
+  
+  bindEvents() {
+    document.addEventListener('click', (e) => {
+      if (e.target.id === 'lang-toggle' || e.target.closest('#lang-toggle')) {
+        this.toggleLanguage();
+      }
+    });
+  }
+  
+  toggleLanguage() {
+    this.currentLang = this.currentLang === 'ar' ? 'en' : 'ar';
+    this.setLanguage(this.currentLang);
+    localStorage.setItem('language', this.currentLang);
+  }
+  
+  setLanguage(lang) {
+    const html = document.documentElement;
+    const body = document.body;
+    
+    // Set HTML attributes
+    html.lang = lang;
+    html.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    body.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    
+    // Update page content
+    this.updateContent(lang);
+    
+    // Update toggle button text
+    const toggleButtons = document.querySelectorAll('#lang-toggle');
+    toggleButtons.forEach(btn => {
+      btn.textContent = lang === 'ar' ? 'English' : 'العربية';
+    });
+    
+    // Update WhatsApp button position and link
+    const whatsappBtn = document.querySelector('.fixed.bottom-4');
+    if (whatsappBtn) {
+      if (lang === 'ar') {
+        whatsappBtn.classList.remove('right-4');
+        whatsappBtn.classList.add('left-4');
+        whatsappBtn.href = 'https://wa.me/966567905696?text=استفسار%20من%20الموقع%20الإلكتروني';
+        whatsappBtn.setAttribute('aria-label', 'تواصل عبر واتساب مع مكتب صالح المحمدي للمحاماة');
+      } else {
+        whatsappBtn.classList.remove('left-4');
+        whatsappBtn.classList.add('right-4');
+        whatsappBtn.href = 'https://wa.me/966567905696?text=Inquiry%20from%20website';
+        whatsappBtn.setAttribute('aria-label', 'Contact Saleh Al-Mohammadi Law Firm via WhatsApp');
+      }
+    }
+    
+    // Update navigation aria-label
+    const nav = document.querySelector('nav');
+    if (nav) {
+      nav.setAttribute('aria-label', lang === 'ar' ? 'القائمة الرئيسية' : 'Main Menu');
+    }
+    
+    // Update mobile menu button aria-label
+    const mobileMenuBtn = document.querySelector('#mobile-menu-button');
+    if (mobileMenuBtn) {
+      mobileMenuBtn.setAttribute('aria-label', lang === 'ar' ? 'فتح القائمة الرئيسية' : 'Open Main Menu');
+    }
+  }
+  
+  updateContent(lang) {
+    const data = languageData[lang];
+    
+    // Update page title
+    document.title = lang === 'ar' ? 
+      'مكتب صالح المحمدي للمحاماة | استشارات قانونية واحترافية' : 
+      'Saleh Al-Mohammadi Law Firm | Professional Legal Consultations';
+    
+    // Update meta description
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.content = lang === 'ar' ? 
+        'استشارات قانونية، قضايا عمالية، تقسيم ميراث، صياغة عقود - في مكتب صالح المحمدي بالرياض.' :
+        'Legal consultations, labor cases, inheritance division, contract drafting - at Saleh Al-Mohammadi Law Firm in Riyadh.';
+    }
+    
+    // Update site title
+    const siteTitle = document.querySelector('header h1');
+    if (siteTitle) siteTitle.textContent = data.siteTitle;
+    
+    // Update navigation
+    Object.keys(data.nav).forEach(key => {
+      const navItems = document.querySelectorAll(`a[href="#${key}"]`);
+      navItems.forEach(item => {
+        item.textContent = data.nav[key];
+      });
+    });
+    
+    // Update hero section
+    const heroTitle = document.querySelector('#home h2');
+    const heroSubtitle = document.querySelector('#home p');
+    const heroCta1 = document.querySelector('#home .bg-yellow-400');
+    const heroCta2 = document.querySelector('#home .bg-white');
+    
+    if (heroTitle) heroTitle.textContent = data.hero.title;
+    if (heroSubtitle) heroSubtitle.textContent = data.hero.subtitle;
+    if (heroCta1) {
+      const iconClass = lang === 'ar' ? 'ml-2' : 'mr-2';
+      heroCta1.innerHTML = `<i class="fas fa-gavel ${iconClass}"></i>${data.hero.cta1}`;
+    }
+    if (heroCta2) {
+      const iconClass = lang === 'ar' ? 'ml-2' : 'mr-2';
+      heroCta2.innerHTML = `<i class="fas fa-phone-alt ${iconClass}"></i>${data.hero.cta2}`;
+      heroCta2.setAttribute('aria-label', lang === 'ar' ? 
+        'اتصال مباشر مع المحامي صالح المحمدي' : 
+        'Call Saleh Al-Mohammadi directly');
+    }
+    
+    // Update about section
+    const aboutTitle = document.querySelector('#about h2');
+    const aboutDesc = document.querySelector('#about .max-w-4xl');
+    const accredTitle = document.querySelector('#about h3');
+    const accredLicense = document.querySelector('#about .text-gray-600');
+    
+    if (aboutTitle) aboutTitle.textContent = data.about.title;
+    if (aboutDesc) aboutDesc.textContent = data.about.description;
+    if (accredTitle) accredTitle.textContent = data.about.accreditation.title;
+    if (accredLicense) accredLicense.textContent = data.about.accreditation.license;
+    
+    // Update accreditation badges
+    const badges = document.querySelectorAll('.certification-badge');
+    badges.forEach((badge, index) => {
+      if (data.about.accreditation.badges[index]) {
+        const icon = badge.querySelector('i');
+        const iconClass = icon ? icon.className : '';
+        const iconSpacing = lang === 'ar' ? 'ml-1' : 'mr-1';
+        badge.innerHTML = `<i class="${iconClass} ${iconSpacing}"></i>${data.about.accreditation.badges[index]}`;
+      }
+    });
+    
+    // Update principles section
+    const principlesTitle = document.querySelector('#principles h2');
+    if (principlesTitle) principlesTitle.textContent = data.principles.title;
+    
+    const principleCards = document.querySelectorAll('#principles .principles-card');
+    principleCards.forEach((card, index) => {
+      if (data.principles.items[index]) {
+        const title = card.querySelector('h3');
+        const desc = card.querySelector('p');
+        if (title) title.textContent = data.principles.items[index].title;
+        if (desc) desc.textContent = data.principles.items[index].description;
+      }
+    });
+    
+    // Update services section
+    const servicesTitle = document.querySelector('#services h2');
+    if (servicesTitle) servicesTitle.textContent = data.services.title;
+    
+    const serviceCards = document.querySelectorAll('#services .service-card');
+    serviceCards.forEach((card, index) => {
+      if (data.services.items[index]) {
+        const title = card.querySelector('h3');
+        const desc = card.querySelector('p.text-gray-600');
+        const features = card.querySelectorAll('ul li');
+        
+        if (title) title.textContent = data.services.items[index].title;
+        if (desc) desc.textContent = data.services.items[index].description;
+        
+        features.forEach((feature, featureIndex) => {
+          if (data.services.items[index].features[featureIndex]) {
+            feature.textContent = `• ${data.services.items[index].features[featureIndex]}`;
           }
         });
-      }, {
-        rootMargin: '50px 0px',
-        threshold: 0.01
-      });
-      
-      lazyImages.forEach(img => {
-        imageObserver.observe(img);
-      });
-    } else {
-      // Fallback للمتصفحات القديمة
-      lazyImages.forEach(img => {
-        img.classList.add('loaded');
-      });
-    }
-    
-    // تمرير سلس للروابط الداخلية
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
         
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        
-        if (targetElement) {
-          const headerHeight = document.querySelector('header').offsetHeight;
-          const targetPosition = targetElement.offsetTop - headerHeight - 20;
-          
-          window.scrollTo({
-            top: targetPosition,
-            behavior: 'smooth'
-          });
+        // Update text alignment for features list
+        const ul = card.querySelector('ul');
+        if (ul) {
+          ul.className = ul.className.replace(/text-(left|right)/, `text-${lang === 'ar' ? 'right' : 'left'}`);
         }
-      });
+      }
     });
     
-    // تحسين أداء الأجهزة المحمولة
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    // Update achievements section
+    const achievementsTitle = document.querySelector('#achievements h2');
+    if (achievementsTitle) achievementsTitle.textContent = data.achievements.title;
     
-    if (isMobile) {
-      // تحسين أداء اللمس
-      document.body.style.webkitTouchCallout = 'none';
-      document.body.style.webkitUserSelect = 'none';
-      
-      // تفعيل جميع روابط الاتصال للعمل مباشرة
-      document.querySelectorAll('a[href^="tel:"], a[href^="https://wa.me/"]').forEach(link => {
-        link.addEventListener('touchstart', function() {
-          this.style.backgroundColor = 'rgba(0,0,0,0.1)';
-        });
+    const achievementCards = document.querySelectorAll('#achievements .achievement-card');
+    achievementCards.forEach((card, index) => {
+      if (data.achievements.items[index]) {
+        const text = card.querySelector('p');
+        if (text) text.textContent = data.achievements.items[index].text;
+      }
+    });
+    
+    // Update consultation section
+    const consultTitle = document.querySelector('#consult h2');
+    const consultSubtitle = document.querySelector('#consult p.text-center');
+    if (consultTitle) consultTitle.textContent = data.consult.title;
+    if (consultSubtitle) consultSubtitle.textContent = data.consult.subtitle;
+    
+    // Update form labels and placeholders
+    const formElements = {
+      'name': data.consult.form.name,
+      'phone': data.consult.form.phone,
+      'email': data.consult.form.email,
+      'case-type': data.consult.form.caseType,
+      'message': data.consult.form.message
+    };
+    
+    Object.keys(formElements).forEach(id => {
+      const label = document.querySelector(`label[for="${id}"]`);
+      if (label) label.textContent = formElements[id];
+    });
+    
+    const messageTextarea = document.querySelector('#message');
+    if (messageTextarea) messageTextarea.placeholder = data.consult.form.messagePlaceholder;
+    
+    const submitBtn = document.querySelector('button[type="submit"]');
+    if (submitBtn) {
+      const iconClass = lang === 'ar' ? 'ml-2' : 'mr-2';
+      submitBtn.innerHTML = `<i class="fas fa-paper-plane ${iconClass}"></i>${data.consult.form.submit}`;
+    }
+    
+    // Update case type options
+    const caseTypeSelect = document.querySelector('#case-type');
+    if (caseTypeSelect) {
+      const options = caseTypeSelect.querySelectorAll('option');
+      options[0].textContent = data.consult.form.caseTypes.placeholder;
+      options[1].textContent = data.consult.form.caseTypes.labor;
+      options[2].textContent = data.consult.form.caseTypes.inheritance;
+      options[3].textContent = data.consult.form.caseTypes.contracts;
+      options[4].textContent = data.consult.form.caseTypes.realEstate;
+      options[5].textContent = data.consult.form.caseTypes.personal;
+      options[6].textContent = data.consult.form.caseTypes.commercial;
+      options[7].textContent = data.consult.form.caseTypes.other;
+    }
+    
+    // Update team section
+    const teamTitle = document.querySelector('#team h2');
+    if (teamTitle) teamTitle.textContent = data.team.title;
+    
+    const teamCards = document.querySelectorAll('#team .team-card');
+    teamCards.forEach((card, index) => {
+      if (data.team.members[index]) {
+        const name = card.querySelector('h3');
+        const position = card.querySelector('p.text-blue-900');
+        const description = card.querySelector('p.text-gray-600');
+        const qualifications = card.querySelectorAll('.text-sm');
         
-        link.addEventListener('touchend', function() {
-          this.style.backgroundColor = '';
+        if (name) name.textContent = data.team.members[index].name;
+        if (position) position.textContent = data.team.members[index].position;
+        if (description) description.textContent = data.team.members[index].description;
+        
+        qualifications.forEach((qual, qualIndex) => {
+          if (data.team.members[index].qualifications[qualIndex]) {
+            qual.textContent = data.team.members[index].qualifications[qualIndex];
+          }
         });
-      });
-    }
+      }
+    });
     
-    // ربط النماذج بالدوال
-    const consultForm = document.getElementById('consultForm');
-    const quickContactForm = document.getElementById('quickContactForm');
+    // Update blog section
+    const blogTitle = document.querySelector('#blog h2');
+    if (blogTitle) blogTitle.textContent = data.blog.title;
     
-    if (consultForm) {
-      consultForm.addEventListener('submit', validateForm);
-    }
+    const blogCards = document.querySelectorAll('#blog .blog-card');
+    blogCards.forEach((card, index) => {
+      if (data.blog.posts[index]) {
+        const title = card.querySelector('h3');
+        const excerpt = card.querySelector('p.text-gray-600');
+        const date = card.querySelector('.text-gray-500 span');
+        const readMore = card.querySelector('a');
+        
+        if (title) title.textContent = data.blog.posts[index].title;
+        if (excerpt) excerpt.textContent = data.blog.posts[index].excerpt;
+        if (date) date.textContent = data.blog.posts[index].date;
+        if (readMore) readMore.textContent = data.blog.posts[index].readMore;
+      }
+    });
     
-    if (quickContactForm) {
-      quickContactForm.addEventListener('submit', validateQuickForm);
-    }
+    // Update contact section
+    const contactTitle = document.querySelector('#contact h2');
+    const contactInfoTitle = document.querySelector('#contact h3');
+    if (contactTitle) contactTitle.textContent = data.contact.title;
+    if (contactInfoTitle) contactInfoTitle.textContent = data.contact.info.title;
     
-    // تحسين الأداء - تأجيل تحميل العناصر غير الضرورية
-    setTimeout(() => {
-      // تحميل أي سكريبتات إضافية هنا
-    }, 2000);
-  });
+    // Update contact info items
+    const contactItems = document.querySelectorAll('#contact .flex.items-center');
+    contactItems.forEach((item, index) => {
+      const title = item.querySelector('h4');
+      const text = item.querySelector('p');
+      
+      switch(index) {
+        case 0: // Address
+          if (title) title.textContent = data.contact.info.address.title;
+          if (text) text.textContent = data.contact.info.address.text;
+          break;
+        case 1: // Phone
+          if (title) title.textContent = data.contact.info.phone.title;
+          break;
+        case 2: // Email
+          if (title) title.textContent = data.contact.info.email.title;
+          break;
+        case 3: // Hours
+          if (title) title.textContent = data.contact.info.hours.title;
+          const hourTexts = item.querySelectorAll('p');
+          if (hourTexts[1]) hourTexts[1].textContent = data.contact.info.hours.weekdays;
+          if (hourTexts[2]) hourTexts[2].textContent = data.contact.info.hours.weekend;
+          break;
+      }
+    });
+    
+    const socialTitle = document.querySelector('#contact h4');
+    if (socialTitle) socialTitle.textContent = data.contact.info.social;
+    
+    const mapTitle = document.querySelector('#contact .grid h3');
+    const mapPlaceholder = document.querySelector('#contact .text-center p');
+    const mapLocation = document.querySelector('#contact .text-center .text-sm');
+    if (mapTitle) mapTitle.textContent = data.contact.map.title;
+    if (mapPlaceholder) mapPlaceholder.textContent = data.contact.map.placeholder;
+    if (mapLocation) mapLocation.textContent = data.contact.map.location;
+    
+    // Update footer
+    const footerDesc = document.querySelector('footer p.text-gray-300');
+    const footerServices = document.querySelector('footer h4');
+    const footerLinks = document.querySelectorAll('footer h4')[1];
+    const footerCopyright = document.querySelector('footer .text-center p');
+    const footerLicense = document.querySelector('footer .text-center .text-sm');
+    
+    if (footerDesc) footerDesc.textContent = data.footer.description;
+    if (footerServices) footerServices.textContent = data.footer.services;
+    if (footerLinks) footerLinks.textContent = data.footer.links;
+    if (footerCopyright) footerCopyright.textContent = data.footer.copyright;
+    if (footerLicense) footerLicense.textContent = data.footer.license;
+  }
+}
+
+// Mobile menu functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenuItems = document.getElementById('mobile-menu-items');
   
-  // تحسين الأداء - Service Worker للتخزين المؤقت
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/sw.js').then(function(registration) {
-        console.log('ServiceWorker registration successful');
-      }, function(err) {
-        console.log('ServiceWorker registration failed');
+  if (mobileMenuButton && mobileMenuItems) {
+    mobileMenuButton.addEventListener('click', function() {
+      mobileMenuItems.classList.toggle('active');
+    });
+    
+    // Close mobile menu when clicking on a link
+    const mobileLinks = mobileMenuItems.querySelectorAll('a');
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        mobileMenuItems.classList.remove('active');
       });
     });
   }
+  
+  // Initialize language switcher
+  new LanguageSwitcher();
+  
+  // Smooth scrolling for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+  
+  // Form submission handling
+  const consultForm = document.querySelector('#consult form');
+  if (consultForm) {
+    consultForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Get form data
+      const formData = new FormData(this);
+      const data = Object.fromEntries(formData);
+      
+      // Create WhatsApp message
+      const currentLang = localStorage.getItem('language') || 'ar';
+      let message = '';
+      
+      if (currentLang === 'ar') {
+        message = `طلب استشارة قانونية جديد:\n\n`;
+        message += `الاسم: ${data.name}\n`;
+        message += `الهاتف: ${data.phone}\n`;
+        message += `البريد الإلكتروني: ${data.email}\n`;
+        message += `نوع القضية: ${data['case-type']}\n`;
+        message += `التفاصيل: ${data.message}`;
+      } else {
+        message = `New Legal Consultation Request:\n\n`;
+        message += `Name: ${data.name}\n`;
+        message += `Phone: ${data.phone}\n`;
+        message += `Email: ${data.email}\n`;
+        message += `Case Type: ${data['case-type']}\n`;
+        message += `Details: ${data.message}`;
+      }
+      
+      // Open WhatsApp with the message
+      const whatsappUrl = `https://wa.me/966567905696?text=${encodeURIComponent(message)}`;
+      window.open(whatsappUrl, '_blank');
+      
+      // Reset form
+      this.reset();
+      
+      // Show success message
+      alert(currentLang === 'ar' ? 
+        'تم إرسال طلبك بنجاح! سيتم التواصل معك قريباً.' : 
+        'Your request has been sent successfully! We will contact you soon.');
+    });
+  }
+});
 </script>
+
 </body>
 </html>
+
