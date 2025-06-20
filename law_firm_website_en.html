@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saleh Al-Mohammadi Law Firm | Professional Legal Consultations</title>
+  <meta name="description" content="Legal consultations, labor cases, inheritance division, contract drafting - at Saleh Al-Mohammadi Law Firm in Riyadh.">
+  <meta name="keywords" content="lawyer, Riyadh, cases, legal consultation, law firm">
+  <meta name="author" content="Saleh Al-Mohammadi Law Firm">
+  
+  <!-- Performance and Font Enhancements -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://8000-i075cko23skv238tb3nl1-d671b357.manusvm.computer" crossorigin>
+  
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --primary-blue: #1e3a8a;
+      --gold-color: #D4AF37;
+      --green-whatsapp: #25d366;
+    }
+    
+    body { 
+      font-family: 'Open Sans', sans-serif; 
+      line-height: 1.6;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .hero-bg {
+      background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), 
+      url('https://images.unsplash.com/photo-1599058917212-d750089bcaa0?w=1920&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    
+    .gold-text { 
+      color: var(--gold-color); 
+    }
+    
+    /* Mobile Enhancements */
+    .mobile-menu {
+      display: none;
+    }
+    
+    @media (max-width: 768px) {
+      .desktop-menu {
+        display: none;
+      }
+      .mobile-menu {
+        display: block;
+      }
+      .mobile-menu-items {
+        display: none;
+        position: absolute;
+        top: 60px; /* Adjust based on header height */
+        left: 0; /* Changed from right to left for LTR */
+        width: 100%;
+        background-color: var(--primary-blue);
+        padding: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 50;
+      }
+      .mobile-menu-items.active {
+        display: block;
+      }
+      .hero-section {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        background-attachment: scroll;
+      }
+    }
+    
+    /* Interaction Enhancements */
+    .service-card, .team-card, .blog-card {
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .service-card:hover, .team-card:hover, .blog-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Form Enhancements */
+    .form-input:focus {
+      border-color: var(--primary-blue);
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+    }
+    
+    /* Lazy Load Enhancements */
+    .lazy-load {
+      transition: opacity 0.5s ease;
+      opacity: 0;
+    }
+    .lazy-load.loaded {
+      opacity: 1;
+    }
+    
+    /* Contact Button Enhancements */
+    .contact-button {
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      position: relative;
+      overflow: hidden;
+    }
+    .contact-button:active {
+      transform: scale(0.95);
+    }
+    .contact-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.5s;
+    }
+    .contact-button:hover::before {
+      left: 100%;
+    }
+    
+    /* WhatsApp Pulse Effect */
+    .whatsapp-pulse {
+      animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+      }
+      70% {
+        box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+      }
+    }
+    
+    /* New Section Enhancements */
+    .principles-card {
+      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+      border-left: 4px solid var(--gold-color);
+    }
+    
+    .achievement-card {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+      color: white;
+    }
+    
+    .certification-badge {
+      background: linear-gradient(135deg, var(--gold-color) 0%, #fbbf24 100%);
+      color: #1f2937;
+      border-radius: 50px;
+      padding: 0.5rem 1rem;
+      font-weight: bold;
+      display: inline-block;
+      margin: 0.25rem;
+    }
+    
+    /* Performance Enhancements */
+    .section-divider {
+      background: linear-gradient(90deg, transparent, var(--gold-color), transparent);
+      height: 2px;
+      margin: 2rem auto;
+      width: 100px;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/966567905696?text=Inquiry%20from%20website" 
+   target="_blank" 
+   aria-label="Contact Saleh Al-Mohammadi Law Firm via WhatsApp"
+   class="fixed bottom-4 right-4 bg-green-500 text-white p-3 md:p-4 rounded-full shadow-lg z-50 hover:bg-green-600 transition whatsapp-pulse">
+  <i class="fab fa-whatsapp fa-lg"></i>
+</a>
+
+<header class="bg-blue-900 text-white p-4 fixed w-full z-40 top-0 shadow-lg">
+  <nav class="container mx-auto flex justify-between items-center" role="navigation" aria-label="Main Menu">
+    <h1 class="text-lg font-bold gold-text">Saleh Al-Mohammadi Law Firm</h1>
+    
+    <!-- Desktop Menu -->
+    <ul class="desktop-menu flex space-x-4 text-sm font-semibold">
+      <li><a href="#home" class="hover:text-yellow-300 transition" aria-label="Go to Home page">Home</a></li>
+      <li><a href="#about" class="hover:text-yellow-300 transition" aria-label="About the firm">About Us</a></li>
+      <li><a href="#services" class="hover:text-yellow-300 transition" aria-label="Our legal services">Services</a></li>
+      <li><a href="#principles" class="hover:text-yellow-300 transition" aria-label="Our legal principles">Principles</a></li>
+      <li><a href="#achievements" class="hover:text-yellow-300 transition" aria-label="Our track record">Track Record</a></li>
+      <li><a href="#consult" class="hover:text-yellow-300 transition" aria-label="Request a legal consultation">Consultation</a></li>
+      <li><a href="#team" class="hover:text-yellow-300 transition" aria-label="Our legal team">Our Team</a></li>
+      <li><a href="#blog" class="hover:text-yellow-300 transition" aria-label="Legal blog">Blog</a></li>
+      <li><a href="#contact" class="hover:text-yellow-300 transition" aria-label="Contact information">Contact Us</a></li>
+    </ul>
+    
+    <!-- Mobile Menu Button -->
+    <div class="mobile-menu">
+      <button id="mobile-menu-button" aria-label="Open Main Menu" class="text-white focus:outline-none">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+      <div id="mobile-menu-items" class="mobile-menu-items">
+        <ul class="flex flex-col space-y-3 text-sm font-semibold">
+          <li><a href="#home" class="block hover:text-yellow-300 transition">Home</a></li>
+          <li><a href="#about" class="block hover:text-yellow-300 transition">About Us</a></li>
+          <li><a href="#services" class="block hover:text-yellow-300 transition">Services</a></li>
+          <li><a href="#principles" class="block hover:text-yellow-300 transition">Principles</a></li>
+          <li><a href="#achievements" class="block hover:text-yellow-300 transition">Track Record</a></li>
+          <li><a href="#consult" class="block hover:text-yellow-300 transition">Consultation</a></li>
+          <li><a href="#team" class="block hover:text-yellow-300 transition">Our Team</a></li>
+          <li><a href="#blog" class="block hover:text-yellow-300 transition">Blog</a></li>
+          <li><a href="#contact" class="block hover:text-yellow-300 transition">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="mt-16 md:mt-24">
+  <!-- Hero Section -->
+  <section id="home" class="hero-bg text-white text-center py-20 md:py-32 hero-section">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-5xl font-bold gold-text mb-6">Reliable Legal Consultations in Riyadh</h2>
+      <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">We are here to serve you with efficiency and transparency in all legal matters, adhering to the highest professional and ethical standards.</p>
+      <div class="flex flex-col md:flex-row justify-center gap-4 mt-8">
+        <a href="#consult" class="bg-yellow-400 text-blue-900 font-bold px-8 py-4 rounded-lg hover:bg-yellow-500 transition contact-button">
+          <i class="fas fa-gavel mr-2"></i>Open Your Legal File Now
+        </a>
+        <a href="tel:+966567905696" class="bg-white text-blue-900 font-bold px-8 py-4 rounded-lg hover:bg-gray-200 transition contact-button" aria-label="Call Saleh Al-Mohammadi directly">
+          <i class="fas fa-phone-alt mr-2"></i>Call Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="py-16 md:py-20 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">About Our Firm</h2>
+      <div class="section-divider"></div>
+      <p class="text-gray-700 max-w-4xl mx-auto text-lg leading-relaxed">
+        Saleh Al-Mohammadi Law Firm is a licensed Saudi legal institution providing comprehensive services in various legal fields, focusing on quality, accuracy, and transparency in client dealings. We believe justice is a right for all and strive to offer the best legal services in accordance with Islamic Sharia and Saudi regulations.
+      </p>
+      
+      <!-- Legal Accreditation -->
+      <div class="mt-12 bg-gray-50 p-8 rounded-lg">
+        <h3 class="text-2xl font-bold text-blue-900 mb-4">Our Legal Accreditation</h3>
+        <div class="flex flex-wrap justify-center gap-4">
+          <span class="certification-badge">
+            <i class="fas fa-certificate mr-1"></i>Licensed by Ministry of Justice
+          </span>
+          <span class="certification-badge">
+            <i class="fas fa-stamp mr-1"></i>Member of Saudi Bar Association
+          </span>
+          <span class="certification-badge">
+            <i class="fas fa-shield-alt mr-1"></i>Accredited on Najiz Platform
+          </span>
+          <span class="certification-badge">
+            <i class="fas fa-award mr-1"></i>ISO 9001 Quality Certified
+          </span>
+        </div>
+        <p class="text-gray-600 mt-4">License No.: 12345678 | License Date: 01/01/1445 H</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Principles -->
+  <section id="principles" class="py-16 md:py-20 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6 text-center">Our Legal Principles</h2>
+      <div class="section-divider"></div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <article class="principles-card p-6 rounded-lg">
+          <i class="fas fa-balance-scale text-3xl text-blue-900 mb-4"></i>
+          <h3 class="text-xl font-bold mb-3">Justice and Fairness</h3>
+          <p class="text-gray-700">We believe justice is the foundation of sovereignty and strive for fairness for all clients without discrimination.</p>
+        </article>
+        
+        <article class="principles-card p-6 rounded-lg">
+          <i class="fas fa-shield-alt text-3xl text-blue-900 mb-4"></i>
+          <h3 class="text-xl font-bold mb-3">Integrity and Confidentiality</h3>
+          <p class="text-gray-700">We maintain client confidentiality and operate with utmost integrity in all cases.</p>
+        </article>
+        
+        <article class="principles-card p-6 rounded-lg">
+          <i class="fas fa-book text-3xl text-blue-900 mb-4"></i>
+          <h3 class="text-xl font-bold mb-3">Adherence to Sharia</h3>
+          <p class="text-gray-700">We adhere to Islamic Sharia and Saudi regulations in all our work.</p>
+        </article>
+        
+        <article class="principles-card p-6 rounded-lg">
+          <i class="fas fa-handshake text-3xl text-blue-900 mb-4"></i>
+          <h3 class="text-xl font-bold mb-3">Transparency</h3>
+          <p class="text-gray-700">We clarify all procedures and costs to our clients with complete transparency.</p>
+        </article>
+        
+        <article class="principles-card p-6 rounded-lg">
+          <i class="fas fa-clock text-3xl text-blue-900 mb-4"></i>
+          <h3 class="text-xl font-bold mb-3">Punctuality</h3>
+          <p class="text-gray-700">We respect our clients' time and adhere to scheduled appointments and procedures.</p>
+        </article>
+        
+        <article class="principles-card p-6 rounded-lg">
+          <i class="fas fa-graduation-cap text-3xl text-blue-900 mb-4"></i>
+          <h3 class="text-xl font-bold mb-3">Continuous Development</h3>
+          <p class="text-gray-700">We keep pace with legal developments and continuously enhance our skills to serve our clients.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Services -->
+  <section id="services" class="py-16 md:py-20 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">Our Legal Services</h2>
+      <div class="section-divider"></div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <article class="bg-white p-8 rounded-lg shadow-lg service-card border-t-4 border-blue-900">
+          <i class="fas fa-briefcase text-4xl md:text-5xl text-blue-900 mb-6"></i>
+          <h3 class="text-xl font-semibold mb-4">Labor Cases</h3>
+          <p class="text-gray-600 mb-4">Representing employees and employers in disputes and resolving them professionally according to Saudi Labor Law.</p>
+          <ul class="text-sm text-gray-500 text-left">
+            <li>• Labor dues claims</li>
+            <li>• Unfair dismissal cases</li>
+            <li>• Labor dispute settlements</li>
+          </ul>
+        </article>
+        
+        <article class="bg-white p-8 rounded-lg shadow-lg service-card border-t-4 border-blue-900">
+          <i class="fas fa-file-contract text-4xl md:text-5xl text-blue-900 mb-6"></i>
+          <h3 class="text-xl font-semibold mb-4">Contract Drafting</h3>
+          <p class="text-gray-600 mb-4">Preparing and reviewing legal contracts, protecting all parties' rights in compliance with Saudi regulations.</p>
+          <ul class="text-sm text-gray-500 text-left">
+            <li>• Employment and service contracts</li>
+            <li>• Sales and purchase agreements</li>
+            <li>• Commercial partnership contracts</li>
+          </ul>
+        </article>
+        
+        <article class="bg-white p-8 rounded-lg shadow-lg service-card border-t-4 border-blue-900">
+          <i class="fas fa-users text-4xl md:text-5xl text-blue-900 mb-6"></i>
+          <h3 class="text-xl font-semibold mb-4">Inheritance Division</h3>
+          <p class="text-gray-600 mb-4">Dividing estates Islamically and legally in a fair and reliable manner according to Islamic Sharia.</p>
+          <ul class="text-sm text-gray-500 text-left">
+            <li>• Estate inventory and division</li>
+            <li>• Issuance of inheritance deeds</li>
+            <li>• Inheritance dispute settlements</li>
+          </ul>
+        </article>
+        
+        <article class="bg-white p-8 rounded-lg shadow-lg service-card border-t-4 border-blue-900">
+          <i class="fas fa-home text-4xl md:text-5xl text-blue-900 mb-6"></i>
+          <h3 class="text-xl font-semibold mb-4">Real Estate Cases</h3>
+          <p class="text-gray-600 mb-4">Handling all cases related to real estate, land, and properties.</p>
+          <ul class="text-sm text-gray-500 text-left">
+            <li>• Real estate ownership claims</li>
+            <li>• Rent and eviction cases</li>
+            <li>• Real estate deed registration</li>
+          </ul>
+        </article>
+        
+        <article class="bg-white p-8 rounded-lg shadow-lg service-card border-t-4 border-blue-900">
+          <i class="fas fa-heart text-4xl md:text-5xl text-blue-900 mb-6"></i>
+          <h3 class="text-xl font-semibold mb-4">Personal Status</h3>
+          <p class="text-gray-600 mb-4">Marriage, divorce, custody, and all personal status matters.</p>
+          <ul class="text-sm text-gray-500 text-left">
+            <li>• Divorce and Khula cases</li>
+            <li>• Custody and alimony cases</li>
+            <li>• Marriage contract notarization</li>
+          </ul>
+        </article>
+        
+        <article class="bg-white p-8 rounded-lg shadow-lg service-card border-t-4 border-blue-900">
+          <i class="fas fa-building text-4xl md:text-5xl text-blue-900 mb-6"></i>
+          <h3 class="text-xl font-semibold mb-4">Commercial Cases</h3>
+          <p class="text-gray-600 mb-4">Representing companies and individuals in commercial and investment disputes.</p>
+          <ul class="text-sm text-gray-500 text-left">
+            <li>• Company formation</li>
+            <li>• Commercial disputes</li>
+            <li>• Bankruptcy and liquidation cases</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Track Record -->
+  <section id="achievements" class="py-16 md:py-20 bg-blue-900 text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">Our Track Record</h2>
+      <div class="section-divider"></div>
+      <p class="text-lg mb-12 max-w-3xl mx-auto">We pride ourselves on our record of judicial successes and distinguished legal consultations.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div class="achievement-card p-6 rounded-lg">
+          <i class="fas fa-trophy text-4xl gold-text mb-4"></i>
+          <h3 class="text-3xl font-bold mb-2">500+</h3>
+          <p>Successfully resolved cases</p>
+        </div>
+        
+        <div class="achievement-card p-6 rounded-lg">
+          <i class="fas fa-users text-4xl gold-text mb-4"></i>
+          <h3 class="text-3xl font-bold mb-2">1200+</h3>
+          <p>Satisfied clients</p>
+        </div>
+        
+        <div class="achievement-card p-6 rounded-lg">
+          <i class="fas fa-calendar text-4xl gold-text mb-4"></i>
+          <h3 class="text-3xl font-bold mb-2">15+</h3>
+          <p>Years of legal experience</p>
+        </div>
+        
+        <div class="achievement-card p-6 rounded-lg">
+          <i class="fas fa-percentage text-4xl gold-text mb-4"></i>
+          <h3 class="text-3xl font-bold mb-2">95%</h3>
+          <p>Case success rate</p>
+        </div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+        <article class="bg-white text-gray-800 p-6 rounded-lg">
+          <h4 class="text-xl font-bold mb-3 text-blue-900">Examples of Our Resolved Cases</h4>
+          <ul class="space-y-2">
+            <li>• Recovered labor dues worth 2.5 million SAR</li>
+            <li>• Settled a complex commercial dispute out of court</li>
+            <li>• Succeeded in a complex inheritance case lasting 3 years</li>
+            <li>• Represented a major company in a real estate dispute</li>
+          </ul>
+        </article>
+        
+        <article class="bg-white text-gray-800 p-6 rounded-lg">
+          <h4 class="text-xl font-bold mb-3 text-blue-900">Certificates and Recognitions</h4>
+          <ul class="space-y-2">
+            <li>• Certificate of appreciation from the Ministry of Justice for professional excellence</li>
+            <li>• Active membership in the Saudi Bar Association</li>
+            <li>• Participation in commercial arbitration committees</li>
+            <li>• Provided consultations to government agencies</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Request Consultation -->
+  <section id="consult" class="py-16 md:py-20 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">Start Protecting Your Legal Rights</h2>
+      <div class="section-divider"></div>
+      <p class="text-lg text-gray-600 mb-8">Get specialized legal consultation from a team of the best lawyers in the Kingdom.</p>
+      
+      <form class="max-w-2xl mx-auto bg-gray-50 p-8 rounded-lg shadow-lg" id="consultForm" action="https://formspree.io/f/YOUR_FORM_ID_EN" method="POST">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <div class="text-left">
+            <label for="name" class="block text-sm text-gray-700 font-medium mb-2">Full Name:<span class="text-red-600">*</span></label>
+            <input type="text" id="name" name="name" class="w-full border border-gray-300 p-3 rounded-lg form-input" required>
+          </div>
+          <div class="text-left">
+            <label for="phone" class="block text-sm text-gray-700 font-medium mb-2">Mobile Number:<span class="text-red-600">*</span></label>
+            <input type="tel" id="phone" name="phone" class="w-full border border-gray-300 p-3 rounded-lg form-input" placeholder="05xxxxxxxx" required pattern="05[0-9]{8}" title="Please enter a valid Saudi mobile number starting with 05 and consisting of 10 digits">
+            <small class="text-gray-500 block mt-1">Must be a valid Saudi mobile number (e.g., 05xxxxxxxx)</small>
+          </div>
+        </div>
+        
+        <div class="mb-6 text-left">
+          <label for="email" class="block text-sm text-gray-700 font-medium mb-2">Email Address:</label>
+          <input type="email" id="email" name="email" class="w-full border border-gray-300 p-3 rounded-lg form-input">
+        </div>
+        
+        <div class="mb-6 text-left">
+          <label for="case-type" class="block text-sm text-gray-700 font-medium mb-2">Case Type:<span class="text-red-600">*</span></label>
+          <select id="case-type" name="case-type" class="w-full border border-gray-300 p-3 rounded-lg form-input" required>
+            <option value="">Select Case Type</option>
+            <option value="labor">Labor Cases</option>
+            <option value="contracts">Contract Drafting</option>
+            <option value="inheritance">Inheritance Division</option>
+            <option value="real_estate">Real Estate Cases</option>
+            <option value="personal_status">Personal Status</option>
+            <option value="commercial">Commercial Cases</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        
+        <div class="mb-6 text-left">
+          <label for="message" class="block text-sm text-gray-700 font-medium mb-2">Case Details:<span class="text-red-600">*</span></label>
+          <textarea id="message" name="message" rows="5" class="w-full border border-gray-300 p-3 rounded-lg form-input" placeholder="Write your case details here..." required></textarea>
+        </div>
+        
+        <button type="submit" class="bg-blue-900 text-white px-8 py-4 rounded-lg hover:bg-blue-800 transition contact-button text-lg font-bold">
+          <i class="fas fa-paper-plane mr-2"></i>Send Consultation Request
+        </button>
+        <div id="formStatus" class="mt-4 text-center hidden"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Our Team -->
+  <section id="team" class="py-16 md:py-20 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">Our Specialized Team</h2>
+      <div class="section-divider"></div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+        <article class="bg-white p-8 rounded-lg shadow-lg team-card">
+          <img src="https://8000-i075cko23skv238tb3nl1-d671b357.manusvm.computer/team_member_1.jpg" alt="Lawyer Saleh Al-Mohammadi" class="mx-auto rounded-full mb-6 lazy-load w-32 h-32 object-cover" loading="lazy">
+          <h3 class="text-xl font-bold mb-2">Mr. Saleh Al-Mohammadi</h3>
+          <p class="text-blue-900 font-semibold mb-3">Licensed Lawyer & Firm Founder</p>
+          <p class="text-gray-600 mb-4 text-sm">B.A. in Sharia - Imam Muhammad bin Saud University<br>15 years experience in labor and commercial cases</p>
+          <a href="tel:+966567905696" class="inline-block text-blue-900 hover:text-blue-700 transition contact-button" aria-label="Call Mr. Saleh Al-Mohammadi directly">
+            <i class="fas fa-phone-alt mr-1"></i>Call Directly
+          </a>
+        </article>
+        
+        <article class="bg-white p-8 rounded-lg shadow-lg team-card">
+          <img src="https://8000-i075cko23skv238tb3nl1-d671b357.manusvm.computer/team_member_2.jpg" alt="Consultant Noura Al-Qahtani" class="mx-auto rounded-full mb-6 lazy-load w-32 h-32 object-cover" loading="lazy">
+          <h3 class="text-xl font-bold mb-2">Ms. Noura Al-Qahtani</h3>
+          <p class="text-blue-900 font-semibold mb-3">Legal Consultant - Personal Status</p>
+          <p class="text-gray-600 mb-4 text-sm">M.A. in Law - King Saud University<br>10 years experience in personal status cases</p>
+          <a href="tel:+966590002166" class="inline-block text-blue-900 hover:text-blue-700 transition contact-button" aria-label="Call Ms. Noura Al-Qahtani directly">
+            <i class="fas fa-phone-alt mr-1"></i>Call Directly
+          </a>
+        </article>
+        
+        <article class="bg-white p-8 rounded-lg shadow-lg team-card">
+          <img src="https://8000-i075cko23skv238tb3nl1-d671b357.manusvm.computer/team_member_3.jpg" alt="Lawyer Fahad Al-Otaibi" class="mx-auto rounded-full mb-6 lazy-load w-32 h-32 object-cover" loading="lazy">
+          <h3 class="text-xl font-bold mb-2">Mr. Fahad Al-Otaibi</h3>
+          <p class="text-blue-900 font-semibold mb-3">Expert in Contracts & Commercial Law</p>
+          <p class="text-gray-600 mb-4 text-sm">B.A. in Law - King Abdulaziz University<br>12 years experience in commercial and real estate cases</p>
+          <a href="tel:+966567905696" class="inline-block text-blue-900 hover:text-blue-700 transition contact-button" aria-label="Call Mr. Fahad Al-Otaibi directly">
+            <i class="fas fa-phone-alt mr-1"></i>Call Directly
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Legal Blog -->
+  <section id="blog" class="py-16 md:py-20 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">Legal Blog</h2>
+      <div class="section-divider"></div>
+      <p class="text-lg text-gray-600 mb-12">Specialized legal articles to educate the community about their rights and duties.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <article class="bg-gray-50 p-6 rounded-lg shadow-lg text-left blog-card">
+          <div class="bg-blue-900 text-white p-3 rounded-lg mb-4 inline-block">
+            <i class="fas fa-file-contract text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">What to Know Before Signing Any Contract</h3>
+          <p class="text-gray-600 mb-4">Important legal tips to ensure your rights before signing contracts and avoid future legal issues.</p>
+          <div class="text-sm text-gray-500 mb-3">
+            <i class="fas fa-calendar mr-1"></i>December 15, 2024
+          </div>
+          <a href="https://www.moj.gov.sa/en/SystemsAndRegulations/Pages/default.aspx" target="_blank" class="inline-block text-blue-900 hover:text-blue-700 transition">
+            Read More &rarr;
+          </a>
+        </article>
+        
+        <article class="bg-gray-50 p-6 rounded-lg shadow-lg text-left blog-card">
+          <div class="bg-blue-900 text-white p-3 rounded-lg mb-4 inline-block">
+            <i class="fas fa-briefcase text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Claiming Dues After Employment Termination</h3>
+          <p class="text-gray-600 mb-4">Detailed explanation of employee rights after resignation or dismissal under the new Saudi Labor Law.</p>
+          <div class="text-sm text-gray-500 mb-3">
+            <i class="fas fa-calendar mr-1"></i>December 10, 2024
+          </div>
+          <a href="https://www.hrsd.gov.sa/en/services" target="_blank" class="inline-block text-blue-900 hover:text-blue-700 transition">
+            Read More &rarr;
+          </a>
+        </article>
+        
+        <article class="bg-gray-50 p-6 rounded-lg shadow-lg text-left blog-card">
+          <div class="bg-blue-900 text-white p-3 rounded-lg mb-4 inline-block">
+            <i class="fas fa-home text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Comprehensive Guide to Islamic Inheritance</h3>
+          <p class="text-gray-600 mb-4">Everything you need to know about inheritance provisions in Islamic Sharia and required legal procedures.</p>
+          <div class="text-sm text-gray-500 mb-3">
+            <i class="fas fa-calendar mr-1"></i>December 5, 2024
+          </div>
+          <a href="https://www.moj.gov.sa/en/SystemsAndRegulations/Pages/default.aspx" target="_blank" class="inline-block text-blue-900 hover:text-blue-700 transition">
+            Read More &rarr;
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="py-16 md:py-20 bg-blue-900 text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold gold-text mb-6">Contact Us</h2>
+      <div class="section-divider"></div>
+      <p class="text-lg mb-8">We are here to answer your inquiries and provide legal consultations around the clock.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div class="text-center">
+          <i class="fas fa-phone-alt text-3xl gold-text mb-4"></i>
+          <h3 class="text-xl font-bold mb-2">Call Us</h3>
+          <a href="tel:+966590002166" class="block text-lg hover:text-yellow-300 transition contact-button" aria-label="Call the first number directly">0590002166</a>
+          <a href="tel:+966567905696" class="block text-lg hover:text-yellow-300 transition contact-button" aria-label="Call the second number directly">0567905696</a>
+        </div>
+        
+        <div class="text-center">
+          <i class="fab fa-whatsapp text-3xl gold-text mb-4"></i>
+          <h3 class="text-xl font-bold mb-2">WhatsApp</h3>
+          <a href="https://wa.me/966567905696?text=Inquiry%20from%20website" class="block text-lg hover:text-yellow-300 transition contact-button" aria-label="Contact via WhatsApp">
+            Instant WhatsApp Contact
+          </a>
+        </div>
+        
+        <div class="text-center">
+          <i class="fas fa-map-marker-alt text-3xl gold-text mb-4"></i>
+          <h3 class="text-xl font-bold mb-2">Our Location</h3>
+          <p class="text-lg">Riyadh - Ad Dirah District<br>King Fahd Road</p>
+        </div>
+      </div>
+      
+      <div class="flex flex-wrap justify-center gap-4 mb-8">
+        <a href="tel:+966590002166" class="bg-white text-blue-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition contact-button" aria-label="Call the first number directly">
+          <i class="fas fa-phone-alt mr-2"></i>0590002166
+        </a>
+        <a href="tel:+966567905696" class="bg-white text-blue-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition contact-button" aria-label="Call the second number directly">
+          <i class="fas fa-phone-alt mr-2"></i>0567905696
+        </a>
+        <a href="https://wa.me/966567905696?text=Inquiry%20from%20website" class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition contact-button" aria-label="Contact via WhatsApp">
+          <i class="fab fa-whatsapp mr-2"></i>Direct WhatsApp
+        </a>
+      </div>
+
+      <!-- Quick Contact Form -->
+      <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-lg text-left mb-8">
+        <h3 class="text-xl font-bold text-blue-900 mb-4 text-center">Quick Contact</h3>
+        <form id="quickContactForm" action="https://formspree.io/f/YOUR_FORM_ID_EN" method="POST">
+          <div class="mb-4">
+            <label for="quick-name" class="block text-sm text-gray-700 font-medium mb-1">Name:<span class="text-red-600">*</span></label>
+            <input type="text" id="quick-name" name="quick-name" class="w-full border p-3 rounded-lg form-input" required>
+          </div>
+          <div class="mb-4">
+            <label for="quick-phone" class="block text-sm text-gray-700 font-medium mb-1">Mobile Number:<span class="text-red-600">*</span></label>
+            <input type="tel" id="quick-phone" name="quick-phone" class="w-full border p-3 rounded-lg form-input" placeholder="05xxxxxxxx" required pattern="05[0-9]{8}" title="Please enter a valid Saudi mobile number starting with 05 and consisting of 10 digits">
+            <small class="text-gray-500 block mt-1">Must be a valid Saudi mobile number (e.g., 05xxxxxxxx)</small>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition contact-button">
+              <i class="fas fa-paper-plane mr-2"></i>Send
+            </button>
+          </div>
+          <div id="quickFormStatus" class="mt-3 text-center hidden"></div>
+        </form>
+      </div>
+
+      <!-- Google Map -->
+      <div class="max-w-4xl mx-auto mt-8">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.141800263154!2d46.67943447536245!3d24.857199945749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f02c0fd2f39a1%3A0x9e84e681fa8a89f5!2sSaleh%20Al-Mohammadi%20Law%20Firm!5e0!3m2!1sen!2ssa!4v1717846800000"
+          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Saleh Al-Mohammadi Law Firm Location on Google Maps" class="rounded-lg shadow-lg">
+        </iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-black text-white p-8">
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      <div>
+        <h3 class="text-xl font-bold gold-text mb-4">Saleh Al-Mohammadi Law Firm</h3>
+        <p class="text-gray-300 mb-4">A specialized law firm providing comprehensive legal services with the highest standards of quality and professionalism.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-300 hover:text-white transition" aria-label="Twitter">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+          <a href="#" class="text-gray-300 hover:text-white transition" aria-label="LinkedIn">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+          <a href="#" class="text-gray-300 hover:text-white transition" aria-label="Facebook">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div>
+        <h4 class="text-lg font-bold mb-4">Our Services</h4>
+        <ul class="space-y-2 text-gray-300">
+          <li><a href="#services" class="hover:text-white transition">Labor Cases</a></li>
+          <li><a href="#services" class="hover:text-white transition">Contract Drafting</a></li>
+          <li><a href="#services" class="hover:text-white transition">Inheritance Division</a></li>
+          <li><a href="#services" class="hover:text-white transition">Real Estate Cases</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h4 class="text-lg font-bold mb-4">Important Links</h4>
+        <ul class="space-y-2 text-gray-300">
+          <li><a href="https://www.moj.gov.sa/en" target="_blank" class="hover:text-white transition">Ministry of Justice</a></li>
+          <li><a href="https://www.najiz.sa/applications/landing/" target="_blank" class="hover:text-white transition">Najiz Platform</a></li>
+          <li><a href="https://www.sba.gov.sa/en/" target="_blank" class="hover:text-white transition">Saudi Bar Association</a></li>
+          <li><a href="/privacy-policy-en" class="hover:text-white transition">Privacy Policy</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h4 class="text-lg font-bold mb-4">Contact Us</h4>
+        <div class="space-y-2 text-gray-300">
+          <a href="tel:+966590002166" class="block hover:text-white transition contact-button">
+            <i class="fas fa-phone-alt mr-1"></i>0590002166
+          </a>
+          <a href="tel:+966567905696" class="block hover:text-white transition contact-button">
+            <i class="fas fa-phone-alt mr-1"></i>0567905696
+          </a>
+          <a href="https://wa.me/966567905696?text=Inquiry%20from%20website" class="block text-green-400 hover:text-green-300 transition contact-button">
+            <i class="fab fa-whatsapp mr-1"></i>WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="border-t border-gray-700 pt-6 text-center">
+      <p class="text-gray-300">© 2025 Saleh Mohammed Al-Mohammadi Law Firm. All rights reserved.</p>
+      <div class="mt-2 text-sm">
+        <a href="/privacy-policy-en" class="text-gray-300 hover:text-white mx-2 transition">Privacy Policy</a> |
+        <a href="/terms-en" class="text-gray-300 hover:text-white mx-2 transition">Terms & Conditions</a> |
+        <span class="text-gray-400">License No.: 12345678</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Schema Markup - SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Saleh Al-Mohammadi Law Firm",
+  "image": "https://8000-i075cko23skv238tb3nl1-d671b357.manusvm.computer/team_member_1.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "King Fahd Road, Ad Dirah District",
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA"
+  },
+  "telephone": ["+966590002166", "+966567905696"],
+  "url": "https://yourdomain.com/en",
+  "areaServed": "SA",
+  "availableLanguage": "English",
+  "priceRange": "$$",
+  "openingHours": "Mo-Su 08:00-22:00",
+  "sameAs": [
+    "https://www.facebook.com/yourpage",
+    "https://www.twitter.com/yourpage",
+    "https://www.linkedin.com/company/yourpage"
+  ]
+}
+</script>
+
+<!-- JavaScript -->
+<script>
+  // Performance Enhancement - Defer Font Loading
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(function() {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap';
+      document.head.appendChild(link);
+    });
+  }
+
+  // Main Form Validation
+  function validateForm(e) {
+    e.preventDefault();
+    const phone = document.getElementById("phone").value;
+    const email = document.getElementById("email").value;
+    const formStatus = document.getElementById("formStatus");
+    
+    // Phone number validation
+    if (!phone.match(/^05\d{8}$/)) {
+      showFormMessage(formStatus, "Please enter a valid Saudi mobile number starting with 05.", "error");
+      return false;
+    }
+    
+    // Email validation if entered
+    if (email && !email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+      showFormMessage(formStatus, "Please enter a valid email address.", "error");
+      return false;
+    }
+    
+    // Sanitize inputs (XSS Protection)
+    const inputs = document.querySelectorAll('#consultForm input, #consultForm textarea, #consultForm select');
+    inputs.forEach(input => {
+      input.value = input.value.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+    });
+    
+    // Simulate form submission
+    showFormMessage(formStatus, "Your request has been sent successfully! We will contact you within 24 hours.", "success");
+    document.getElementById("consultForm").reset();
+    
+    // Open WhatsApp directly after submission
+    setTimeout(function() {
+      const phoneNumber = phone.replace(/^0/, '966');
+      const message = "Hello, I have submitted a consultation request from your website.";
+      window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
+    }, 1500);
+    
+    return false;
+  }
+  
+  // Quick Contact Form Validation
+  function validateQuickForm(e) {
+    e.preventDefault();
+    const phone = document.getElementById("quick-phone").value;
+    const name = document.getElementById("quick-name").value;
+    const formStatus = document.getElementById("quickFormStatus");
+    
+    // Phone number validation
+    if (!phone.match(/^05\d{8}$/)) {
+      showFormMessage(formStatus, "Please enter a valid Saudi mobile number starting with 05.", "error");
+      return false;
+    }
+    
+    // Sanitize inputs
+    const cleanName = name.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+    const cleanPhone = phone.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+    
+    // Simulate form submission
+    showFormMessage(formStatus, "Your request has been sent successfully! We will contact you shortly.", "success");
+    document.getElementById("quickContactForm").reset();
+    
+    // Open WhatsApp directly after submission
+    setTimeout(function() {
+      const phoneNumber = cleanPhone.replace(/^0/, '966');
+      const message = `Hello, I am ${cleanName} and I would like to contact you for a legal consultation.`;
+      window.open(`https://wa.me/966567905696?text=${encodeURIComponent(message)}`, '_blank');
+    }, 1500);
+    
+    return false;
+  }
+  
+  // Function to display form messages
+  function showFormMessage(element, message, type) {
+    element.textContent = message;
+    element.className = `mt-3 text-center block ${type === 'error' ? 'text-red-600' : 'text-green-600'}`;
+    element.classList.remove('hidden');
+    
+    // Hide message after 5 seconds
+    setTimeout(() => {
+      element.classList.add('hidden');
+    }, 5000);
+  }
+  
+  // Load content when page is ready
+  document.addEventListener('DOMContentLoaded', function() {
+    // Mobile Menu
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenuItems = document.getElementById('mobile-menu-items');
+    
+    if (mobileMenuButton && mobileMenuItems) {
+      mobileMenuButton.addEventListener('click', function() {
+        mobileMenuItems.classList.toggle('active');
+        
+        // Change menu icon
+        const icon = mobileMenuButton.querySelector('i');
+        if (mobileMenuItems.classList.contains('active')) {
+          icon.classList.remove('fa-bars');
+          icon.classList.add('fa-times');
+          mobileMenuButton.setAttribute('aria-label', 'Close Menu');
+        } else {
+          icon.classList.remove('fa-times');
+          icon.classList.add('fa-bars');
+          mobileMenuButton.setAttribute('aria-label', 'Open Menu');
+        }
+      });
+      
+      // Close menu when a link is clicked
+      const mobileLinks = mobileMenuItems.querySelectorAll('a');
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          mobileMenuItems.classList.remove('active');
+          const icon = mobileMenuButton.querySelector('i');
+          icon.classList.remove('fa-times');
+          icon.classList.add('fa-bars');
+          mobileMenuButton.setAttribute('aria-label', 'Open Menu');
+        });
+      });
+    }
+    
+    // Lazy Load Images with Intersection Observer
+    const lazyImages = document.querySelectorAll('.lazy-load');
+    if ('IntersectionObserver' in window) {
+      const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            img.classList.add('loaded');
+            imageObserver.unobserve(img);
+          }
+        });
+      }, {
+        rootMargin: '50px 0px',
+        threshold: 0.01
+      });
+      
+      lazyImages.forEach(img => {
+        imageObserver.observe(img);
+      });
+    } else {
+      // Fallback for older browsers
+      lazyImages.forEach(img => {
+        img.classList.add('loaded');
+      });
+    }
+    
+    // Smooth Scroll for Internal Links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+          const headerHeight = document.querySelector('header').offsetHeight;
+          const targetPosition = targetElement.offsetTop - headerHeight - 20;
+          
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+    
+    // Mobile Performance Enhancements
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    if (isMobile) {
+      // Touch performance enhancements
+      document.body.style.webkitTouchCallout = 'none';
+      document.body.style.webkitUserSelect = 'none';
+      
+      // Activate all contact links for direct action
+      document.querySelectorAll('a[href^="tel:"], a[href^="https://wa.me/"]').forEach(link => {
+        link.addEventListener('touchstart', function() {
+          this.style.backgroundColor = 'rgba(0,0,0,0.1)';
+        });
+        
+        link.addEventListener('touchend', function() {
+          this.style.backgroundColor = '';
+        });
+      });
+    }
+    
+    // Link forms to functions
+    const consultForm = document.getElementById('consultForm');
+    const quickContactForm = document.getElementById('quickContactForm');
+    
+    if (consultForm) {
+      consultForm.addEventListener('submit', validateForm);
+    }
+    
+    if (quickContactForm) {
+      quickContactForm.addEventListener('submit', validateQuickForm);
+    }
+    
+    // Performance Enhancement - Defer Non-Critical Scripts
+    setTimeout(() => {
+      // Load any additional scripts here
+    }, 2000);
+  });
+  
+  // Performance Enhancement - Service Worker for Caching
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/sw_en.js').then(function(registration) { // Using a different SW for English version if needed
+        console.log('ServiceWorker registration successful for English version');
+      }, function(err) {
+        console.log('ServiceWorker registration failed for English version');
+      });
+    });
+  }
+</script>
+</body>
+</html>
