@@ -1,0 +1,15 @@
+{
+  "summary": "SEO fixes applied to 6 blog article HTML files",
+  "changes": {
+    "canonical_tag_added": [
+      "blog/5-mistakes-contracts.html   → <link rel=\"canonical\" href=\"https://saleh-lawyer.com/blog/5-mistakes-contracts.html\">",
+      "blog/protect-company-disputes.html → <link rel=\"canonical\" href=\"https://saleh-lawyer.com/blog/protect-company-disputes.html\">",
+      "blog/check-returned.html         → <link rel=\"canonical\" href=\"https://saleh-lawyer.com/blog/check-returned.html\">",
+      "blog/partner-disputes.html       → <link rel=\"canonical\" href=\"https://saleh-lawyer.com/blog/partner-disputes.html\">",
+      "blog/startup-incorporation.html   → <link rel=\"canonical\" href=\"https://saleh-lawyer.com/blog/startup-incorporation.html\">",
+      "blog/debt-collection.html        → <link rel=\"canonical\" href=\"https://saleh-lawyer.com/blog/debt-collection.html\">"
+    ],
+    "forms_updated": [],
+    "notes": "No <form> tags found in any of the 6 files — no access_key hidden inputs were needed."
+  }
+}
