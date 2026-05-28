@@ -1,0 +1,73 @@
+# Enforce Clean URLs by 301 Redirecting .html extensions to Clean counterparts
+# The "!" (force) flag is REQUIRED so Netlify applies the redirect even when
+# the .html file physically exists in the publish directory.
+
+/index.html                      /                              301
+/best-law-firm-riyadh.html       /best-law-firm-riyadh          301
+/services.html                   /services                      301
+/contracts.html                  /contracts                     301
+/collections.html                /collections                   301
+/compliance.html                 /compliance                    301
+/blog.html                       /blog                          301
+/booking.html                    /booking                       301
+/team.html                       /team                          301
+/landing.html                    /landing                       301
+/lead-magnet.html                /lead-magnet                   301
+/thank-you.html                  /thank-you                     301
+
+/en/index.html                   /en/                           301
+/en/best-law-firm-riyadh.html    /en/best-law-firm-riyadh       301
+/en/services.html                /en/services                   301
+/en/contracts.html               /en/contracts                  301
+/en/collections.html             /en/collections                301
+/en/compliance.html              /en/compliance                 301
+/en/blog.html                    /en/blog                       301
+/en/booking.html                 /en/booking                    301
+/en/team.html                    /en/team                       301
+/en/landing-en.html              /en/landing-en                 301
+/en/thank-you.html               /en/thank-you                  301
+
+# Subdirectories - Contracts
+/contracts/construction.html     /contracts/construction        301
+/contracts/partnership.html      /contracts/partnership         301
+/contracts/supply.html           /contracts/supply              301
+
+/en/contracts/construction.html  /en/contracts/construction     301
+/en/contracts/partnership.html   /en/contracts/partnership      301
+/en/contracts/supply.html        /en/contracts/supply           301
+
+# Subdirectories - Services
+/services/construction-contracts-riyadh.html  /services/construction-contracts-riyadh  301
+/services/debt-collection-companies.html     /services/debt-collection-companies     301
+/services/company-formation-lawyer.html      /services/company-formation-lawyer      301
+
+/en/services/construction-contracts-riyadh.html  /en/services/construction-contracts-riyadh  301
+/en/services/debt-collection-companies.html     /en/services/debt-collection-companies     301
+/en/services/company-formation-lawyer.html      /en/services/company-formation-lawyer      301
+
+# Blog Articles (Arabic)
+/blog/5-mistakes-contracts.html              /blog/5-mistakes-contracts              301
+/blog/protect-company-disputes.html          /blog/protect-company-disputes          301
+/blog/check-returned.html                    /blog/check-returned                    301
+/blog/partner-disputes.html                  /blog/partner-disputes                  301
+/blog/startup-incorporation.html              /blog/startup-incorporation              301
+/blog/debt-collection.html                   /blog/debt-collection                   301
+/blog/partnership-agreements-ksa.html        /blog/partnership-agreements-ksa        301
+/blog/commercial-debt-collection.html        /blog/commercial-debt-collection        301
+
+# Blog Articles (English)
+/en/blog/5-contract-mistakes-saudi-arabia.html    /en/blog/5-contract-mistakes-saudi-arabia    301
+/en/blog/protect-company-commercial-disputes.html /en/blog/protect-company-commercial-disputes 301
+/en/blog/bounced-check-saudi-law.html             /en/blog/bounced-check-saudi-law             301
+/en/blog/partner-disputes-saudi-companies.html    /en/blog/partner-disputes-saudi-companies    301
+/en/blog/legal-mistakes-startup-incorporation-saudi.html /en/blog/legal-mistakes-startup-incorporation-saudi 301
+/en/blog/commercial-debt-collection-saudi-arabia.html    /en/blog/commercial-debt-collection-saudi-arabia    301
+/en/blog/partnership-agreements-ksa.html          /en/blog/partnership-agreements-ksa          301
+/en/blog/commercial-debt-collection.html          /en/blog/commercial-debt-collection          301
+
+# PDF Guide Wrapper
+/pdf/7-mistakes.html         /pdf/7-mistakes          301
+
+/en/partnership.html  /en/contracts/partnership  301!
+/en/supply.html       /en/contracts/supply       301!
+
