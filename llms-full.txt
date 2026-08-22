@@ -1,0 +1,60 @@
+# Saleh Law - Full Site Content for AI
+> مكتب المحامي صالح المحمدي للمحاماة والاستشارات القانونية - الرياض، المملكة العربية السعودية
+> Lawyer License: 37496 | Phone: +966 56 790 5696
+
+## Core Pages
+- [Homepage](https://saleh-lawyer.com/): Law firm homepage - corporate legal services in Riyadh
+- [Services](https://saleh-lawyer.com/services): Corporate legal services - contracts, debt collection, company formation
+- [Blog](https://saleh-lawyer.com/blog): Legal articles about Saudi business law
+- [Booking](https://saleh-lawyer.com/booking): Book a legal consultation
+- [Team](https://saleh-lawyer.com/team): Attorney Saleh Mohammed Al-Mohamadi - profile and credentials
+
+## English Pages
+- [Homepage EN](https://saleh-lawyer.com/en/): Saleh Law - Corporate Legal Services Riyadh
+- [Services EN](https://saleh-lawyer.com/en/services): Corporate legal services (English)
+
+## Blog Articles (Arabic)
+- [Bounced Check Claim Expiry](https://saleh-lawyer.com/blog/check-returned): When does a bounced check claim expire under Saudi law
+- [Debt Collection Guide](https://saleh-lawyer.com/blog/debt-collection): Commercial debt collection in Saudi Arabia
+- [Startup Incorporation Mistakes](https://saleh-lawyer.com/blog/startup-incorporation): 4 legal mistakes in startup incorporation
+- [Partner Disputes Resolution](https://saleh-lawyer.com/blog/partner-disputes): How to resolve partner disputes in Saudi companies
+- [Partnership Agreements](https://saleh-lawyer.com/blog/partnership-agreements-ksa): Drafting partnership agreements under Saudi Companies Law
+- [Company Dispute Prevention](https://saleh-lawyer.com/blog/protect-company-disputes): How to protect your company from commercial disputes
+- [Commercial Debt Recovery](https://saleh-lawyer.com/blog/commercial-debt-collection): Commercial debt recovery in Riyadh
+- [Construction Contract Mistakes](https://saleh-lawyer.com/blog/5-mistakes-contracts): 5 common contract mistakes in Saudi Arabia
+- [Home Sanctity Violation](https://saleh-lawyer.com/blog/home-sanctity-violation-penalty): Penalty for violating home sanctity in Saudi Arabia
+- [Alimony Fund](https://saleh-lawyer.com/blog/alimony-fund-saudi-arabia): Alimony fund for divorced women in Saudi Arabia
+- [Inheritance Division](https://saleh-lawyer.com/blog/inheritance-division-scholars-riyadh): Inheritance division scholars and lawyers in Riyadh
+- [Labor Claim Form](https://saleh-lawyer.com/blog/labor-claim-form-riyadh): Labor lawsuit claim form in Riyadh
+- [Perjury Penalty](https://saleh-lawyer.com/blog/perjury-penalty-saudi-arabia): Perjury penalty in Saudi Arabia
+- [Execution Court](https://saleh-lawyer.com/blog/execution-court-riyadh): Execution Court in Riyadh - guide
+- [Financial Claim Form](https://saleh-lawyer.com/blog/financial-claim-form-riyadh): Financial claim form in Riyadh
+- [AI Legal Responsibility](https://saleh-lawyer.com/blog/ai-legal-responsibility-ar): Legal adaptation and civil liability of AI applications under Saudi Civil Transactions Law
+
+## Blog Articles (English)
+- [Bounced Check Saudi Law](https://saleh-lawyer.com/en/blog/bounced-check-saudi-law): Bounced check claim expiry under Saudi law
+- [5 Contract Mistakes](https://saleh-lawyer.com/en/blog/5-contract-mistakes-saudi-arabia): 5 common contract mistakes in Saudi Arabia
+- [Partner Disputes](https://saleh-lawyer.com/en/blog/partner-disputes-saudi-companies): Partner disputes in Saudi companies
+- [Company Dispute Prevention](https://saleh-lawyer.com/en/blog/protect-company-commercial-disputes): Protect your company from commercial disputes
+- [Startup Legal Mistakes](https://saleh-lawyer.com/en/blog/legal-mistakes-startup-incorporation-saudi): 4 legal mistakes in startup incorporation
+- [Debt Collection Guide](https://saleh-lawyer.com/en/blog/commercial-debt-collection-saudi-arabia): Commercial debt collection in Saudi Arabia
+- [Debt Recovery Riyadh](https://saleh-lawyer.com/en/blog/commercial-debt-collection): Commercial debt recovery in Riyadh
+- [Partnership Agreements](https://saleh-lawyer.com/en/blog/partnership-agreements-ksa): Partnership agreements under Saudi law
+- [AI Civil Liability](https://saleh-lawyer.com/en/blog/ai-legal-responsibility-en): Legal adaptation and civil liability of AI applications under Saudi law
+
+## Legal Tools (Arabic)
+- [End-of-Service Benefits](https://saleh-lawyer.com/tools/end-of-service-rights): Guide to end-of-service benefits under Saudi Labor Law
+- [Inheritance Calculator](https://saleh-lawyer.com/tools/inheritance-calculation): Islamic inheritance and estate division guide
+
+## Legal Tools (English)
+- [End-of-Service Benefits EN](https://saleh-lawyer.com/en/tools/end-of-service-rights): KSA end-of-service benefits guide
+- [Inheritance Calculator EN](https://saleh-lawyer.com/en/tools/inheritance-calculation): Estate division guide in Saudi Arabia
+
+## Site Information
+- Language: Arabic (primary), English (secondary)
+- Location: Riyadh, Saudi Arabia
+- Practice Areas: Corporate law, commercial contracts, debt collection, company formation, inheritance, criminal defense, family law
+- Phone: +966 56 790 5696
+- Email: info@saleh-lawyer.com
+- Lawyer License: 37496 (Ministry of Justice, Saudi Arabia)
+- SBA Membership: 591597

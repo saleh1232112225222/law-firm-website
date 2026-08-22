@@ -1,0 +1,660 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TSXRB2W6');</script>
+<!-- End Google Tag Manager -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://api.web3forms.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>العقود الجاهزة والمسودات النموذجية المجانية | Saleh Law</title>
+  <meta name="description" content="حمّل مجاناً مسودات ونماذج عقود جاهزة (عقد عمل، NDA، عقد شراكة، مخالصة عمالية) مصاغة باحترافية لتنظيم أعمالك التجارية والعمالية بالسعودية.">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://saleh-lawyer.com/legal-templates/index" />
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "بوابة العقود الجاهزة والمسودات النموذجية",
+    "description": "مكتبة رقمية مجانية تحتوي على مسودات عقود تجارية وعمالية نموذجية مصممة للشركات والمؤسسين والرياديين في المملكة العربية السعودية.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Saleh Law",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://saleh-lawyer.com/assets/images/logo.png"
+      }
+    }
+  }
+  </script>
+  <style>
+    .templates-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      margin-top: 40px;
+    }
+    @media (max-width: 992px) {
+      .templates-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+      }
+    }
+    @media (max-width: 768px) {
+      .templates-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+    .template-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+    .template-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--secondary);
+    }
+    .template-card h3 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+    .template-card p {
+      font-size: 14.5px;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 24px;
+      flex-grow: 1;
+    }
+    .template-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--primary);
+      font-weight: 600;
+      margin-bottom: 20px;
+      background: var(--light-bg);
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+    .template-meta svg {
+      width: 16px;
+      height: 16px;
+      fill: var(--secondary);
+    }
+    .template-card .btn {
+      width: 100%;
+      justify-content: center;
+    }
+
+    /* Modal Layout */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(10, 31, 63, 0.85);
+      z-index: 3000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .modal-box {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      width: 90%;
+      max-width: 500px;
+      padding: 40px;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--border);
+      position: relative;
+      transform: scale(0.9);
+      transition: transform 0.3s ease;
+    }
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .modal-overlay.active .modal-box {
+      transform: scale(1);
+    }
+    .close-modal {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      border: none;
+      background: none;
+      font-size: 20px;
+      cursor: pointer;
+      color: var(--text-muted);
+    }
+    .close-modal:hover {
+      color: var(--primary);
+    }
+    .modal-box h3 {
+      font-size: 22px;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .modal-box p {
+      font-size: 14.5px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+  </style>
+  <meta property="og:image" content="https://saleh-lawyer.com/assets/images/og-image.jpg">
+  <meta name="twitter:image" content="https://saleh-lawyer.com/assets/images/og-image.jpg">
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">S</div>
+        <div class="logo-text">
+          <span>Saleh Law</span>
+          <span>صالح المحمدي للمحاماة والاستشارات</span>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="../index.html">الرئيسية</a>
+        <a href="../services.html">خدمات الشركات</a>
+        <a href="../contracts.html">العقود التجارية</a>
+        <a href="../collections.html">التحصيل والتنفيذ</a>
+        <a href="../tools/index.html">حاسبات وأدوات</a>
+        <a href="../blog.html">المدونة</a>
+        <a href="../booking.html" class="nav-cta">احجز استشارة</a>
+      </nav>
+      <a href="../en/index.html" class="lang-toggle" title="English">EN</a>
+      <a href="tel:+966567905696" class="header-phone" dir="ltr">
+        <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011-.24 11.36 11.36 0 00.57 3.59 1 1 0 01-.25 1z"/></svg>
+        0567905696
+      </a>
+      <div class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb"><a href="../index.html">الرئيسية</a> / العقود الجاهزة</div>
+      <h1>بوابة المسودات والعقود النموذجية المجانية</h1>
+      <p>مكتبة رقمية متكاملة توفر لك مسودات عقود واتفاقيات نموذجية مجاناً للاسترشاد والتأسيس الصحيح لأعمالك وحفظ حقوقك.</p>
+    </div>
+  </section>
+
+  <!-- TEMPLATES SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title" style="margin-bottom: 8px;">اختر مسودة العقد المناسب للتحميل</div>
+      <p class="section-sub">جميع النماذج مصاغة وفق الأنظمة واللوائح المعتمدة في المملكة وتتضمن إشارات مائية توعوية.</p>
+
+      <div class="templates-grid">
+        <!-- Template 1: Labor Contract -->
+        <div class="template-card">
+          <div>
+            <div class="template-meta">
+              <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm-1 7V3.5L18.5 9H13z"/></svg>
+              صيغة Word (DOC) | نظام العمل السعودي
+            </div>
+            <h3>عقد عمل سعودي موحد</h3>
+            <p>مسودة نموذجية متوافقة بالكامل مع نظام العمل واللائحة التنظيمية لوزارة الموارد البشرية. يشتمل على البدلات، الإجازات، ساعات العمل، ومكافأة نهاية الخدمة.</p>
+          </div>
+          <button class="btn btn-primary open-download-modal" data-template="labor_contract" data-title="عقد عمل سعودي موحد">حمّل المسودة مجاناً ➔</button>
+        </div>
+
+        <!-- Template 2: NDA -->
+        <div class="template-card">
+          <div>
+            <div class="template-meta">
+              <svg viewBox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+              حماية سرية البيانات | للشركات والموردين
+            </div>
+            <h3>اتفاقية عدم إفشاء أسرار (NDA)</h3>
+            <p>نموذج حماية السرية والأسرار التجارية والتقنية وبنود عدم المنافسة للشركات الناشئة والموظفين والمستشارين الخارجيين بالرياض.</p>
+          </div>
+          <button class="btn btn-primary open-download-modal" data-template="nda" data-title="اتفاقية عدم إفشاء أسرار (NDA)">حمّل المسودة مجاناً ➔</button>
+        </div>
+
+        <!-- Template 3: Partnership -->
+        <div class="template-card">
+          <div>
+            <div class="template-meta">
+              <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+              منع نزاعات الشركاء | مسودة مبسطة
+            </div>
+            <h3>اتفاقية وعقد شراكة نموذج</h3>
+            <p>مسودة عقد شراكة ودي مبسط يحدد توزيع الحصص، رأس المال، آلية إدارة الشركة، توزيع الأرباح والخسائر، وفك الشراكة لتفادي نزاعات الشركاء.</p>
+          </div>
+          <button class="btn btn-primary open-download-modal" data-template="partnership" data-title="عقد شراكة نموذج مبسط">حمّل المسودة مجاناً ➔</button>
+        </div>
+
+        <!-- Template 4: Release Form -->
+        <div class="template-card">
+          <div>
+            <div class="template-meta">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              مخالصة نهائية | تسوية مستحقات
+            </div>
+            <h3>مخالصة وإبراء ذمة عمالية</h3>
+            <p>صيغة إقرار عمالي نهائي باستلام مستحقات نهاية الخدمة وصرف كافة البدلات والإجازات، محصنة قانونياً ومجهزة للاستخدام أمام المحاكم العمالية.</p>
+          </div>
+          <button class="btn btn-primary open-download-modal" data-template="release_form" data-title="مخالصة وإبراء ذمة عمالية">حمّل المسودة مجاناً ➔</button>
+        </div>
+
+        <!-- Template 5: Services Contract -->
+        <div class="template-card">
+          <div>
+            <div class="template-meta">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"/></svg>
+              عقود الخدمات B2B | تشغيل وصيانة
+            </div>
+            <h3>عقد تقديم خدمات تجارية B2B</h3>
+            <p>مسودة متكاملة لتنظيم تقديم الخدمات بين المنشآت والشركات بالرياض. يغطي نطاق العمل، الدفعات، السرية، وغرامات التأخير والقوة القاهرة.</p>
+          </div>
+          <button class="btn btn-primary open-download-modal" data-template="services_contract" data-title="عقد تقديم خدمات تجارية B2B">حمّل المسودة مجاناً ➔</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPORTANT ALERT: DISCLAIMER -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div style="background:#FFF9E6; border-right: 4px solid var(--secondary); padding: 24px; border-radius: var(--radius); color:var(--text-dark);">
+        <h4 style="font-size:18px; margin-bottom:8px; font-weight:700;">⚠️ تنبيه واستثناء قانوني هام</h4>
+        <p style="font-size:14.5px; line-height:1.7; margin:0; opacity:0.9;">جميع النماذج والمسودات الموفرة في هذه البوابة هي لأغراض الاسترشاد والتوعية القانونية العامة فقط (مسودات للاستئناس). ونظراً لأن كل منشأة لها ظروفها الخاصة وأنظمة العمل والشركات تخضع لتحديثات دائمة، فإن استخدام هذه المسودات لا يغني أبداً عن استشارة محامٍ مرخص لمراجعتها وتعديلها بما يتوافق مع مصلحة منشأتك وظروفها الخاصة بنسبة 100% لتفادي نشوء أي ثغرات قانونية لاحقاً.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD MODAL -->
+  <div id="downloadModal" class="modal-overlay">
+    <div class="modal-box">
+      <button class="close-modal" id="closeModalBtn">✕</button>
+      <h3 id="modalTitle">تحميل المسودة القانونية</h3>
+      <p>أدخل بياناتك لتنزيل مسودة العقد فوراً بصيغة ملف Word متكامل للاسترشاد والتعديل.</p>
+
+      <form id="leadForm" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="7defb7ec-4170-43b5-9eb5-2d3e5158e40e">
+        <input type="hidden" name="template_name" id="modalTemplateName" value="">
+        <input type="hidden" name="from_page" value="بوابة العقود والمسودات الجاهزة">
+        
+        <div class="form-group">
+          <label for="name">الاسم كامل</label>
+          <input type="text" id="name" name="name" required placeholder="أدخل اسمك الكريم">
+        </div>
+        <div class="form-group">
+          <label for="phone">رقم الجوال</label>
+          <input type="tel" id="phone" name="phone" required placeholder="05XXXXXXXX" dir="ltr">
+        </div>
+        <div class="form-group">
+          <label for="email">البريد الإلكتروني</label>
+          <input type="email" id="email" name="email" required placeholder="name@domain.com" dir="ltr">
+        </div>
+        
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; padding: 14px; font-size:16px;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-left:8px;"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+          تحميل العقد وتنزيله الآن
+        </button>
+        <div style="font-size:11.5px; text-align:center; color:var(--text-muted); margin-top:12px;">🔒 معلوماتك سرية ومحمية ولن نشاركها مع أي جهة خارجية.</div>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo" style="margin-bottom: 16px;">
+            <div class="logo-icon">S</div>
+            <div class="logo-text">
+              <span>Saleh Law</span>
+              <span>استشارات قانونية للشركات</span>
+            </div>
+          </a>
+          <p>نساعد الشركات في الرياض على حماية عقودها وتحصيل مستحقاتها وتقليل المخاطر القانونية — بخبرة تمتد لأكثر من 10 سنوات.</p>
+        </div>
+        <div>
+          <h4>روابط سريعة</h4>
+          <ul>
+            <li><a href="../index.html">الرئيسية</a></li>
+            <li><a href="../services.html">خدمات الشركات</a></li>
+            <li><a href="../contracts.html">العقود التجارية</a></li>
+            <li><a href="../collections.html">التحصيل والتنفيذ</a></li>
+            <li><a href="../blog.html">المدونة</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>الخدمات</h4>
+          <ul>
+            <li><a href="../contracts.html">صياغة العقود</a></li>
+            <li><a href="../compliance.html">الامتثال والحوكمة</a></li>
+            <li><a href="../services.html">إدارة النزاعات</a></li>
+            <li><a href="../collections.html">التحصيل والتنفيذ</a></li>
+            <li><a href="../booking.html">احجز استشارة</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>تواصل معنا</h4>
+          <ul class="footer-contact">
+            <li>0567905696</li>
+            <li>info@saleh-lawyer.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Saleh Law — جميع الحقوق محفوظة
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Templates Database (Actual Professional Legal Drafts for Real Premium Download Experience!)
+    const DRAFTS_DB = {
+      labor_contract: `--------------------------------------------------
+مسودة استرشادية: عقد عمل سعودي موحد (Saleh Law)
+ملاحظة: للاستئناس القانوني فقط وتتطلب مراجعة محامٍ مرخص
+--------------------------------------------------
+
+إنه في يوم [..........] الموافق [..../..../2026م] تم الاتفاق بين كل من:
+
+الطرف الأول (صاحب العمل): شركة/مؤسسة [...................................]
+سجل تجاري رقم: [.....................] عنوانه: الرياض، هاتف: [.....................]
+يمثلها في التوقيع: [...................................] بصفته [........................]
+
+الطرف الثاني (الموظف): السيد/ [............................................]
+الجنسية: [...................] الهوية الوطنية/الإقامة رقم: [........................]
+عنوانه: [........................................] جوال: [...........................]
+
+تمهيد:
+نظراً لرغبة الطرف الأول في توظيف الطرف الثاني تحت إشرافه وإدارته، وقبول الطرف الثاني بذلك، فقد اتفق الطرفان بكامل أهليتهما المعتبرة شرعاً ونظاماً على ما يلي:
+
+المادة الأولى: محل العقد:
+يعمل الطرف الثاني لدى الطرف الأول بوظيفة [.........................] أو أي وظيفة أخرى مماثلة تقتضيها مصلحة العمل.
+
+المادة الثانية: مدة العقد:
+هذا العقد [محدد المدة] ويبدأ من تاريخ [..../..../2026م] وينتهي في [..../..../2027م] ويجدد لمدد مماثلة باتفاق الطرفين كتابياً.
+
+المادة الثالثة: فترة التجربة:
+يخضع الطرف الثاني لفترة تجربة مدتها [90 يوماً] تبدأ من تاريخ مباشرة العمل. ويجوز تمديدها باتفاق مكتوب بشرط ألا تتجاوز 180 يوماً.
+
+المادة الرابعة: الأجر والبدلات:
+يدفع الطرف الأول للطرف الثاني أجرأ شهرياً شاملاً يبلغ [.............] ريال سعودي، مفصلاً كالتالي:
+- الراتب الأساسي: [.............] ريال.
+- بدل السكن: [.............] ريال.
+- بدل النقل: [.............] ريال.
+- بدلات أخرى (إن وجدت): [.............] ريال.
+
+المادة الخامسة: ساعات العمل:
+يلتزم الطرف الثاني بالعمل لمدة 8 ساعات يومياً وبمعدل 48 ساعة أسبوعياً.
+
+المادة السادسة: إنهاء العقد ومكافأة نهاية الخدمة:
+ينتهي العقد بانتهاء مدته أو باتفاق الطرفين. وعند انتهاء العلاقة العمالية، يستحق الطرف الثاني مكافأة نهاية الخدمة وفقاً لأحكام المادتين 84 و 85 من نظام العمل السعودي.
+
+المادة السابعة: الاختصاص القضائي:
+يخضع هذا العقد لأنظمة المملكة العربية السعودية، وتختص المحكمة العمالية بالرياض بالفصل في أي نزاع ينشأ عنه لا سمح الله.
+
+توقيع الطرف الأول: ............................    توقيع الطرف الثاني: ............................`,
+
+      nda: `--------------------------------------------------
+مسودة استرشادية: اتفاقية عدم إفشاء أسرار NDA (Saleh Law)
+ملاحظة: للاستئناس القانوني فقط وتتطلب مراجعة محامٍ مرخص
+--------------------------------------------------
+
+أُبرمت هذه الاتفاقية في مدينة الرياض بتاريخ [..../..../2026م] بين كل من:
+
+الطرف الأول (الطرف المفصح): شركة [..............................................]
+سجل تجاري: [.....................] ويمثلها: [........................................]
+
+الطرف الثاني (الطرف المتلقي): السيد / شركة [.....................................]
+هوية وطنية / سجل تجاري: [...................] وجوال: [...........................]
+
+المادة الأولى: تعريف المعلومات السرية:
+تشمل "المعلومات السرية" جميع البيانات، الأسرار التجارية، البرمجيات، الأكواد المصدرية، الخطط المالية والتسويقية، وقوائم العملاء والموردين التي يفصح عنها الطرف الأول للطرف الثاني سواء كانت مكتوبة، شفهية، أو مخزنة إلكترونياً.
+
+المادة الثانية: التزامات الطرف المتلقي:
+يلتزم الطرف الثاني بـ:
+1. الحفاظ على سرية المعلومات المستلمة بشكل مطلق وعدم إفشائها لأي طرف ثالث.
+2. عدم استخدام المعلومات السرية إلا للغرض المحدد للشراكة/العمل المشترك فقط.
+3. حماية المعلومات السرية بنفس درجة الحماية التي يوليها لأسراره الخاصة على الأقل.
+
+المادة الثالثة: الاستثناءات:
+لا تشمل السرية المعلومات التي تكون عامة للجمهور دون إخلال بهذه الاتفاقية، أو التي كانت بحوزة الطرف الثاني قبل الإفصاح عنها، أو التي يطالب بها بموجب حكم قضائي رسمي.
+
+المادة الرابعة: مدة الاتفاقية:
+تسري هذه الاتفاقية من تاريخ توقيعها وتظل التزامات السرية قائمة وصالحة لمدة [5 سنوات] من تاريخ انتهاء العلاقة التجارية بين الطرفين.
+
+المادة الخامسة: الشرط الجزائي والتعويض:
+في حال إخلال الطرف الثاني بأي بند من بنود السرية، يلتزم بدفع مبلغ وقدره [...............] ريال سعودي كشرط جزائي وتعويض اتفاقي غير قابل للنقاش للطرف الأول، مع احتفاظ الطرف الأول بحقه في المطالبة بالتعويض عن الأضرار الإضافية أمام المحكمة المختصة.
+
+المادة السادسة: القانون الحاكم والمحاكم المختصة:
+تخضع هذه الاتفاقية للأنظمة واللوائح السارية بالمملكة العربية السعودية، وتختص المحاكم القضائية بمدينة الرياض بالنظر في أي نزاع حولها.
+
+الطرف الأول: ............................    الطرف الثاني: ............................`,
+
+      partnership: `--------------------------------------------------
+مسودة استرشادية: عقد اتفاق وشراكة مبسط (Saleh Law)
+ملاحظة: للاستئناس القانوني فقط وتتطلب مراجعة محامٍ مرخص
+--------------------------------------------------
+
+تم الاتفاق والتعاقد بالرياض في يوم [............] الموافق [..../..../2026م] بين:
+
+الطرف الأول: السيد/ [.......................................................]
+هوية رقم: [.......................] وعنوانه: الرياض، جوال: [......................]
+
+الطرف الثاني: السيد/ [.......................................................]
+هوية رقم: [.......................] وعنوانه: الرياض، جوال: [......................]
+
+التمهيد:
+اتفق الطرفان بكامل أهليتهما النظامية على إنشاء مشروع مشترك في مجال [.......................] بالرياض وفق البنود التالية:
+
+المادة الأولى: رأس مال الشراكة وحصص الشركاء:
+يبلغ رأس مال المشروع الإجمالي [...................] ريال سعودي مقسماً كالتالي:
+- حصة الطرف الأول: [...........]% وقدرها [...................] ريال.
+- حصة الطرف الثاني: [...........]% وقدرها [...................] ريال.
+
+المادة الثانية: توزيع الأرباح والخسائر:
+توزع الأرباح والخسائر الصافية للمشروع نهاية كل سنة مالية بنسبة حصة كل طرف في رأس المال الموضحة بالمادة الأولى بعد حسم كافة التكاليف والمصاريف والرواتب التشغيلية.
+
+المادة الثالثة: إدارة المشروع والتوقيع:
+يتفق الطرفان على أن يتولى [الطرف الأول / الطرفان معاً] إدارة المشروع التشغيلية والتمثيل البنكي والتعاقدي. وتصدر قرارات الشراكة الإستراتيجية بموافقة الطرفين كتابة.
+
+المادة الرابعة: التخارج وفك الشراكة الودية:
+في حال رغبة أحد الأطراف بالتخارج وبيع حصته، تكون الأولوية للطرف الآخر في شراء الحصة بالشفعة، بناءً على تثمين مالي عادل ومتفق عليه من مقيم مرخص بالرياض.
+
+المادة الخامسة: القانون الحاكم وتسوية النزاعات:
+يخضع هذا العقد للأنظمة المعمول بها بالسعودية. وفي حال حدوث خلاف، يلتزم الطرفان بالسعي لحله ودياً خلال 30 يوماً، وفي حال تعذر ذلك يحال النزاع للمحكمة التجارية بالرياض.
+
+الطرف الأول: ............................    الطرف الثاني: ............................`,
+
+      release_form: `--------------------------------------------------
+مسودة استرشادية: مخالصة وإبراء ذمة عمالية نهائية (Saleh Law)
+ملاحظة: للاستئناس القانوني فقط وتتطلب مراجعة محامٍ مرخص
+--------------------------------------------------
+
+أقر أنا الموقع أدناه بكامل أهليتي وحريتي ووعيي القانوني بما يلي:
+
+الاسم الكامل للموظف: [.......................................................]
+الجنسية: [...................] الهوية الوطنية / الإقامة رقم: [.........................]
+المنشأة الموظفة (صاحب العمل): شركة/مؤسسة [.....................................]
+
+1. إقرار الاستلام:
+أقر وأعترف بأنني استلمت من صاحب العمل كافة مبالغ مستحقاتي العمالية والمالية المترتبة على عقد عملي وفترة خدمتي التي بدأت بتاريخ [..../..../....م] وانتهت بتاريخ [..../..../....م] بسبب [انتهاء العقد / الاستقالة / الإقالة]. وتفاصيلها كالتالي:
+- مكافأة نهاية الخدمة الكاملة: [...................] ريال.
+- رواتب متأخرة أو مستحقة: [...................] ريال.
+- بدل رصيد إجازات غير مستخدمة: [...................] ريال.
+- مستحقات أخرى أو تذاكر سفر: [...................] ريال.
+
+إجمالي المبلغ المستلم والمقيد بحسابي البنكي: [.......................] ريال سعودي.
+
+2. إبراء الذمة النهائي:
+بناءً على استلامي للمبالغ المذكورة أعلاه، فإنني أبرئ ذمة شركة/مؤسسة [...................................] إبراءً عاماً تاماً شاملاً مطلقاً ونهائياً لا رجعة فيه، من أي حق أو مطالبة أو دعوى تتعلق بفترة خدمتي أو عقدي أو نظام العمل السعودي.
+
+وأقر بأن توقيعي هذا يعتبر مخالصة نهائية وإسقاطاً لكافة حقوقي في رفع أي شكوى أو دعوى مستقبلاً أمام مكاتب العمل أو المحاكم العمالية أو أي جهة رسمية في المملكة.
+
+كتب هذا الإقرار وصيغ للاستعمال القانوني ووقع طوعاً بالرياض في [..../..../2026م].
+
+اسم العامل المقر: [...................................] التوقيع: ............................
+البصمة: ............................`,
+
+      services_contract: `--------------------------------------------------
+مسودة استرشادية: عقد تقديم خدمات تجارية B2B (Saleh Law)
+ملاحظة: للاستئناس القانوني فقط وتتطلب مراجعة محامٍ مرخص
+--------------------------------------------------
+
+أُبرم هذا العقد بمدينة الرياض بتاريخ [..../..../2026م] بين كل من:
+
+الطرف الأول (العميل): شركة [......................................................]
+سجل تجاري: [.....................] يمثلها: [........................................]
+
+الطرف الثاني (مقدم الخدمة): شركة [................................................]
+سجل تجاري: [.....................] يمثلها: [........................................]
+
+تمهيد:
+نظراً لرغبة الطرف الأول في الاستعانة بخدمات الطرف الثاني المهنية والتقنية المتخصصة في [.......................]، وقبول الطرف الثاني بتقديمها وفق الكفاءة المطلوبة، فقد اتفق الطرفان على ما يلي:
+
+المادة الأولى: نطاق الخدمات:
+يلتزم الطرف الثاني بتقديم الخدمات المحددة بدقة في الملحق رقم (1) المرفق بهذا العقد، والذي يعتبر جزءاً لا يتجزأ من بنود الاتفاق.
+
+المادة الثانية: القيمة المادية وجدول الدفعات:
+تبلغ القيمة الإجمالية للخدمات [...................] ريال سعودي، ويلتزم الطرف الأول بسدادها بموجب جدول الدفعات والمراحل (Milestones) التالي:
+- الدفعة الأولى (مقدمة): [...........]% وقدرها [...............] ريال عند التوقيع.
+- الدفعة الثانية: [...........]% وقدرها [...............] ريال عند تسليم المرحلة الأولى.
+- الدفعة الختامية: [...........]% وقدرها [...............] ريال بعد الاعتماد النهائي.
+
+المادة الثالثة: مدة العقد والجدول الزمني:
+يسري هذا العقد من تاريخ توقيعه ويلتزم مقدم الخدمة بإنهاء وتسليم كامل الخدمات في موعد أقصاه [..../..../2026م].
+
+المادة الرابعة: غرامة التأخير والقوة القاهرة:
+في حال تأخر مقدم الخدمة عن تسليم المراحل في مواعيدها المحددة، تفرض غرامة تأخير قدرها [...........] ريال عن كل يوم تأخير، بشرط ألا يتجاوز إجمالي الغرامة 10% من قيمة العقد، مع إعفاء الأطراف من المسؤولية في حال حدوث قوة قاهرة مثبتة نظاماً.
+
+المادة الخامسة: الاختصاص القضائي وتفسير العقد:
+يخضع هذا العقد ويفسر بموجب الأنظمة التجارية السعودية، وتختص المحاكم القضائية بمدينة الرياض بالفصل في أي نزاع ينشأ عنه.
+
+الطرف الأول (العميل): ...................    الطرف الثاني (مقدم الخدمة): ...................`
+    };
+
+    document.addEventListener("DOMContentLoaded", function() {
+      const modal = document.getElementById("downloadModal");
+      const closeModalBtn = document.getElementById("closeModalBtn");
+      const leadForm = document.getElementById("leadForm");
+      const modalTitle = document.getElementById("modalTitle");
+      const modalTemplateName = document.getElementById("modalTemplateName");
+      
+      // Open modal on click
+      document.querySelectorAll(".open-download-modal").forEach(btn => {
+        btn.addEventListener("click", function() {
+          const templateKey = this.getAttribute("data-template");
+          const templateTitle = this.getAttribute("data-title");
+          
+          modalTemplateName.value = templateKey;
+          modalTitle.textContent = `تحميل مسودة: ${templateTitle}`;
+          
+          modal.classList.add("active");
+          document.body.style.overflow = "hidden";
+        });
+      });
+      
+      // Close modal
+      function closeModal() {
+        modal.classList.remove("active");
+        document.body.style.overflow = "";
+      }
+      
+      closeModalBtn.addEventListener("click", closeModal);
+      modal.addEventListener("click", function(e) {
+        if (e.target === modal) {
+          closeModal();
+        }
+      });
+      
+      // Form Submission Handler with AJAX & Direct File Download!
+      leadForm.addEventListener("submit", function(e) {
+        e.preventDefault();
+        
+        const submitBtn = this.querySelector('button[type="submit"]');
+        const originalBtnHTML = submitBtn.innerHTML;
+        submitBtn.innerHTML = "جاري إرسال الطلب وتجهيز التنزيل...";
+        submitBtn.disabled = true;
+        
+        const formData = new FormData(leadForm);
+        
+        // Fetch to Web3Forms API
+        fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+          if (data.success) {
+            // Trigger direct download of the selected template as a text/word document!
+            const templateKey = modalTemplateName.value;
+            const draftContent = DRAFTS_DB[templateKey] || "مسودة غير متوفرة.";
+            const templateTitle = modalTitle.textContent.replace("تحميل مسودة: ", "");
+            
+            const blob = new Blob([draftContent], { type: "text/plain;charset=utf-8" });
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = `${templateTitle} - مسودة استرشادية صالح المحمدي.doc`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            // Redirect to thank you page
+            window.location.href = "../thank-you.html";
+          } else {
+            alert("حدث خطأ أثناء إرسال البيانات، يرجى المحاولة مرة أخرى.");
+            submitBtn.innerHTML = originalBtnHTML;
+            submitBtn.disabled = false;
+          }
+        })
+        .catch(error => {
+          console.error("Error:", error);
+          alert("تعذر الاتصال بالخادم، يرجى التأكد من اتصالك بالإنترنت.");
+          submitBtn.innerHTML = originalBtnHTML;
+          submitBtn.disabled = false;
+        });
+      });
+    });
+  </script>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

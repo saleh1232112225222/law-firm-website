@@ -1,0 +1,566 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TSXRB2W6');</script>
+<!-- End Google Tag Manager -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://api.web3forms.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="alternate" hreflang="ar" href="https://saleh-lawyer.com/legal-library/index" />
+  <link rel="alternate" hreflang="en" href="https://saleh-lawyer.com/en/legal-library/index" />
+  <link rel="alternate" hreflang="x-default" href="https://saleh-lawyer.com/legal-library/index" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مكتبة الأنظمة السعودية واللوائح التنفيذية | صالح المحمدي</title>
+  <meta name="description" content="مرجع تفاعلي مبسط لأهم الأنظمة واللوائح السعودية للشركات: نظام الشركات الجديد، نظام العمل، ونظام المحاكم التجارية، مع روابط رسمية معتمدة لدعم الامتثال القانوني.">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://saleh-lawyer.com/legal-library/index" />
+
+  <style>
+    .library-search-wrap {
+      max-width: 600px;
+      margin: -40px auto 40px;
+      position: relative;
+      z-index: 10;
+    }
+    .library-search-box {
+      width: 100%;
+      padding: 18px 24px 18px 60px;
+      border: 2px solid var(--border);
+      border-radius: 50px;
+      font-size: 16px;
+      background: var(--white);
+      box-shadow: var(--shadow-lg);
+      transition: var(--transition);
+    }
+    .library-search-box:focus {
+      border-color: var(--secondary);
+      box-shadow: 0 10px 25px rgba(201,168,76,0.2);
+    }
+    .library-search-icon {
+      position: absolute;
+      left: 24px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--secondary);
+    }
+
+    .library-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .library-tab-btn {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      color: var(--primary);
+      padding: 10px 24px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 14px;
+      transition: var(--transition);
+    }
+    .library-tab-btn:hover, .library-tab-btn.active {
+      background: var(--secondary);
+      color: var(--primary);
+      border-color: var(--secondary);
+    }
+
+    .library-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+    .law-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      padding: 40px;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      gap: 24px;
+    }
+    .law-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--secondary);
+    }
+    @media(max-width: 768px) {
+      .law-card {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 24px;
+      }
+    }
+
+    .law-icon-wrap {
+      width: 80px;
+      height: 80px;
+      background: var(--secondary-light);
+      border-radius: var(--radius-lg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary);
+      border: 2px solid rgba(201,168,76,0.3);
+    }
+    @media(max-width: 768px) {
+      .law-icon-wrap {
+        margin: 0 auto;
+      }
+    }
+
+    .law-content h3 {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+    .law-tag {
+      display: inline-block;
+      background: var(--primary);
+      color: var(--white);
+      padding: 4px 12px;
+      border-radius: 50px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .law-summary {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.8;
+      margin-bottom: 24px;
+    }
+
+    .provisions-section {
+      background: var(--light-bg);
+      border-radius: var(--radius);
+      padding: 24px;
+      border-right: 4px solid var(--secondary);
+      margin-bottom: 24px;
+      text-align: right;
+    }
+    .provisions-section h4 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+    .provisions-list {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .provisions-list li {
+      font-size: 14px;
+      color: var(--text-dark);
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .provisions-list li:last-child {
+      border-bottom: none;
+    }
+    .provisions-list li::before {
+      content: '✦';
+      color: var(--secondary);
+      font-weight: bold;
+    }
+
+    .law-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
+    @media(max-width: 576px) {
+      .law-footer {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    .official-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--secondary);
+      font-weight: 600;
+      font-size: 14px;
+      transition: var(--transition);
+    }
+    .official-link:hover {
+      text-decoration: underline;
+      transform: translateX(-4px);
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 40px;
+      background: var(--light-bg);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      display: none;
+    }
+    .no-results svg {
+      width: 48px;
+      height: 48px;
+      fill: var(--text-muted);
+      margin-bottom: 16px;
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "مكتبة الأنظمة السعودية واللوائح التنفيذية للشركات",
+    "description": "مرجع تفاعلي مبسط لأهم الأنظمة واللوائح السعودية للشركات، يسهل البحث فيها ويتكامل مع الروابط الحكومية المعتمدة لدعم الامتثال القانوني.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Saleh Law",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://saleh-lawyer.com/assets/images/logo.png"
+      }
+    }
+  }
+  </script>
+  <meta property="og:image" content="https://saleh-lawyer.com/assets/images/og-image.jpg">
+  <meta name="twitter:image" content="https://saleh-lawyer.com/assets/images/og-image.jpg">
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">S</div>
+        <div class="logo-text">
+          <span>Saleh Law</span>
+          <span>استشارات قانونية للشركات</span>
+        </div>
+      </a>
+      <nav class="nav"><a href="../index.html">الرئيسية</a><a href="../services.html">خدمات الشركات</a><a href="../contracts.html">العقود التجارية</a><a href="../collections.html">التحصيل والتنفيذ</a><a href="../blog.html">المدونة</a><a href="../booking.html" class="nav-cta">احجز استشارة</a></nav>
+      <a href="tel:+966567905696" class="header-phone" dir="ltr"><svg viewBox="0 0 24 24" width="18" height="18" fill="#C9A84C"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011-.24 11.36 11.36 0 00.57 3.59 1 1 0 01-.25 1z"/></svg> 0567905696</a>
+      <a href="../en/legal-library/index.html" class="lang-toggle" title="English">EN</a>
+      <div class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">الرئيسية</a> / مكتبة الأنظمة السعودية</div>
+      <h1>مكتبة الأنظمة واللوائح السعودية للشركات</h1>
+      <p>دليل قانوني تفاعلي مبسط لأبرز القوانين التجارية والعمالية لتأمين وامتثال أعمالك بالرياض.</p>
+    </div>
+  </section>
+
+  <!-- SEARCH & FILTER SECTION -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="library-search-wrap">
+        <input type="text" id="librarySearch" class="library-search-box" placeholder="ابحث عن نظام أو مادة أو موضوع قانوني...">
+        <svg class="library-search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      </div>
+
+      <div class="library-tabs">
+        <button class="library-tab-btn active" data-filter="all">جميع الأنظمة</button>
+        <button class="library-tab-btn" data-filter="corporate">نظام الشركات الجديد</button>
+        <button class="library-tab-btn" data-filter="labor">نظام العمل</button>
+        <button class="library-tab-btn" data-filter="court">المحاكم والتنفيذ</button>
+        <button class="library-tab-btn" data-filter="evidence">نظام الإثبات</button>
+      </div>
+
+      <!-- LAWS GRID -->
+      <div class="library-grid" id="lawsGrid">
+        
+        <!-- LAW 1: NEW COMPANIES LAW -->
+        <div class="law-card" data-category="corporate">
+          <div class="law-icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="9" x2="15" y2="9"></line><line x1="9" y1="13" x2="15" y2="13"></line><line x1="9" y1="17" x2="15" y2="17"></line></svg>
+          </div>
+          <div class="law-content">
+            <span class="law-tag">نظام الشركات</span>
+            <h3>نظام الشركات السعودي الجديد (1444هـ)</h3>
+            <p class="law-summary">يُعتبر هذا النظام قفزة تشريعية استراتيجية تهدف إلى تيسير الإجراءات وتحفيز البيئة الاستثمارية وتدفق رؤوس الأموال للشركات العائلية والناشئة بالمملكة، كما يحد من القيود التنظيمية ويدعم الحوكمة.</p>
+            
+            <div class="provisions-section">
+              <h4>💡 أهم الأحكام والتعديلات للشركات:</h4>
+              <ul class="provisions-list">
+                <li><strong>تأسيس شركة المساهمة المبسطة:</strong> كيان مرن ومبتكر لا يتطلب حداً أدنى لرأس المال ويمكن إدارته بشخص واحد أو أكثر دون تعقيد مجلس الإدارة.</li>
+                <li><strong>إلغاء قيود الشريك الواحد:</strong> السماح للشخص الواحد (سواء كان طبيعياً أو اعتبارياً) بتأسيس شركة مساهمة أو شركة ذات مسؤولية محدودة بدون تعقيدات الشريك الشكلي.</li>
+                <li><strong>الشركات العائلية وميثاق العائلة:</strong> مأسسة حوكمة الشركات العائلية وتنظيم إدارة انتقال الأجيال لمنع الخلافات وضمان ديمومة ونمو الكيان التجاري.</li>
+              </ul>
+            </div>
+
+            <div class="law-footer">
+              <a href="https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=6f47df2f-df59-4d69-be5a-aeb401026042" target="_blank" rel="noopener" class="official-link">
+                المصدر الرسمي (بوابة هيئة الخبراء) ↗
+              </a>
+              <a href="../booking.html" class="btn btn-dark" style="padding:10px 20px; font-size: 14px;">طلب استشارة امتثال</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAW 2: LABOR LAW -->
+        <div class="law-card" data-category="labor">
+          <div class="law-icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <div class="law-content">
+            <span class="law-tag">نظام العمل والعمال</span>
+            <h3>نظام العمل السعودي (1426هـ وتعديلاته)</h3>
+            <p class="law-summary">ينظم العلاقة العمالية والتعاقدية بين أصحاب العمل والعمال في القطاع الخاص، ويحدد بدقة حقوق وواجبات الطرفين لضمان بيئة عمل مستقرة ومنتجة تمنع النزاعات العمالية الجائرة.</p>
+            
+            <div class="provisions-section">
+              <h4>💡 أهم الأحكام والمواد للمنشآت التجارية:</h4>
+              <ul class="provisions-list">
+                <li><strong>صياغة العقود الوقائية:</strong> المادة 51 تفرض أن يكون عقد العمل مكتوباً باللغة العربية، لضمان قانونيته والحد من ثغرات تفسير بنود العقود المترجمة.</li>
+                <li><strong>مكافأة نهاية الخدمة (المادة 84):</strong> يستحق العامل مكافأة محسوبة على أساس نصف أجر عن السنوات الخمس الأولى، وأجر كامل عن السنوات التالية وفق الأجر الفعلي الأخير.</li>
+                <li><strong>الفسخ المشروع والتعويض (المادة 77/80):</strong> حماية المنشأة من المطالبات العمالية للإنهاء وتجنب تعويضات المادة 77 الباهظة عبر الإعداد القانوني لخطوات التقييم والإنذار.</li>
+              </ul>
+            </div>
+
+            <div class="law-footer">
+              <a href="https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=e2dcd0f2-e565-4f4c-83b6-aeb40102c77d" target="_blank" rel="noopener" class="official-link">
+                المصدر الرسمي (بوابة هيئة الخبراء) ↗
+              </a>
+              <a href="../tools/end-of-service-rights.html" class="btn btn-dark" style="padding:10px 20px; font-size: 14px;">استعرض دليل نهاية الخدمة</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAW 3: COMMERCIAL COURTS LAW -->
+        <div class="law-card" data-category="court">
+          <div class="law-icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <div class="law-content">
+            <span class="law-tag">المحاكم والتقاضي</span>
+            <h3>نظام المحاكم التجارية الجديد (1441هـ)</h3>
+            <p class="law-summary">يختص بتسريع الفصل في النزاعات والخصومات التجارية بين التجار والشركات، وتفعيل التحول الرقمي الكامل لتقديم الدعاوى، والاعتراف بعقود الصلح والتحكيم التجاري المستقل.</p>
+            
+            <div class="provisions-section">
+              <h4>💡 تسريع إجراءات الفصل والتقاضي للشركات:</h4>
+              <ul class="provisions-list">
+                <li><strong>أوامر الأداء التجارية:</strong> آلية قانونية سريعة تتيح للدائن استصدار أمر تنفيذ فوري ومباشر على المدين دون الحاجة لرفع قضية مرافعة طويلة إذا كان الحق ثابتاً بالكتابة.</li>
+                <li><strong>اللجوء الإجباري للصلح والوساطة:</strong> وجوب اللجوء للصلح والوساطة الودية في بعض القضايا التجارية قبل رفعها رسمياً للمحكمة لتقليص التكاليف والوقت.</li>
+                <li><strong>قواعد الترافع والتقاضي عن بعد:</strong> تفعيل الجلسات الرقمية وتقديم لوائح الاعتراض إلكترونياً مما يضمن سرعة صدور الأحكام التنفيذية.</li>
+              </ul>
+            </div>
+
+            <div class="law-footer">
+              <a href="https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=be00c733-fe65-4ef5-9f5b-aeb40102d1d0" target="_blank" rel="noopener" class="official-link">
+                المصدر الرسمي (بوابة هيئة الخبراء) ↗
+              </a>
+              <a href="../booking.html" class="btn btn-dark" style="padding:10px 20px; font-size: 14px;">احجز تمثيل قضائي</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAW 4: ENFORCEMENT LAW -->
+        <div class="law-card" data-category="court">
+          <div class="law-icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </div>
+          <div class="law-content">
+            <span class="law-tag">قضاء التنفيذ</span>
+            <h3>نظام التنفيذ في المملكة (1434هـ وتعديلاته)</h3>
+            <p class="law-summary">يضمن الفعالية الفورية للأحكام القضائية وسندات الحق والتنفيذ الجبري المباشر على الأصول والأموال لتحصيل الحقوق الموثقة وحماية المعاملات التجارية بالمملكة.</p>
+            
+            <div class="provisions-section">
+              <h4>💡 السندات التنفيذية الأقوى وحفظ الحقوق:</h4>
+              <ul class="provisions-list">
+                <li><strong>السندات التنفيذية المباشرة:</strong> تشمل الكمبيالات والشيكات وعقود التوثيق وعقود الإيجار الموحدة والأوراق العادية المعتمدة قانونياً لطلب التنفيذ الفوري.</li>
+                <li><strong>إجراءات الحجز والتجميد (المادة 46):</strong> تمكن قاضي التنفيذ من إيقاف الخدمات البنكية وتجميد حسابات وأصول المدين والمنع من السفر بمجرد مضي 5 أيام من التبليغ.</li>
+                <li><strong>ملاحقة أصول المدينين:</strong> البحث والتحري الذكي عن أصول وممتلكات الممتنعين عن السداد عبر البنوك وكافة منصات تسجيل الأصول الرسمية.</li>
+              </ul>
+            </div>
+
+            <div class="law-footer">
+              <a href="https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=6f1e8ce4-555e-44ca-8178-aeb40102c462" target="_blank" rel="noopener" class="official-link">
+                المصدر الرسمي (بوابة هيئة الخبراء) ↗
+              </a>
+              <a href="../collections.html" class="btn btn-dark" style="padding:10px 20px; font-size: 14px;">بدء تحصيل وتنفيذ الديون</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAW 5: EVIDENCE LAW -->
+        <div class="law-card" data-category="evidence">
+          <div class="law-icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          </div>
+          <div class="law-content">
+            <span class="law-tag">نظام الإثبات</span>
+            <h3>نظام الإثبات السعودي الجديد (1443هـ)</h3>
+            <p class="law-summary">ينظم وينقح بشكل جذري آليات تقديم الأدلة وحجية الإثبات في المعاملات المدنية والتجارية، ويدعم بشكل واسع وسائل التقنية والاتصالات الرقمية كأدلة رسمية قاطعة.</p>
+            
+            <div class="provisions-section">
+              <h4>💡 حجية المحررات الرقمية والمراسلات التجارية:</h4>
+              <ul class="provisions-list">
+                <li><strong>الاعتراف بالأدلة الرقمية:</strong> حجية كاملة للمراسلات عبر البريد الإلكتروني والوسائط الرقمية ومحادثات واتساب الموثقة كأدلة قانونية رسمية ومباشرة.</li>
+                <li><strong>الكتابة العقدية الوقائية:</strong> حظر إثبات التصرفات التي تزيد قيمتها عن 100 ألف ريال بشهادة الشهود، ووجوب توثيقها كتابةً لحماية المعاملات التجارية الكبرى.</li>
+                <li><strong>اليمين الحاسمة والشهادة:</strong> إعادة هيكلة طلب اليمين القضائية والضوابط القانونية المشددة لقبول شهادات الأطراف والخبراء.</li>
+              </ul>
+            </div>
+
+            <div class="law-footer">
+              <a href="https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=ebc35967-df59-4ca5-9856-aeb4010263f3" target="_blank" rel="noopener" class="official-link">
+                المصدر الرسمي (بوابة هيئة الخبراء) ↗
+              </a>
+              <a href="../booking.html" class="btn btn-dark" style="padding:10px 20px; font-size: 14px;">استشارة تدقيق تعاقدي</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- NO RESULTS PLACEHOLDER -->
+      <div class="no-results" id="noResults">
+        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        <h3 style="font-size:18px;color:var(--primary);margin-bottom:8px;">عذراً، لم نجد نتائج مطابقة لبحثك</h3>
+        <p style="font-size:14px;color:var(--text-muted);">حاول استخدام كلمات مفتاحية أخرى مثل "شراكة"، "نظام العمل" أو "تنفيذ"</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA FOOTER SECTION -->
+  <section class="section lead-section">
+    <div class="container" style="text-align:center;">
+      <h2 style="font-size:32px;font-weight:700;color:#fff;margin-bottom:16px;">ترغب في تأمين أعمالك وضمان الامتثال التام للأنظمة؟</h2>
+      <p style="font-size:16px;opacity:0.9;margin-bottom:32px;">نوفر باقات استشارية وتدقيق وقائي للمنشآت والشركات في الرياض لتجنب الغرامات والنزاعات.</p>
+      <a href="../booking.html" class="btn btn-primary" style="font-size:18px;padding:16px 48px;">
+        احجز موعد استشارتك الآن
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo" style="margin-bottom:16px;"><div class="logo-icon">S</div><div class="logo-text"><span>Saleh Law</span><span>استشارات قانونية للشركات</span></div></a>
+          <p>نساعد الشركات في الرياض على حماية عقودها وتحصيل مستحقاتها وتقليل المخاطر القانونية — خبرة +10 سنوات.</p>
+        </div>
+        <div>
+          <h4>روابط سريعة</h4>
+<ul>
+            <li><a href="../index.html">الرئيسية</a></li>
+            <li><a href="../services.html">خدمات الشركات</a></li>
+            <li><a href="../contracts.html">العقود التجارية</a></li>
+            <li><a href="../collections.html">التحصيل والتنفيذ</a></li>
+            <li><a href="../blog.html">المدونة</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>الخدمات</h4>
+<ul>
+            <li><a href="../contracts.html">صياغة العقود</a></li>
+            <li><a href="../compliance.html">الامتثال والحوكمة</a></li>
+            <li><a href="../services.html">إدارة النزاعات</a></li>
+            <li><a href="../collections.html">التحصيل والتنفيذ</a></li>
+            <li><a href="../booking.html">احجز استشارة</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>تواصل معنا</h4>
+          <ul class="footer-contact">
+            <li><svg viewBox="0 0 24 24" width="16" height="16" fill="#C9A84C"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011-.24 11.36 11.36 0 00.57 3.59 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.59 1 1 0 01-.25 1z"/></svg> 0567905696</li>
+            <li><svg viewBox="0 0 24 24" width="16" height="16" fill="#C9A84C"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg> info@saleh-lawyer.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 Saleh Law — جميع الحقوق محفوظة</div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/966567905696" class="whatsapp-float" target="_blank"><svg role="img" aria-label="Contact via WhatsApp" viewBox="0 0 24 24" width="28" height="28" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+
+  <script src="../assets/js/main.js"></script>
+
+  <!-- SEARCH & FILTER INTERACTION SCRIPT -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const searchInput = document.getElementById("librarySearch");
+      const tabButtons = document.querySelectorAll(".library-tab-btn");
+      const lawCards = document.querySelectorAll(".law-card");
+      const noResults = document.getElementById("noResults");
+
+      let activeFilter = "all";
+      let searchQuery = "";
+
+      function filterLibrary() {
+        let visibleCount = 0;
+
+        lawCards.forEach(card => {
+          const cardCategory = card.getAttribute("data-category");
+          const cardText = card.textContent.toLowerCase();
+
+          const matchesCategory = (activeFilter === "all" || cardCategory === activeFilter);
+          const matchesSearch = cardText.includes(searchQuery);
+
+          if (matchesCategory && matchesSearch) {
+            card.style.display = "grid";
+            visibleCount++;
+          } else {
+            card.style.display = "none";
+          }
+        });
+
+        if (visibleCount === 0) {
+          noResults.style.display = "block";
+        } else {
+          noResults.style.display = "none";
+        }
+      }
+
+      // Handle search input
+      searchInput.addEventListener("input", function(e) {
+        searchQuery = e.target.value.toLowerCase().trim();
+        filterLibrary();
+      });
+
+      // Handle tabs change
+      tabButtons.forEach(btn => {
+        btn.addEventListener("click", function() {
+          tabButtons.forEach(b => b.classList.remove("active"));
+          this.classList.add("active");
+
+          activeFilter = this.getAttribute("data-filter");
+          filterLibrary();
+        });
+      });
+    });
+  </script>
+</body>
+</html>

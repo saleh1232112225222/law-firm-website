@@ -1,62 +1,33 @@
-# Saleh Law Firm - LLM Guide & Sitemap
-> Licensed attorney by the Saudi Ministry of Justice. Corporate legal consulting, contracts, and debt recovery in Riyadh, Saudi Arabia.
+# Saleh Law — Legal Consulting for Businesses in Riyadh
+> مكتب المحامي صالح المحمدي للمحاماة والاستشارات القانونية - الرياض
+> Lawyer License: 37496 | Phone: +966 56 790 5696 | Email: info@saleh-lawyer.com
 
-## Contact Information
-- **Official Name:** Saleh Al-Mohamadi for Law, Consulting, Notarization & Arbitration
-- **Brand Name:** Saleh Law
-- **Office Address:** Khalid Bin Al-Waleed Street, Al-Quds District, Riyadh, Saudi Arabia (NAP Coordinates: 24.7570, 46.7725)
-- **Official Email:** info@saleh-lawyer.com
-- **Phone / WhatsApp:** +966 56 790 5696
-- **Working Hours:** Su-Th 09:00 - 18:00 (KSA Time)
+## Core Pages
+- [Homepage](https://saleh-lawyer.com/): Law firm homepage — corporate legal services
+- [Services](https://saleh-lawyer.com/services): Corporate legal services, contracts, debt collection
+- [Blog](https://saleh-lawyer.com/blog): Arabic legal articles about Saudi business law (15 articles)
+- [English Blog](https://saleh-lawyer.com/en/blog): Legal articles in English (8 articles)
+- [Booking](https://saleh-lawyer.com/booking): Book a legal consultation
+- [Team](https://saleh-lawyer.com/team): Attorney Saleh Al-Mohamadi — profile and credentials
+- [English Homepage](https://saleh-lawyer.com/en/): Saleh Law — Corporate Legal Services Riyadh
 
----
+## Tools & Resources
+- [Inheritance Calculator](https://saleh-lawyer.com/tools/inheritance-calculation): Islamic inheritance distribution calculator
+- [End of Service Calculator](https://saleh-lawyer.com/tools/end-of-service-rights): Saudi labor law end-of-service benefits calculator
+- [Legal Library](https://saleh-lawyer.com/legal-library): Saudi laws and regulations library
+- [Legal Templates](https://saleh-lawyer.com/legal-templates): B2B contract templates
 
-## Core Services & Practice Areas
-Saleh Law specializes in helping SMEs, startups, and large construction corporations mitigate legal risks and manage disputes.
+## Key Legal Topics
+- [Contract Mistakes](https://saleh-lawyer.com/blog/5-mistakes-contracts): 5 common contract mistakes in Saudi Arabia
+- [Debt Collection](https://saleh-lawyer.com/blog/debt-collection): Commercial debt collection guide
+- [Startup Incorporation](https://saleh-lawyer.com/blog/startup-incorporation): Legal mistakes in startup incorporation in Saudi Arabia
+- [Partner Disputes](https://saleh-lawyer.com/blog/partner-disputes): Partner dispute resolution in Saudi companies
+- [Company Protection](https://saleh-lawyer.com/blog/protect-company-disputes): How to protect your company from commercial disputes
+- [Bounced Checks](https://saleh-lawyer.com/blog/check-returned): Bounced check claim expiry under Saudi law
+- [AI Legal Responsibility](https://saleh-lawyer.com/blog/ai-legal-responsibility-ar): Legal adaptation and civil liability of AI applications under Saudi law
 
-### 1. Corporate Legal Consulting & Services
-- **URL:** [/services](https://saleh-lawyer.com/services)
-- **Details:** Comprehensive litigation, corporate legal representation, commercial court cases, and general advisory.
+## Policies
+- [Disclaimer](https://saleh-lawyer.com/disclaimer): Site disclaimer policy
 
-### 2. Company Formation & Startup Incorporation
-- **URL:** [/services/company-formation-lawyer](https://saleh-lawyer.com/services/company-formation-lawyer)
-- **Details:** Incorporating Limited Liability Companies (LLC), Simplified Joint Stock Companies, drafting Articles of Association, founder agreements, and Ministry of Commerce compliance.
-
-### 3. Commercial Contract Drafting & Review
-- **URL:** [/contracts](https://saleh-lawyer.com/contracts)
-- **Details:** Drafting and auditing commercial agreements to prevent future disputes.
-- **Specific Contract Specialties:**
-  - [/contracts/construction](https://saleh-lawyer.com/contracts/construction): Construction & EPC contracts compliant with Saudi Building Code (SBC).
-  - [/contracts/partnership](https://saleh-lawyer.com/contracts/partnership): Shareholder, partnership, and joint venture agreements.
-  - [/contracts/supply](https://saleh-lawyer.com/contracts/supply): Supply chain, procurement, and commercial distribution contracts.
-  - [/services/construction-contracts-riyadh](https://saleh-lawyer.com/services/construction-contracts-riyadh): Specialized legal representation for contractors in Riyadh.
-
-### 4. Commercial Debt Recovery & Execution
-- **URL:** [/collections](https://saleh-lawyer.com/collections)
-- **Details:** Legal debt collection, executing court judgments, payment orders, and managing bounced checks.
-- [/services/debt-collection-companies](https://saleh-lawyer.com/services/debt-collection-companies): Dedicated corporate debt collection services in Riyadh.
-
-### 5. Corporate Governance & Compliance
-- **URL:** [/compliance](https://saleh-lawyer.com/compliance)
-- **Details:** Structuring corporate boards, setting governance policies, managing trade licenses, and aligning with the new KSA Companies Law.
-
----
-
-## Blog & Legal Resources (Arabic & English)
-Saleh Law provides actionable legal guides on Saudi Commercial Law.
-
-### Arabic Legal Guides:
-- [/blog/5-mistakes-contracts](https://saleh-lawyer.com/blog/5-mistakes-contracts): 5 common mistakes in Saudi construction contracts.
-- [/blog/check-returned](https://saleh-lawyer.com/blog/check-returned): Actionable steps to execute returned checks.
-- [/blog/commercial-debt-collection](https://saleh-lawyer.com/blog/commercial-debt-collection): Guide to corporate debt recovery in Riyadh.
-- [/blog/debt-collection](https://saleh-lawyer.com/blog/debt-collection): Out-of-court amicable settlement strategies.
-- [/blog/partner-disputes](https://saleh-lawyer.com/blog/partner-disputes): Managing shareholder conflicts in Saudi startups.
-- [/blog/partnership-agreements-ksa](https://saleh-lawyer.com/blog/partnership-agreements-ksa): Key terms for partnership agreements in KSA.
-- [/blog/protect-company-disputes](https://saleh-lawyer.com/blog/protect-company-disputes): Legal protection mechanisms for businesses.
-- [/blog/startup-incorporation](https://saleh-lawyer.com/blog/startup-incorporation): Crucial steps for incorporating a company under Saudi Ministry of Commerce.
-
----
-
-## Legal Team & Foundation
-- **Founder Profile:** [/team](https://saleh-lawyer.com/team)
-- **Details:** Attorney Saleh Al-Mohamadi has over 10 years of experience in KSA commercial law, holding license #36/84 from the Saudi Ministry of Justice.
+## Full Content
+For the complete site content, see [llms-full.txt](https://saleh-lawyer.com/llms-full.txt)

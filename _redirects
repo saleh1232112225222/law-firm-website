@@ -1,4 +1,22 @@
-﻿# Enforce Clean URLs by 301 Redirecting .html extensions to Clean counterparts
+﻿# Domain 301 Redirect: lawer496.com → saleh-lawyer.com (preserves path)
+http://lawer496.com/*       https://saleh-lawyer.com/:splat       301!
+https://lawer496.com/*      https://saleh-lawyer.com/:splat       301!
+http://www.lawer496.com/*   https://saleh-lawyer.com/:splat       301!
+https://www.lawer496.com/*  https://saleh-lawyer.com/:splat       301!
+
+# Migrated Pages (specific FIRST, catch-all AFTER — order matters in Netlify)
+/post/%D8%B9%D9%82%D9%88%D8%A8%D8%A9-%D8%A7%D9%86%D8%AA%D9%87%D8%A7%D9%83-%D8%AD%D8%B1%D9%85%D8%A9-%D9%85%D9%86%D8%B2%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9    /blog/home-sanctity-violation-penalty          301!
+/post/%D9%85%D8%A7-%D9%87%D9%88-%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%A7%D9%84%D9%86%D9%81%D9%82%D8%A9-%D9%84%D9%84%D9%85%D8%B7%D9%84%D9%82%D8%A7%D8%AA    /blog/alimony-fund-saudi-arabia                 301!
+/post/%D8%A3%D8%B1%D9%82%D8%A7%D9%85-%D8%B4%D9%8A%D9%88%D8%AE-%D8%AA%D9%82%D8%B3%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D8%A7%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6    /blog/inheritance-division-scholars-riyadh       301!
+/post/%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D8%B5%D8%AD%D9%8A%D9%81%D8%A9-%D8%AF%D8%B9%D9%88%D9%89-%D8%B9%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6    /blog/labor-claim-form-riyadh                   301!
+/post/%D8%B9%D9%82%D9%88%D8%A8%D8%A9-%D8%A7%D9%84%D8%B4%D9%87%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%B2%D9%88%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9    /blog/perjury-penalty-saudi-arabia               301!
+/post/%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%A8%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6    /blog/execution-court-riyadh                    301!
+/post/%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D8%B5%D8%AD%D9%8A%D9%81%D8%A9-%D8%AF%D8%B9%D9%88%D9%89-%D9%85%D8%B7%D8%A7%D9%84%D8%A8%D8%A9-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6    /blog/financial-claim-form-riyadh               301!
+
+# Catch-all: all other old Wix blog articles → blog homepage (must be AFTER specific rules)
+/post/*         /blog   301!
+
+# Enforce Clean URLs by 301 Redirecting .html extensions to Clean counterparts
 # The "!" (force) flag is REQUIRED so Netlify applies the redirect even when
 # the .html file physically exists in the publish directory.
 
@@ -14,6 +32,8 @@
 /landing.html                    /landing                       301!
 /lead-magnet.html                /lead-magnet                   301!
 /thank-you.html                  /thank-you                     301!
+/disclaimer.html                 /disclaimer                    301!
+/en/disclaimer.html              /en/disclaimer                 301!
 
 /en/index.html                   /en/                           301!
 /en/best-law-firm-riyadh.html    /en/best-law-firm-riyadh       301!
@@ -45,29 +65,47 @@
 /en/services/debt-collection-companies.html     /en/services/debt-collection-companies     301!
 /en/services/company-formation-lawyer.html      /en/services/company-formation-lawyer      301!
 
-# Blog Articles (Arabic)
+# Blog Articles (Arabic) — Original 8
 /blog/5-mistakes-contracts.html              /blog/5-mistakes-contracts              301!
 /blog/protect-company-disputes.html          /blog/protect-company-disputes          301!
 /blog/check-returned.html                    /blog/check-returned                    301!
 /blog/partner-disputes.html                  /blog/partner-disputes                  301!
-/blog/startup-incorporation.html              /blog/startup-incorporation              301!
+/blog/startup-incorporation.html             /blog/startup-incorporation             301!
 /blog/debt-collection.html                   /blog/debt-collection                   301!
 /blog/partnership-agreements-ksa.html        /blog/partnership-agreements-ksa        301!
 /blog/commercial-debt-collection.html        /blog/commercial-debt-collection        301!
 
+# Blog Articles (Arabic) — AI / New
+/blog/ai-legal-responsibility-ar.html    /blog/ai-legal-responsibility-ar    301!
+
+# Blog Articles (Arabic) — Migrated 7 (from lawer496.com)
+/blog/home-sanctity-violation-penalty.html   /blog/home-sanctity-violation-penalty   301!
+/blog/alimony-fund-saudi-arabia.html         /blog/alimony-fund-saudi-arabia         301!
+/blog/inheritance-division-scholars-riyadh.html /blog/inheritance-division-scholars-riyadh 301!
+/blog/labor-claim-form-riyadh.html           /blog/labor-claim-form-riyadh           301!
+/blog/perjury-penalty-saudi-arabia.html      /blog/perjury-penalty-saudi-arabia      301!
+/blog/execution-court-riyadh.html            /blog/execution-court-riyadh            301!
+/blog/financial-claim-form-riyadh.html       /blog/financial-claim-form-riyadh       301!
+
+# Blog Articles (English) — AI / New
+/en/blog/ai-legal-responsibility-en.html    /en/blog/ai-legal-responsibility-en    301!
+
 # Blog Articles (English)
-/en/blog/5-contract-mistakes-saudi-arabia.html    /en/blog/5-contract-mistakes-saudi-arabia    301!
-/en/blog/protect-company-commercial-disputes.html /en/blog/protect-company-commercial-disputes 301!
-/en/blog/bounced-check-saudi-law.html             /en/blog/bounced-check-saudi-law             301!
-/en/blog/partner-disputes-saudi-companies.html    /en/blog/partner-disputes-saudi-companies    301!
+/en/blog/5-contract-mistakes-saudi-arabia.html    /en/blog/5-contract-mistakes-saudi-arabia        301!
+/en/blog/protect-company-commercial-disputes.html /en/blog/protect-company-commercial-disputes     301!
+/en/blog/bounced-check-saudi-law.html             /en/blog/bounced-check-saudi-law                 301!
+/en/blog/partner-disputes-saudi-companies.html    /en/blog/partner-disputes-saudi-companies        301!
 /en/blog/legal-mistakes-startup-incorporation-saudi.html /en/blog/legal-mistakes-startup-incorporation-saudi 301!
 /en/blog/commercial-debt-collection-saudi-arabia.html    /en/blog/commercial-debt-collection-saudi-arabia    301!
-/en/blog/partnership-agreements-ksa.html          /en/blog/partnership-agreements-ksa          301!
-/en/blog/commercial-debt-collection.html          /en/blog/commercial-debt-collection          301!
+/en/blog/partnership-agreements-ksa.html          /en/blog/partnership-agreements-ksa               301!
+/en/blog/commercial-debt-collection.html          /en/blog/commercial-debt-collection               301!
 
 # PDF Guide Wrapper
 /pdf/7-mistakes.html         /pdf/7-mistakes          301!
 
 /en/partnership.html  /en/contracts/partnership  301!
+
+# Lighthouse Report - Block from search engines and direct access
+/lighthouse-report/*  /404  404!
 /en/supply.html       /en/contracts/supply       301!
 

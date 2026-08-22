@@ -1,0 +1,5027 @@
+{
+  "summary": {
+    "totalLinks": 3178,
+    "internalLinks": 2084,
+    "externalLinks": 1003,
+    "brokenInternal": 0,
+    "brokenAnchors": 0
+  },
+  "brokenLinks": [],
+  "externalLinks": [
+    {
+      "file": "404.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "404.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "404.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "404.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "404.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "404.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "404.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "404.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "404.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://www.saudi.com.sa",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://www.dalel.net",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://www.dalilnatig.com",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://ksacompany.com",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://www.safhaty.com",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://www.daleel-saudi.com",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://waseela.net",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://mohami.sa",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://www.google.com/business",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://x.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://buffer.com",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://tweetdeck.twitter.com",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://www.nabd.com",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://medium.com",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://search.google.com/search-console",
+      "type": "href"
+    },
+    {
+      "file": "backlinks.html",
+      "link": "https://ahrefs.com/webmaster-tools",
+      "type": "href"
+    },
+    {
+      "file": "best-law-firm-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "best-law-firm-riyadh.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "best-law-firm-riyadh.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "best-law-firm-riyadh.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "best-law-firm-riyadh.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "best-law-firm-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "best-law-firm-riyadh.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "best-law-firm-riyadh.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "best-law-firm-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "best-law-firm-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "best-law-firm-riyadh.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/5-mistakes-contracts.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/5-mistakes-contracts.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/5-mistakes-contracts.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/5-mistakes-contracts.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/5-mistakes-contracts.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/5-mistakes-contracts.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/5-mistakes-contracts.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/5-mistakes-contracts.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/5-mistakes-contracts.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/5-mistakes-contracts.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/5-mistakes-contracts.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/5-mistakes-contracts.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-ar.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-ar.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-ar.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-ar.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-ar.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-ar.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-ar.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-ar.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-ar.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/ai-legal-responsibility-ar.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-ar.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-ar.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-en.html",
+      "link": "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-en.html",
+      "link": "https://doi.org/10.47172/2965-730X.SDGsReview.v5.n05.pe06197",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-en.html",
+      "link": "https://doi.org/10.33102/mjsl.vol12no1.453",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-en.html",
+      "link": "https://doi.org/10.3389/frai.2026.1873975",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-saudi.html",
+      "link": "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-saudi.html",
+      "link": "https://doi.org/10.47172/2965-730X.SDGsReview.v5.n05.pe06197",
+      "type": "href"
+    },
+    {
+      "file": "blog/ai-legal-responsibility-saudi.html",
+      "link": "https://doi.org/10.33102/mjsl.vol12no1.453",
+      "type": "href"
+    },
+    {
+      "file": "blog/alimony-fund-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/alimony-fund-saudi-arabia.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/alimony-fund-saudi-arabia.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/alimony-fund-saudi-arabia.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/alimony-fund-saudi-arabia.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/alimony-fund-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/alimony-fund-saudi-arabia.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/alimony-fund-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/alimony-fund-saudi-arabia.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/alimony-fund-saudi-arabia.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/alimony-fund-saudi-arabia.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/alimony-fund-saudi-arabia.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/check-returned.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/check-returned.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/check-returned.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/check-returned.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/check-returned.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/check-returned.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/check-returned.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/check-returned.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/check-returned.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/check-returned.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/check-returned.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/check-returned.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/commercial-debt-collection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/commercial-debt-collection.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/commercial-debt-collection.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/commercial-debt-collection.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/commercial-debt-collection.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/commercial-debt-collection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/commercial-debt-collection.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/commercial-debt-collection.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/commercial-debt-collection.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/commercial-debt-collection.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/debt-collection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/debt-collection.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/debt-collection.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/debt-collection.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/debt-collection.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/debt-collection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/debt-collection.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/debt-collection.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/debt-collection.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/debt-collection.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/debt-collection.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/debt-collection.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/execution-court-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/execution-court-riyadh.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/execution-court-riyadh.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/execution-court-riyadh.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/execution-court-riyadh.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/execution-court-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/execution-court-riyadh.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/execution-court-riyadh.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/execution-court-riyadh.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/execution-court-riyadh.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/execution-court-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/execution-court-riyadh.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/financial-claim-form-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/financial-claim-form-riyadh.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/financial-claim-form-riyadh.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/financial-claim-form-riyadh.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/financial-claim-form-riyadh.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/financial-claim-form-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/financial-claim-form-riyadh.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/financial-claim-form-riyadh.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/financial-claim-form-riyadh.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/financial-claim-form-riyadh.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/financial-claim-form-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/financial-claim-form-riyadh.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/home-sanctity-violation-penalty.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/home-sanctity-violation-penalty.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/home-sanctity-violation-penalty.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/home-sanctity-violation-penalty.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/home-sanctity-violation-penalty.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/home-sanctity-violation-penalty.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/home-sanctity-violation-penalty.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/home-sanctity-violation-penalty.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/home-sanctity-violation-penalty.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/home-sanctity-violation-penalty.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/home-sanctity-violation-penalty.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/home-sanctity-violation-penalty.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/inheritance-division-scholars-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/inheritance-division-scholars-riyadh.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/inheritance-division-scholars-riyadh.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/inheritance-division-scholars-riyadh.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/inheritance-division-scholars-riyadh.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/inheritance-division-scholars-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/inheritance-division-scholars-riyadh.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/inheritance-division-scholars-riyadh.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/inheritance-division-scholars-riyadh.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/inheritance-division-scholars-riyadh.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/inheritance-division-scholars-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/inheritance-division-scholars-riyadh.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/labor-claim-form-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/labor-claim-form-riyadh.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/labor-claim-form-riyadh.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/labor-claim-form-riyadh.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/labor-claim-form-riyadh.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/labor-claim-form-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/labor-claim-form-riyadh.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/labor-claim-form-riyadh.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/labor-claim-form-riyadh.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/labor-claim-form-riyadh.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/labor-claim-form-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/labor-claim-form-riyadh.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/partner-disputes.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partner-disputes.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partner-disputes.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partner-disputes.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partner-disputes.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/partner-disputes.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partner-disputes.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partner-disputes.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/partner-disputes.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/partner-disputes.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/partner-disputes.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/partner-disputes.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/partnership-agreements-ksa.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partnership-agreements-ksa.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partnership-agreements-ksa.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partnership-agreements-ksa.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partnership-agreements-ksa.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/partnership-agreements-ksa.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partnership-agreements-ksa.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/partnership-agreements-ksa.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/partnership-agreements-ksa.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/partnership-agreements-ksa.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/perjury-penalty-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/perjury-penalty-saudi-arabia.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/perjury-penalty-saudi-arabia.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/perjury-penalty-saudi-arabia.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/perjury-penalty-saudi-arabia.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/perjury-penalty-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/perjury-penalty-saudi-arabia.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/perjury-penalty-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/perjury-penalty-saudi-arabia.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/perjury-penalty-saudi-arabia.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/perjury-penalty-saudi-arabia.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/perjury-penalty-saudi-arabia.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/protect-company-disputes.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/protect-company-disputes.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/protect-company-disputes.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/protect-company-disputes.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/protect-company-disputes.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/protect-company-disputes.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/protect-company-disputes.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/protect-company-disputes.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/protect-company-disputes.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/protect-company-disputes.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/protect-company-disputes.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/protect-company-disputes.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog/startup-incorporation.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/startup-incorporation.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/startup-incorporation.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/startup-incorporation.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/startup-incorporation.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog/startup-incorporation.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/startup-incorporation.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog/startup-incorporation.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog/startup-incorporation.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/blog/startup-incorporation.html",
+      "type": "href"
+    },
+    {
+      "file": "blog/startup-incorporation.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog/startup-incorporation.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "blog.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "blog.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "blog.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "blog.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "blog.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "blog.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "blog.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "blog.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "blog.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "booking.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "booking.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "booking.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "booking.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "booking.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "booking.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "booking.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "booking.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "booking.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "booking.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "booking.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "case-studies/corporate-protection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/corporate-protection.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/corporate-protection.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/corporate-protection.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/corporate-protection.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/corporate-protection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/corporate-protection.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/corporate-protection.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/corporate-protection.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/corporate-protection.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "case-studies/debt-collection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/debt-collection.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/debt-collection.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/debt-collection.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/debt-collection.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/debt-collection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/debt-collection.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/debt-collection.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/debt-collection.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/debt-collection.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "case-studies/partnership-dispute.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/partnership-dispute.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/partnership-dispute.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/partnership-dispute.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/partnership-dispute.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/partnership-dispute.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/partnership-dispute.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/partnership-dispute.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/partnership-dispute.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "case-studies/partnership-dispute.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "collections.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "compliance.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts/construction.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts/partnership.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts/supply.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "contracts.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "disclaimer.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "disclaimer.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "disclaimer.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "disclaimer.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "disclaimer.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "disclaimer.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "disclaimer.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "disclaimer.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "disclaimer.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "disclaimer.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/best-law-firm-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/best-law-firm-riyadh.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/best-law-firm-riyadh.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/best-law-firm-riyadh.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/best-law-firm-riyadh.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/best-law-firm-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/best-law-firm-riyadh.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/best-law-firm-riyadh.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/best-law-firm-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/best-law-firm-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/best-law-firm-riyadh.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/en/blog/5-contract-mistakes-saudi-arabia.html",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/5-contract-mistakes-saudi-arabia.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/en/blog/ai-legal-responsibility-en.html",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/ai-legal-responsibility-en.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/en/blog/bounced-check-saudi-law.html",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/bounced-check-saudi-law.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/en/blog/commercial-debt-collection-saudi-arabia.html",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection-saudi-arabia.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/commercial-debt-collection.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/legal-mistakes-startup-incorporation-saudi.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/en/blog/partner-disputes-saudi-companies.html",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/partner-disputes-saudi-companies.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/partnership-agreements-ksa.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partnership-agreements-ksa.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partnership-agreements-ksa.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partnership-agreements-ksa.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partnership-agreements-ksa.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partnership-agreements-ksa.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partnership-agreements-ksa.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partnership-agreements-ksa.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partnership-agreements-ksa.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/partnership-agreements-ksa.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/partnership-agreements-ksa.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://www.linkedin.com/sharing/share-offsite/?url=https://saleh-lawyer.com/en/blog/protect-company-commercial-disputes.html",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/blog/protect-company-commercial-disputes.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://www.google.com/maps?q=شارع+خالد+بن+الوليد+الرياض+13214",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/blog.html",
+      "link": "https://www.google.com/maps?q=Saleh+Al-Mohamadi+law+firm+Riyadh&output=embed",
+      "type": "src"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://www.google.com/maps?q=شارع+خالد+بن+الوليد+الرياض+13214",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/booking.html",
+      "link": "https://www.google.com/maps?q=Saleh+Al-Mohamadi+law+firm+Riyadh&output=embed",
+      "type": "src"
+    },
+    {
+      "file": "en/case-studies/corporate-protection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/corporate-protection.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/corporate-protection.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/corporate-protection.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/corporate-protection.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/corporate-protection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/corporate-protection.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/corporate-protection.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/corporate-protection.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/corporate-protection.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/case-studies/debt-collection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/debt-collection.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/debt-collection.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/debt-collection.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/debt-collection.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/debt-collection.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/debt-collection.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/debt-collection.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/debt-collection.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/debt-collection.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/case-studies/partnership-dispute.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/partnership-dispute.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/partnership-dispute.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/partnership-dispute.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/partnership-dispute.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/partnership-dispute.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/partnership-dispute.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/partnership-dispute.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/partnership-dispute.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/case-studies/partnership-dispute.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://www.google.com/maps?q=شارع+خالد+بن+الوليد+الرياض+13214",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/collections.html",
+      "link": "https://www.google.com/maps?q=Saleh+Al-Mohamadi+law+firm+Riyadh&output=embed",
+      "type": "src"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://www.google.com/maps?q=شارع+خالد+بن+الوليد+الرياض+13214",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/compliance.html",
+      "link": "https://www.google.com/maps?q=Saleh+Al-Mohamadi+law+firm+Riyadh&output=embed",
+      "type": "src"
+    },
+    {
+      "file": "en/contracts/construction.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/construction.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/construction.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/construction.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/construction.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/construction.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/construction.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/construction.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/construction.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/construction.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/construction.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/contracts/partnership.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/partnership.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/partnership.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/partnership.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/partnership.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/partnership.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/partnership.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/partnership.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/partnership.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/partnership.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/partnership.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/contracts/supply.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/supply.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/supply.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/supply.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/supply.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/supply.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/supply.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/supply.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/supply.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/supply.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts/supply.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/contracts.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/contracts.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/disclaimer.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/disclaimer.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/disclaimer.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/disclaimer.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/disclaimer.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/disclaimer.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/disclaimer.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/disclaimer.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/disclaimer.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/disclaimer.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/disclaimer.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://search.google.com/local/writereview?placeid=ChIJAal6Cd4cOGURVR4ApbjxDsE",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://www.google.com/maps/place/?q=place_id:ChIJAal6Cd4cOGURVR4ApbjxDsE",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://www.google.com/maps/dir//Saleh+Al-Mohamadi+law+firm+Riyadh",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://www.google.com/maps?q=شارع+خالد+بن+الوليد+الرياض+13214",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://www.google.com/maps?q=Saleh+Al-Mohamadi+law+firm+Riyadh&output=embed",
+      "type": "src"
+    },
+    {
+      "file": "en/index.html",
+      "link": "https://www.google.com/maps?q=Saleh+Al-Mohamadi+law+firm+Riyadh&output=embed",
+      "type": "src"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/landing-en.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=6f47df2f-df59-4d69-be5a-aeb401026042",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=e2dcd0f2-e565-4f4c-83b6-aeb40102c77d",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=be00c733-fe65-4ef5-9f5b-aeb40102d1d0",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=6f1e8ce4-555e-44ca-8178-aeb40102c462",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=ebc35967-df59-4ca5-9856-aeb4010263f3",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://www.google.com/maps?q=شارع+خالد+بن+الوليد+الرياض+13214",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/legal-library/index.html",
+      "link": "https://www.google.com/maps?q=Saleh+Al-Mohamadi+law+firm+Riyadh&output=embed",
+      "type": "src"
+    },
+    {
+      "file": "en/legal-templates/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-templates/index.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-templates/index.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-templates/index.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-templates/index.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-templates/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-templates/index.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-templates/index.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/legal-templates/index.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/pdf/7-mistakes.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/pdf/7-mistakes.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/pdf/7-mistakes.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/pdf/7-mistakes.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/pdf/7-mistakes.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/pdf/7-mistakes.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/pdf/7-mistakes.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/pdf/7-mistakes.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/pdf/7-mistakes.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/pdf/7-mistakes.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/pdf/7-mistakes.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/services/company-formation-lawyer.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/services/construction-contracts-riyadh.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/services/debt-collection-companies.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/services.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/services.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/services.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/services.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/services.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://www.google.com/maps?q=شارع+خالد+بن+الوليد+الرياض+13214",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/team.html",
+      "link": "https://www.google.com/maps?q=Saleh+Al-Mohamadi+law+firm+Riyadh&output=embed",
+      "type": "src"
+    },
+    {
+      "file": "en/thank-you.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/thank-you.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/thank-you.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/thank-you.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/thank-you.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/thank-you.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/thank-you.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/thank-you.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/thank-you.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/thank-you.html",
+      "link": "https://www.googletagmanager.com/gtm.js?id=",
+      "type": "src"
+    },
+    {
+      "file": "en/thank-you.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/tools/end-of-service-rights.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/end-of-service-rights.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/end-of-service-rights.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/end-of-service-rights.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/end-of-service-rights.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/end-of-service-rights.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/end-of-service-rights.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/end-of-service-rights.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/end-of-service-rights.html",
+      "link": "https://portaleservices.moj.gov.sa/LaborCalculator/LaborCalculator.aspx",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/end-of-service-rights.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://portaleservices.moj.gov.sa/LaborCalculator/LaborCalculator.aspx",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://infath.gov.sa/ar/inheritances/",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/index.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "en/tools/inheritance-calculation.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/inheritance-calculation.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/inheritance-calculation.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/inheritance-calculation.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/inheritance-calculation.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/inheritance-calculation.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/inheritance-calculation.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/inheritance-calculation.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/inheritance-calculation.html",
+      "link": "https://infath.gov.sa/ar/inheritances/",
+      "type": "href"
+    },
+    {
+      "file": "en/tools/inheritance-calculation.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://search.google.com/local/writereview?placeid=ChIJAal6Cd4cOGURVR4ApbjxDsE",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://www.google.com/maps/place/?q=place_id:ChIJAal6Cd4cOGURVR4ApbjxDsE",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://www.google.com/maps/dir//%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%8A+%D8%B5%D8%A7%D9%84%D8%AD+%D8%A7%D9%84%D9%85%D8%AD%D9%85%D8%AF%D9%8A+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://www.google.com/maps?q=شارع+خالد+بن+الوليد+الرياض+13214",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "index.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "index.html",
+      "link": "https://www.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%8A+%D8%B5%D8%A7%D9%84%D8%AD+%D8%A7%D9%84%D9%85%D8%AD%D9%85%D8%AF%D9%8A+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6&output=embed",
+      "type": "src"
+    },
+    {
+      "file": "index.html",
+      "link": "https://www.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%8A+%D8%B5%D8%A7%D9%84%D8%AD+%D8%A7%D9%84%D9%85%D8%AD%D9%85%D8%AF%D9%8A+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6&output=embed",
+      "type": "src"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://www.facebook.com/saleh.almohamadi.7",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://twitter.com/Saleh137Saleh",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://www.linkedin.com/company/saleh-almohamadi-law",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "landing.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "lead-magnet.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "lead-magnet.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "lead-magnet.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "lead-magnet.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "lead-magnet.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "lead-magnet.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "lead-magnet.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "lead-magnet.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "lead-magnet.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "lead-magnet.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=6f47df2f-df59-4d69-be5a-aeb401026042",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=e2dcd0f2-e565-4f4c-83b6-aeb40102c77d",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=be00c733-fe65-4ef5-9f5b-aeb40102d1d0",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=6f1e8ce4-555e-44ca-8178-aeb40102c462",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://laws.boe.gov.sa/boe/laws/LawDetails.html?LawID=ebc35967-df59-4ca5-9856-aeb4010263f3",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "legal-library/index.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "legal-templates/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-templates/index.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-templates/index.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-templates/index.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-templates/index.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "legal-templates/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-templates/index.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "legal-templates/index.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "legal-templates/index.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "pdf/7-mistakes.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "pdf/7-mistakes.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "pdf/7-mistakes.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "pdf/7-mistakes.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "pdf/7-mistakes.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "pdf/7-mistakes.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "pdf/7-mistakes.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "pdf/7-mistakes.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "pdf/7-mistakes.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "pdf/7-mistakes.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "pdf/7-mistakes.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "services/company-formation-lawyer.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "services/company-formation-lawyer.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "services/company-formation-lawyer.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "services/company-formation-lawyer.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "services/company-formation-lawyer.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "services/company-formation-lawyer.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "services/company-formation-lawyer.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "services/company-formation-lawyer.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "services/company-formation-lawyer.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "services/company-formation-lawyer.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "services/company-formation-lawyer.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "services/construction-contracts-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "services/construction-contracts-riyadh.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "services/construction-contracts-riyadh.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "services/construction-contracts-riyadh.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "services/construction-contracts-riyadh.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "services/construction-contracts-riyadh.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "services/construction-contracts-riyadh.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "services/construction-contracts-riyadh.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "services/construction-contracts-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "services/construction-contracts-riyadh.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "services/construction-contracts-riyadh.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "services/debt-collection-companies.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "services/debt-collection-companies.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "services/debt-collection-companies.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "services/debt-collection-companies.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "services/debt-collection-companies.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "services/debt-collection-companies.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "services/debt-collection-companies.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "services/debt-collection-companies.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "services/debt-collection-companies.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "services/debt-collection-companies.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "services/debt-collection-companies.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "services.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "services.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "services.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "services.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "services.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "services.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "services.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "services.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "services.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "services.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "team.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "team.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "team.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "team.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "team.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "team.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "team.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "team.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "team.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "team.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "team.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "thank-you.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "thank-you.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "thank-you.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "thank-you.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "thank-you.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "thank-you.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "thank-you.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "thank-you.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "thank-you.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "thank-you.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "tools/end-of-service-rights.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/end-of-service-rights.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/end-of-service-rights.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/end-of-service-rights.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/end-of-service-rights.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "tools/end-of-service-rights.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/end-of-service-rights.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/end-of-service-rights.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "tools/end-of-service-rights.html",
+      "link": "https://portaleservices.moj.gov.sa/LaborCalculator/LaborCalculator.aspx",
+      "type": "href"
+    },
+    {
+      "file": "tools/end-of-service-rights.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://portaleservices.moj.gov.sa/LaborCalculator/LaborCalculator.aspx",
+      "type": "href"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://infath.gov.sa/ar/inheritances/",
+      "type": "href"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://wa.me/966567905696",
+      "type": "href"
+    },
+    {
+      "file": "tools/index.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    },
+    {
+      "file": "tools/inheritance-calculation.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/inheritance-calculation.html",
+      "link": "https://fonts.gstatic.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/inheritance-calculation.html",
+      "link": "https://www.googletagmanager.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/inheritance-calculation.html",
+      "link": "https://www.google-analytics.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/inheritance-calculation.html",
+      "link": "https://googleads.g.doubleclick.net",
+      "type": "href"
+    },
+    {
+      "file": "tools/inheritance-calculation.html",
+      "link": "https://fonts.googleapis.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/inheritance-calculation.html",
+      "link": "https://api.web3forms.com",
+      "type": "href"
+    },
+    {
+      "file": "tools/inheritance-calculation.html",
+      "link": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "type": "href"
+    },
+    {
+      "file": "tools/inheritance-calculation.html",
+      "link": "https://infath.gov.sa/ar/inheritances/",
+      "type": "href"
+    },
+    {
+      "file": "tools/inheritance-calculation.html",
+      "link": "https://www.googletagmanager.com/ns.html?id=GTM-TSXRB2W6",
+      "type": "src"
+    }
+  ]
+}
