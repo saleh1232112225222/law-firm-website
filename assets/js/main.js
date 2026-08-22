@@ -177,3 +177,51 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 });
+
+// 5. GLOBAL PORTAL NOTICE & MAINTENANCE MODAL HANDLER
+window.openBetaModal = function(e) {
+  if (e && e.preventDefault) e.preventDefault();
+  let modal = document.getElementById("betaModal");
+  if (!modal) {
+    modal = document.createElement("div");
+    modal.id = "betaModal";
+    modal.style.cssText = "display: flex; position: fixed; inset: 0; z-index: 99999; background: rgba(12, 27, 42, 0.85); backdrop-filter: blur(8px); align-items: center; justify-content: center; padding: 20px;";
+    modal.innerHTML = `
+      <div style="background: #0f2236; border: 1px solid #c8a951; border-radius: 16px; max-width: 520px; width: 100%; padding: 32px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); text-align: center; position: relative; animation: modalPop 0.3s ease-out;">
+        <div style="width: 64px; height: 64px; background: rgba(200, 169, 81, 0.15); border: 1px solid #c8a951; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 28px;">
+          ⚖️
+        </div>
+        <div style="display: inline-block; background: rgba(200, 169, 81, 0.2); color: #c8a951; padding: 4px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; margin-bottom: 12px;">
+          إشعار إداري
+        </div>
+        <h3 style="color: #fff; font-size: 22px; font-weight: 800; margin-bottom: 14px;">
+          بوابة نظام B2B-LAW
+        </h3>
+        <p style="color: rgba(255, 255, 255, 0.9); font-size: 15px; line-height: 1.8; margin-bottom: 24px;">
+          النظام حالياً تحت المراجعة والتجهيز للإطلاق. لطلب عرض خاص يرجى التواصل مع الإدارة.
+        </p>
+        <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+          <a href="https://wa.me/966567905696?text=مرحباً،%20أود%20طلب%20عرض%20خاص%20لنظام%20B2B-LAW" target="_blank" class="btn btn-whatsapp" style="padding: 12px 24px; font-size: 15px; text-decoration: none; border-radius: 8px;">
+            تواصل مع الإدارة عبر واتساب
+          </a>
+          <button onclick="closeBetaModal()" style="background: rgba(255,255,255,0.08); color: #fff; border: 1px solid rgba(255,255,255,0.2); padding: 12px 20px; border-radius: 8px; font-weight: 600; font-size: 14px; cursor: pointer;">
+            إغلاق
+          </button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+  } else {
+    modal.style.display = "flex";
+  }
+};
+
+window.closeBetaModal = function() {
+  const modal = document.getElementById("betaModal");
+  if (modal) modal.style.display = "none";
+};
+
+document.addEventListener("keydown", function(e) {
+  if (e.key === "Escape") window.closeBetaModal();
+});
+

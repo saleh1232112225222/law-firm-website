@@ -1,4 +1,4 @@
-﻿# Domain 301 Redirect: lawer496.com → saleh-lawyer.com (preserves path)
+# Domain 301 Redirect: lawer496.com → saleh-lawyer.com (preserves path)
 http://lawer496.com/*       https://saleh-lawyer.com/:splat       301!
 https://lawer496.com/*      https://saleh-lawyer.com/:splat       301!
 http://www.lawer496.com/*   https://saleh-lawyer.com/:splat       301!
@@ -33,6 +33,7 @@ https://www.lawer496.com/*  https://saleh-lawyer.com/:splat       301!
 /lead-magnet.html                /lead-magnet                   301!
 /thank-you.html                  /thank-you                     301!
 /disclaimer.html                 /disclaimer                    301!
+/privacy-policy.html             /privacy-policy                301!
 /en/disclaimer.html              /en/disclaimer                 301!
 
 /en/index.html                   /en/                           301!
